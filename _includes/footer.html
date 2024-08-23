@@ -1,91 +1,77 @@
-<!-- Contact -->
-<section id="contact">
-	<div class="inner">
-		<!-- <section>
-			<form action="https://formspree.io/{{ site.email }}" method="POST">
-				<div class="field half first">
-					<label for="name">Name</label>
-					<input type="text" name="name" id="name" />
-				</div>
-				<div class="field half">
-					<label for="email">Email</label>
-					<input type="text" name="_replyto" id="email" />
-				</div>
-				<div class="field">
-					<label for="message">Message</label>
-					<textarea name="message" id="message" rows="6"></textarea>
-				</div>
-				<ul class="actions">
-					<li><input type="submit" value="Send Message" class="special" /></li>
-					<li><input type="reset" value="Clear" /></li>
-				</ul>
-			</form>
-		</section> -->
-		<!-- <section class="split">
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-envelope"></span>
-					<h3>Email</h3>
-					<a href="mailto:{{ site.email }}">{{ site.email }}</a>
-				</div>
-			</section>
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-phone"></span>
-					<h3>Phone</h3>
-					<a href="tel:{{ site.phone }}">{{ site.phone }}</a>
-				</div>
-			</section>
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-home"></span>
-					<h3>Address</h3>
-					<span>
-					{% if site.street_address %}
-					    {{ site.street_address }}<br />
-					{% endif %}
-					{% if site.city %}
-					    {{ site.city }},
-					{% endif %}
-					{% if site.state %}
-					    {{ site.state }} 
-					{% endif %}
-					{% if site.zip_code %}
-					    {{ site.zip_code }}<br />
-					{% endif %}
-					{% if site.country %}
-					    {{ site.country }}
-					{% endif %}
-					</span>
-				</div>
-			</section>
-		</section> -->
-	</div>
-</section>
 
 <!-- Footer -->
 	<footer id="footer">
 		<div class="inner">
-			<ul class="icons">
-				{% for key_value in site.socials %}
-					{% if key_value[1] %}
-						<li>
-							<a href="{{ key_value[1] }}" class="icon alt fa-{{ key_value[0] | downcase }}" target="_blank" rel="noopener noreferrer" aria-label="{{ key_value[0] }}">
-								<span class="label">{{ key_value[0] }}</span>
-							</a>
-						</li>
-					{% endif %}
-				{% endfor %}
-			</ul>
-			<ul class="copyright">
-				<li>&copy; {{ site.title }} {{ site.subtitle }}</li>
-				<li>All rights reserved.</a></li>
-			</ul>
+			<div class="footer-content">
+				<div class="person-socials left">
+					<img src="assets/images/fay.jpg" alt="Person 1" class="profile-pic">
+					<div class="social-icons">
+						<a href="https://x.com/Fay_riezz" class="icon alt fa-twitter" target="_blank" rel="noopener noreferrer" aria-label="Twitter"></a>
+						<a href="https://www.instagram.com/fay_riezz/" class="icon alt fa-instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram"></a>
+						<a href="https://www.tiktok.com/@fay_riezz" class="icon alt fa-tiktok" target="_blank" rel="noopener noreferrer" aria-label="TikTok"></a>
+					</div>
+				</div>
+				<div class="copyright">
+					<p>&copy; {{ site.title }} {{ site.subtitle }}</p>
+					<p>All rights reserved.</p>
+				</div>
+				
+				<div class="person-socials right">
+					<img src="assets/images/may.jpg" alt="Person 2" class="profile-pic">
+					<div class="social-icons">
+						<a href="https://x.com/maywyda" class="icon alt fa-twitter" target="_blank" rel="noopener noreferrer" aria-label="Twitter"></a>
+						<a href="https://www.instagram.com/maywyda/" class="icon alt fa-instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram"></a>
+						<a href="https://www.tiktok.com/@maywyda" class="icon alt fa-tiktok" target="_blank" rel="noopener noreferrer" aria-label="TikTok"></a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</footer>
-
-</div>
-
+	<style>
+		#footer .inner {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding: 2em 0;
+		}
+		
+		.footer-content {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 100%;
+		}
+		
+		.person-socials {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		
+		.profile-pic {
+			width: 80px;
+			height: 80px;
+			border-radius: 50%;
+			object-fit: cover;
+			margin-bottom: 1em;
+		}
+		
+		.social-icons {
+			display: flex;
+			gap: 1em;
+		}
+		
+		.copyright {
+			text-align: center;
+		}
+		
+		@media screen and (max-width: 736px) {
+			.footer-content {
+				flex-direction: column;
+				gap: 2em;
+			}
+		}
+		</style>
 <!-- Scripts -->
 	<script src="{{ "assets/js/jquery.min.js" | absolute_url }}"></script>
 	<script src="{{ "assets/js/jquery.scrolly.min.js" | absolute_url }}"></script>

@@ -1,5 +1,5 @@
 # site settings
-title: FayMay
+title: FayMay Fansite
 subtitle: by International Fans
 email: faymay4evermarvelous@gmail.com
 description: 
@@ -22,12 +22,12 @@ tiles-count: 6
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  Instagram: https://www.instagram.com/fay_riezz/
-  Twitter: https://x.com/Fay_riezz
-  TikTok: https://www.tiktok.com/@fay_riezz
-  Instagram: https://www.instagram.com/maywyda/
-  Twitter: https://x.com/maywyda
-  TikTok: https://www.tiktok.com/@maywyda
+  instagram: https://www.instagram.com/fay_riezz/
+  twitter: https://x.com/Fay_riezz
+  tiktok: https://www.tiktok.com/@fay_riezz
+  instagram: https://www.instagram.com/maywyda/
+  twitter: https://x.com/maywyda
+  tiktok: https://www.tiktok.com/@maywyda
 
 
 # build settings
