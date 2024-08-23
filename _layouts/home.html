@@ -19,6 +19,9 @@
                 <source src="assets/videos/homebanner.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
+            <div id="video-controls">
+                <button id="play-pause">Play</button>
+            </div>
         </div>
     </section>
 
@@ -45,6 +48,27 @@
 
     {% include footer.html %}
 
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var video = document.getElementById('bg-video');
+            var playPauseButton = document.getElementById('play-pause');
+        
+            playPauseButton.addEventListener('click', function() {
+                if (video.paused) {
+                    video.play();
+                    playPauseButton.textContent = 'Pause';
+                } else {
+                    video.pause();
+                    playPauseButton.textContent = 'Play';
+                }
+            });
+        
+            // Check if video is initially playing
+            if (!video.paused) {
+                playPauseButton.textContent = 'Pause';
+            }
+        });
+    </script>
 </body>
 
 </html>
