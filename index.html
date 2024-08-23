@@ -1,19 +1,29 @@
 ---
 layout: main
 ---
+{% include header.html %}
 
-{% for post in paginator.posts %}
-  <div class="chapter">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-      {% if post.img %}
-        <img src="{{ site.baseurl }}/assets/img/{{ post.img }}" alt="{{ post.title }}">
-      {% endif %}
-    </a>
-    <a href="{{ post.url | prepend: site.baseurl }}">
-      <div class="chapter_inner">
-        <p class="chapter_number">{{ post.date | date: '%Y, %b %d' }}</p>
-        <h3 class="chapter_title">{{ post.title }}</h3>
-      </div>
-    </a>
-  </div>
-{% endfor %}
+<main class="home_content">
+  <section class="chapters">
+    <div class="wrapper">
+      {% for post in paginator.posts %}
+        <div class="chapter">
+          <a href="{{ post.url | prepend: site.baseurl }}">
+            {% if post.img %}
+              <img src="{{ site.baseurl }}/assets/img/{{ post.img }}" alt="{{ post.title }}">
+            {% endif %}
+          </a>
+          <a href="{{ post.url | prepend: site.baseurl }}">
+            <div class="chapter_inner">
+              <p class="chapter_number">{{ post.date | date: '%Y, %b %d' }}</p>
+              <h3 class="chapter_title">{{ post.title }}</h3>
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+</main>
+
+{% include footer.html %}
