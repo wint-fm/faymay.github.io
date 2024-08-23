@@ -4199,41 +4199,37 @@ cite {
 }
 
 .social_footer {
-  padding: 3rem 0;
+  display: flex;
+  justify-content: center; /* Centers the entire list horizontally */
   list-style: none;
-  margin: 0;
-  text-align: center;
-  border-bottom: 1px solid #333333;
+  padding: 0;
 }
 
-.social_footer li {
+.social_group {
+  display: flex;
+  align-items: center; /* Vertically aligns the icons and text */
+  margin-right: 2rem; /* Adds some space between Fay's and May's groups */
+}
+
+.social_group strong {
+  margin-right: 0.5rem; /* Adds space between the label and the icons */
+}
+
+.social_group a {
   display: inline-block;
-  margin-left: 0.5rem;
-}
-
-.social_footer .social_group {
-  display: block;
-  margin-top: 1.5rem;
-  font-size: 1.25rem;
-  color: #ffffff;
-}
-
-.social_footer a {
-  color: #7b7b7b;
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  margin: 0.3rem 0;
+  margin-left: 0.5rem; /* Adds space between the icons */
+  color: #fff; /* Ensures the icons are visible */
   text-decoration: none;
-  font-size: 1.75rem;
-  border-radius: 0.3rem;
-  background-color: #262626;
-  transition: all .35s ease-in-out;
 }
 
-.social_footer a:hover {
-  background-color: #c0334a;
-  color: #ffffff;
+.social_group a:hover {
+  color: #c0c0c0; /* Lighten the color on hover */
 }
+
+.social_footer li:last-child {
+  margin-right: 0; /* Removes right margin from the last group */
+}
+
 
 
 .copyright {
