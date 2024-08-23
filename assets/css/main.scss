@@ -79,14 +79,23 @@
 	@import 'layout/wrapper';
 	@import 'layout/menu';
 
-// Video Banner
+// Ensure the header (menu) is always on top
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+    background-color: rgba(46, 49, 65, 0.8);
+}
+
 #banner {
     position: relative;
     overflow: hidden;
     width: 100%;
     height: 100vh; /* Full viewport height */
     margin-top: 0; /* Remove top margin */
-	background-image: url('assets/images/banner.png');
+	background-image: url('assets/images/banner.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -128,14 +137,4 @@
         width: 100%;
         height: 100%;
     }
-}
-
-/* Adjust header to overlay the banner */
-#header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    background-color: rgba(46, 49, 65, 0.8);
 }
