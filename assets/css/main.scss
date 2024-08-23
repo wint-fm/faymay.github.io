@@ -92,20 +92,10 @@
 #banner {
     position: relative;
     overflow: hidden;
-    width: 100%;
+    width: 100vw; /* Full viewport width */
     height: 100vh; /* Full viewport height */
-    margin-top: 0; /* Remove top margin */
-	background-image: url('assets/images/banner.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
-#banner .inner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 #bg-video {
@@ -122,19 +112,50 @@
 
 /* Ensure content is visible above the video */
 #banner .content {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     z-index: 2;
-    /* Add other styling as needed */
+    color: white; /* Ensure text is visible */
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+}
+
+/* Adjust header to overlay the banner */
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(46, 49, 65, 0.8);
+}
+
+/* Video controls */
+#video-controls {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 3;
+}
+
+/* Ensure the main content starts after the video */
+#main {
+    position: relative;
+    z-index: 1;
 }
 
 /* Responsive adjustments */
 @media screen and (max-width: 736px) {
-    #banner {
-        height: 100vh; /* Keep full height on mobile */
-    }
-
-    #bg-video {
-        width: 100%;
-        height: 100%;
+    #banner, #bg-video {
+        height: 100vh;
+        width: 100vw;
     }
 }
