@@ -1,0 +1,58 @@
+logo: # add logo name
+title: FayMay
+description: > # this means to ignore newlines until "baseurl:"
+  A fan site for everything FayMay.
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://faymay.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Banner settings
+video: homebanner.mp4 # add banner video. Add your video file to the folder video
+banner-title: # add banner title
+banner-desc: # add banner description
+
+# Author settings
+author-pic: face.jpg # your photo
+author-name: # your name
+about-author: # about author
+email: faymay4evermarvelous@gmail.com # your email
+phone:  # your pnone number
+website: https://faymay.github.io # you website
+
+# Social links
+# Fay
+fay_twitter: https://x.com/Fay_riezz
+fay_instagram: https://www.instagram.com/fay_riezz/
+fay_tiktok: https://www.tiktok.com/@fay_riezz
+
+# May
+may_twitter: https://x.com/maywyda
+may_instagram: https://www.instagram.com/maywyda/
+may_tiktok: https://www.tiktok.com/@maywyda
+
+
+# Disqus
+# discus_identifier: # add your discus identifier.  Not your username.  To get this, register your forum here with a unique ID: https://disqus.com/admin/create/
+
+# Newsletter
+mailchimp: # add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+
+# Tracker
+analytics:
+
+# Paginate
+# paginate: 2
+# paginate_path: /page:num/
+
+# Build settings
+markdown: kramdown
+plugins_dir:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
