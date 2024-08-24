@@ -179,8 +179,8 @@
     }
 
     @include breakpoint(small) {
-        height: calc(54vh + 2.75em);
-        min-height: calc(36em + 2.75em);
+        height: 30vh; /* Reduced height for mobile */
+        min-height: 20em;
         padding-top: 2.75em;
 
         .content {
@@ -188,16 +188,14 @@
         }
 
         #bg-video {
+            display: block !important; /* Force display on mobile */
             height: 100%;
             width: 100%;
+            object-fit: cover;
         }
 
         .fallback-image {
-            display: block;
-        }
-
-        #bg-video {
-            display: none;
+            display: none; /* Hide fallback image by default */
         }
     }
 }
@@ -227,14 +225,19 @@ section#banner::after {
 /* Specific styles for mobile devices */
 @media screen and (max-width: 736px) {
     #banner {
-        height: auto;
-        min-height: 0;
-        padding: 4em 0;
+        height: 30vh;
+        min-height: 20em;
+        padding: 2em 0;
     }
 
     #bg-video {
+        display: block !important;
         height: 100%;
         width: 100%;
         object-fit: cover;
+    }
+
+    .video-container {
+        height: 100%;
     }
 }
