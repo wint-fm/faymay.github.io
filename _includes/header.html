@@ -40,31 +40,32 @@
 
 <!-- Microsoft Translator Script -->
 <script>
-    async function translateContent() {
-        const textToTranslate = document.getElementById('content').innerText;
-        const targetLanguage = document.getElementById('languageSelector').value;
+	async function translateContent() {
+		const textToTranslate = document.getElementById('content').innerText;
+		const targetLanguage = document.getElementById('languageSelector').value;
 
-        const subscriptionKey = '1e5e3e1298d345dbbd3b5a0f54c4139c';  // Replace with your subscription key
-        const endpoint = 'https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&to=' + targetLanguage;
+		const subscriptionKey = 'dcba413c0a7743da9c0cbb477ae98349';  // Replace with your actual subscription key
+		const endpoint = 'https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&to=' + targetLanguage; // Full URL with parameters
 
-        try {
-            const response = await fetch(endpoint, {
-                method: 'POST',
-                headers: {
-                    'Ocp-Apim-Subscription-Key': subscriptionKey,
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify([{ Text: textToTranslate }])
-            });
+		try {
+			const response = await fetch(endpoint, {
+				method: 'POST',
+				headers: {
+					'Ocp-Apim-Subscription-Key': subscriptionKey,
+					'Content-Type': 'application/json'
+				},
+				body: JSON.stringify([{ Text: textToTranslate }])
+			});
 
-            if (response.ok) {
-                const data = await response.json();
-                document.getElementById('content').innerText = data[0].translations[0].text;
-            } else {
-                console.error('Translation request failed', response.status, response.statusText);
-            }
-        } catch (error) {
-            console.error('Error translating content:', error);
-        }
-    }
+			if (response.ok) {
+				const data = await response.json();
+				document.getElementById('content').innerText = data[0].translations[0].text;
+			} else {
+				console.error('Translation request failed', response.status, response.statusText);
+			}
+		} catch (error) {
+			console.error('Error translating content:', error);
+		}
+	}
+
 </script>

@@ -24,24 +24,21 @@
 
     <!-- Main -->
     <div id="main">
-        <!-- Add the id="content" here to wrap the main content for translation -->
-        <div id="content">
-            <!-- Two -->
-            <section id="two">
-                <div class="inner">
-                    <header class="major">
-                        <h2>FayMay เฟย์เมษ์</h2>
-                    </header>
-                    <p>{{ content }}</p>
-                    <ul class="actions">
-                        <li><a href="profile.html" class="button next">Get to know them more</a></li>
-                    </ul>
-                </div>
-            </section>
-        
-            <!-- One -->
-            {% include tiles.html %}
-        </div>
+        <!-- Two -->
+        <section id="two" id="content">
+            <div class="inner">
+                <header class="major">
+                    <h2>FayMay เฟย์เมษ์</h2>
+                </header>
+                <p>{{ content }}</p>
+                <ul class="actions">
+                    <li><a href="profile.html" class="button next">Get to know them more</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- One -->
+        {% include tiles.html %}
     </div>
 
     {% include footer.html %}
