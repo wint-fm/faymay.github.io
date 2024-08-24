@@ -1,5 +1,3 @@
----
----
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
@@ -79,49 +77,63 @@
 	@import 'layout/wrapper';
 	@import 'layout/menu';
 
-// Banner
+// Video Banner
 #banner {
     position: relative;
-    width: 100%;
-    height: calc(100vh - 60px); /* Subtract header height */
     overflow: hidden;
-    padding-bottom: 40px; /* Space for video controls */
+    height: calc(100vh - 60px); // Adjust 60px to match your menu height
+    min-height: 35em;
+    max-height: 50em;
+    margin-top: 60px; // Add top margin to push content below menu
+
+    .inner {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    #bg-video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        height: 100%;
+        transform: translate(-50%, -50%);
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .content {
+        position: relative;
+        z-index: 3;
+        text-align: center;
+        padding: 2em;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        max-width: 80%; // Limit content width
+    }
+
+    // Responsive adjustments
+    @include breakpoint(medium) {
+        height: calc(75vh - 60px);
+    }
+
+    @include breakpoint(small) {
+        height: calc(60vh - 60px);
+        min-height: 30em;
+    }
 }
 
-#bg-video {
-    position: absolute;
+// Ensure the header (menu) is always on top
+#header {
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: calc(100% - 40px); /* Subtract space for controls */
-    object-fit: cover;
-}
-
-/* Ensure video controls are always visible */
-#bg-video::-webkit-media-controls-enclosure {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 40px;
-    background: rgba(0,0,0,0.5);
-}
-
-#bg-video::-webkit-media-controls-panel {
-    display: flex !important;
-    opacity: 1 !important;
-}
-
-/* Ensure the main content starts after the video */
-#main {
-    position: relative;
-    z-index: 1;
-    background-color: #fff; /* Or any color that matches your design */
-}
-
-/* Responsive adjustments */
-@media screen and (max-width: 736px) {
-    #banner {
-        height: calc(100vh - 60px); /* Adjust based on your mobile header height */
-    }
+    z-index: 10000;
+    background-color: rgba(46, 49, 65, 0.8); // Adjust color and opacity as needed
 }
