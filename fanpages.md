@@ -1,8 +1,8 @@
 ---
 title: Active Fan Pages
 layout: landing
-description: 
-image: assets/images/fmsquare.jpg
+description: ""
+image: assets/images/fmbanner1.jpg
 nav-menu: true
 ---
 <!-- Main -->

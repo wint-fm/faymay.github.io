@@ -1,7 +1,7 @@
 ---
 title: Fan Creations
 layout: landing
-description: 
+description: ""
 image: assets/images/fmbannerkiss.jpg
 nav-menu: true
 ---
