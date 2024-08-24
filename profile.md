@@ -10,7 +10,7 @@ Tempopary placeholder.
 
 **<span style="color: #87CEFA; font-size: 28px;">Fay</span>**
 
-**First Name:** Kunyaphat Na nakorn
+**First Name:** Kunyaphat
 
 **Family Name:** Na Nakorn
 
