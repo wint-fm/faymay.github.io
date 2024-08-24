@@ -10,8 +10,8 @@
 		
 		<!-- Custom Language Dropdown -->
 		<div style="margin-top: 10px;">
-			<select id="languageSelector" onchange="translateLanguage()" style="padding: 5px; font-size: 14px;">
-				<option value="en">English</option>				
+			<select id="languageSelector" onchange="translateLanguage()" class="button icon fa-light fa-language">
+				<option value="en">English</option>                
 				<option value="zh-CN">Chinese</option>
 				<option value="fil">Filipino</option>
 				<option value="fr">French</option>
@@ -25,7 +25,7 @@
 				<option value="vi">Vietnamese</option>
 				<!-- Add more languages as needed -->
 			</select>
-		</div>
+		</div>		
 	</header>
 	
 	<!-- Menu -->
@@ -51,8 +51,20 @@
 	<script type="text/javascript">
 		function translateLanguage() {
 			var language = document.getElementById("languageSelector").value;
-			var googleTranslateElement = new google.translate.TranslateElement();
-			googleTranslateElement.setLang(language);
+	
+			// Remove the existing Translate element if it exists
+			var existingElement = document.querySelector('.skiptranslate');
+			if (existingElement) {
+				existingElement.parentNode.removeChild(existingElement);
+			}
+	
+			// Reinitialize Google Translate with the selected language
+			new google.translate.TranslateElement({
+				pageLanguage: 'en',
+				includedLanguages: language,
+				layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+				autoDisplay: false
+			}, 'google_translate_element');
 		}
 	
 		function googleTranslateElementInit() {
@@ -64,6 +76,7 @@
 		}
 	</script>
 	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	
 	
 	<style>
 		/* Optional: Add CSS to hide the translate toolbar */
