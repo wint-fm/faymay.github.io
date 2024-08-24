@@ -136,26 +136,28 @@ button,
     }
 }
 
-/* Ensure dropdown aligns perfectly in the center */
+/* Style for the language selector to blend with navigation */
 #languageSelector.button {
-    appearance: none; /* Remove default dropdown styling */
-    background-color: transparent; /* Match background */
-    border: none; /* Remove default border */
-    color: inherit; /* Inherit text color to match other menu items */
-    font-size: 0.9em; /* Match "MENU" font size */
-    font-weight: _font(weight-bold); /* Use the same weight */
-    line-height: 1; /* Adjust line height for proper alignment */
-    margin: 0; /* Remove margin */
+    appearance: none; /* Reset default dropdown styling */
+    background-color: transparent; /* Make background transparent */
+    border: none; /* Remove border */
+    color: inherit; /* Match color with navigation text */
+    font-size: 0.9em; /* Match font size to "MENU" text */
+    font-weight: _font(weight-bold); /* Match font weight */
+    line-height: 1; /* Adjust line height for vertical alignment */
     padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
     text-align: center;
-    text-transform: uppercase;
-    cursor: pointer;
+    text-transform: uppercase; /* Keep text uppercase to match navigation */
+    cursor: pointer; /* Keep cursor pointer for dropdown interaction */
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: visible; /* Ensure text isn't cut off */
     
     &:hover,
     &:active {
-      color: _palette(highlight); /* Use hover color similar to menu */
+      color: _palette(highlight); /* Highlight color on hover */
     }
     &:focus {
-      outline: none; /* Remove focus outline if not desired */
+      outline: none; /* Remove focus outline */
     }
-}
+}  
