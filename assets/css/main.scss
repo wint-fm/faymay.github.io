@@ -108,7 +108,7 @@
 				'-webkit-filter 0.5s ease'
 			));
 			position: relative;
-			z-index: 3;
+			z-index: 2; /* Reduced z-index to allow video controls to be on top */
 			display: flex;
 			align-items: center;
 			justify-content: center;
@@ -148,6 +148,12 @@
 			background-color: rgba(0, 0, 0, 0.5);
 			border-radius: 10px;
 			max-width: 80%;
+		}
+
+		/* Ensure video controls are visible */
+		video::-webkit-media-controls {
+			z-index: 2147483647; /* Maximum z-index value */
+			position: relative;
 		}
 
     &.image-banner {
@@ -216,4 +222,19 @@ body {
 /* Ensure the overlay is removed for this specific banner */
 section#banner::after {
     display: none !important;
+}
+
+/* Specific styles for mobile devices */
+@media screen and (max-width: 736px) {
+    #banner {
+        height: auto;
+        min-height: 0;
+        padding: 4em 0;
+    }
+
+    #bg-video {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
 }
