@@ -136,24 +136,26 @@ button,
     }
 }
 
-/* Specific styles for dropdown to match the menu */
+/* Ensure dropdown aligns perfectly in the center */
 #languageSelector.button {
     appearance: none; /* Reset browser default styling */
     background-color: transparent;
     border: 0;
     border-radius: 0;
-    color: _palette(fg-bold); /* Use same color as menu */
+    color: _palette(fg-bold); /* Use the same color as the menu */
     cursor: pointer;
-    display: inline-block;
+    display: flex;
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally if needed */
     font-size: 0.8em; /* Match font size to menu */
     font-weight: _font(weight-bold);
-    height: auto;
-    line-height: normal; /* Reset line height for better vertical centering */
-    padding: 0; /* Remove padding to rely on flex container */
-    margin: 0 5px; /* Adjust margin if needed for spacing */
+    height: 40px; /* Ensures a consistent button height */
+    padding: 0 10px; /* Control padding to center text */
+    margin: 0; /* Reset any margins */
     text-align: center;
     text-transform: uppercase;
     white-space: nowrap;
+    line-height: 1.5; /* Line height adjustment for better vertical centering */
 
     &:hover,
     &:active {
