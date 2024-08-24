@@ -81,14 +81,47 @@
 
 // Video Banner
 #banner {
+    @include vendor('align-items', 'center');
+    @include vendor('display', 'flex');
+    @include padding(4em, 0, (2em, 0, 0, 0));
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 0 !important;
+    cursor: default;
+    height: 45vh;
+    margin-bottom: -3.25em;
+    max-height: 28em;
+    min-height: 20em;
     position: relative;
+    top: -3.25em;
     overflow: hidden;
-    margin-top: 60px; /* Ensure this matches your header/menu height */
-    min-height: 35em;
-    max-height: 50em;
-    height: auto; /* Remove the fixed height to let content define the height */
 
-    .inner {
+    &:after {
+        @include vendor('transition', 'opacity #{_duration(banner)} ease');
+        @include vendor('transition-delay', '0.75s');
+        @include vendor('pointer-events', 'none');
+        background-color: _palette(bg);
+        content: '';
+        display: block;
+        height: 100%;
+        left: 0;
+        opacity: 0.85;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+
+    > .inner {
+        @include vendor('transition', (
+            'opacity 1.5s ease',
+            'transform 0.5s ease-out',
+            'filter 0.5s ease',
+            '-webkit-filter 0.5s ease'
+        ));
+        padding: 0 !important;
         position: relative;
         z-index: 2;
         display: flex;
@@ -96,7 +129,14 @@
         justify-content: center;
         height: 100%;
         width: 100%;
-        padding: 0; /* Remove padding if it exists */
+
+        .content {
+            text-align: center;
+            padding: 2em;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            max-width: 80%;
+        }
     }
 
     #bg-video {
@@ -105,32 +145,35 @@
         left: 50%;
         width: 100%;
         height: 100%;
-        transform: translateX(-50%); /* Center horizontally only */
+        transform: translateX(-50%);
         object-fit: cover;
         object-position: center;
+        z-index: 1;
     }
 
-    .content {
-        position: relative;
-        z-index: 3;
-        text-align: center;
-        padding: 2em;
-        background-color: rgba(0, 0, 0, 0.5);
-        border-radius: 10px;
-        max-width: 80%; /* Limit content width */
+    &.major {
+        height: 60vh;
+        min-height: 25em;
+        max-height: 35em;
     }
 
     // Responsive adjustments
     @include breakpoint(medium) {
-        height: auto; /* Allow responsive adjustment */
+        height: auto;
+        min-height: 35em;
     }
 
     @include breakpoint(small) {
-        height: auto; /* Allow responsive adjustment */
+        height: auto;
         min-height: 30em;
+
+        .inner {
+            .content {
+                padding: 1.5em;
+            }
+        }
     }
 }
-
 
 // Ensure the header (menu) is always on top
 #header {
@@ -139,5 +182,5 @@
     left: 0;
     width: 100%;
     z-index: 10000;
-    background-color: rgba(46, 49, 65, 0.8); // Adjust color and opacity as needed
+    background-color: rgba(46, 49, 65, 0.8);
 }
