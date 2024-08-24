@@ -29,14 +29,8 @@
 	.tiles {
 		article {
 			&:before {
-				opacity: 0.3; /* Reduce this value to make the overlay more transparent */
+				opacity: 0.2; /* Reduce this value to make the overlay more transparent */
 				transition: opacity 0.5s ease;
-			}
-
-			&:hover {
-				&:before {
-					opacity: 0.5; /* Adjust this for the hover state if desired */
-				}
 			}
 		}
 	}
