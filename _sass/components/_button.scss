@@ -136,28 +136,28 @@ button,
     }
 }
 
-/* Style for the language selector to blend with navigation */
-#languageSelector.button {
-    appearance: none; /* Reset default dropdown styling */
+/* Custom styling for the language dropdown to blend with navigation */
+#languageSelector {
+    appearance: none; /* Remove default dropdown styling */
     background-color: transparent; /* Make background transparent */
-    border: none; /* Remove border */
-    color: inherit; /* Match color with navigation text */
+    border: none; /* Remove any borders */
+    color: inherit; /* Match text color with the rest of the navigation */
     font-size: 0.9em; /* Match font size to "MENU" text */
-    font-weight: _font(weight-bold); /* Match font weight */
-    line-height: 1; /* Adjust line height for vertical alignment */
-    padding: 0; /* Remove padding */
+    font-weight: _font(weight-bold); /* Ensure consistent font weight */
+    line-height: 1; /* Adjust line height for proper alignment */
+    padding: 0; /* Remove any padding */
     margin: 0; /* Remove margin */
     text-align: center;
     text-transform: uppercase; /* Keep text uppercase to match navigation */
     cursor: pointer; /* Keep cursor pointer for dropdown interaction */
-    white-space: nowrap; /* Prevent text wrapping */
+    white-space: nowrap; /* Prevent text from wrapping */
     overflow: visible; /* Ensure text isn't cut off */
-    
+
     &:hover,
     &:active {
-      color: _palette(highlight); /* Highlight color on hover */
+      color: _palette(highlight); /* Optional: highlight color on hover */
     }
     &:focus {
-      outline: none; /* Remove focus outline */
+      outline: none; /* Optional: remove focus outline if not desired */
     }
 }  
