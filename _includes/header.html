@@ -50,39 +50,50 @@
 	<script type="text/javascript">
 		function translateLanguage() {
 			var language = document.getElementById("languageSelector").value;
-			var googleTranslateElement = google.translate.TranslateElement.getInstance();
 			
-			if (googleTranslateElement) {
-				googleTranslateElement.setLanguage(language);
+			// Check if Google Translate is loaded
+			if (typeof google === 'undefined' || typeof google.translate === 'undefined') {
+				console.error('Google Translate not loaded. It may be blocked by an ad blocker.');
+				alert('Google Translate is not available. Please disable your ad blocker and refresh the page.');
+				return;
+			}
+
+			// Use the correct method to change language
+			var select = document.querySelector('.goog-te-combo');
+			if (select) {
+				select.value = language;
+				select.dispatchEvent(new Event('change'));
 			} else {
-				new google.translate.TranslateElement({
-					pageLanguage: 'en',
-					includedLanguages: language,
-					layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
-					autoDisplay: false
-				}, 'google_translate_element');
+				console.error('Google Translate widget not found.');
 			}
 		}
-	
+
 		function googleTranslateElementInit() {
 			new google.translate.TranslateElement({
 				pageLanguage: 'en',
 				includedLanguages: 'en,zh-CN,fil,fr,id,it,ja,ko,my,es,th,vi',
 				layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
-				autoDisplay: false // Prevents auto-displaying the default toolbar
+				autoDisplay: false
 			}, 'google_translate_element');
 		}
 	</script>
 	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-	
-	
+
 	<style>
-		/* Optional: Add CSS to hide the translate toolbar */
+		/* Hide Google Translate toolbar */
 		.skiptranslate {
 			display: none !important;
 		}
 		body {
 			top: 0px !important;
+		}
+		/* Hide Google Translate widget */
+		.goog-te-banner-frame {
+			display: none !important;
+		}
+		/* Adjust the position of the language selector */
+		#google_translate_element select {
+			display: none;
 		}
 	</style>
 </div>
