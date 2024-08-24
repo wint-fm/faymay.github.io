@@ -3,14 +3,14 @@
 
     <!-- Header -->
     <header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
-        <a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
-        <nav>
-            <a href="#menu">Menu</a>
-            <!-- Language Selector inside an <a> tag for consistent styling -->
-            <a style="margin-right: 20px; position: relative;">
-                <select id="languageSelector" onchange="translateContent()" style="appearance: none; background: none; border: none; font-size: inherit; color: inherit; cursor: pointer; text-transform: uppercase; line-height: inherit;">
-                    <option value="en">English</option>
-                    <option value="zh-Hans">Chinese (Simplified)</option>
+		<a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
+		<nav>
+			<a href="#menu">Menu</a>
+			<!-- Updated Language Selector -->
+			<a class="language-selector">
+				<select id="languageSelector" onchange="translateContent()">
+					<option value="en">English</option>
+					<option value="zh-Hans">Chinese (Simplified)</option>
 					<option value="fil">Filipino</option>
 					<option value="id">Indonesian</option>
 					<option value="it">Italian</option>
@@ -20,11 +20,52 @@
 					<option value="pt">Portuguese</option>
 					<option value="th">Thai</option>
 					<option value="vi">Vietnamese</option>
-                    <!-- Add more languages as needed -->
-                </select>
-            </a>
-        </nav>        
-    </header>
+				</select>
+			</a>
+		</nav>        
+	</header>
+
+	<style>
+		/* Add this to your CSS file or in a <style> tag in the head of your HTML */
+		.language-selector {
+			margin-right: 10px; /* Reduced from 20px */
+			position: relative;
+			padding: 0; /* Remove any padding */
+		}
+	
+		#languageSelector {
+			appearance: none;
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			background: none;
+			border: none;
+			font-size: inherit;
+			color: inherit;
+			cursor: pointer;
+			text-transform: uppercase;
+			line-height: inherit;
+			padding: 0 0.5em; /* Add minimal padding for readability */
+		}
+	
+		/* Optional: Add a custom dropdown arrow */
+		.language-selector::after {
+			content: '\25BC'; /* Unicode for a down arrow */
+			position: absolute;
+			top: 50%;
+			right: 0;
+			transform: translateY(-50%);
+			pointer-events: none;
+		}
+	
+		/* Ensure the select doesn't overflow on smaller screens */
+		@media screen and (max-width: 480px) {
+			#languageSelector {
+				max-width: 150px; /* Adjust as needed */
+				overflow: hidden;
+				text-overflow: ellipsis;
+			}
+		}
+	</style>
     
     <!-- Menu -->
     <nav id="menu">
