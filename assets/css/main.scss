@@ -83,33 +83,33 @@
 #banner {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 60px); /* Subtract header height */
     overflow: hidden;
+    padding-bottom: 40px; /* Space for video controls */
 }
 
 #bg-video {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 40px); /* Subtract space for controls */
     object-fit: cover;
 }
 
-/* Ensure video controls are visible */
-#bg-video::-webkit-media-controls {
-    display: flex !important;
-    opacity: 1 !important;
+/* Ensure video controls are always visible */
+#bg-video::-webkit-media-controls-enclosure {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background: rgba(0,0,0,0.5);
 }
 
-/* Adjust the container for video controls */
-#bg-video::-webkit-media-controls-enclosure {
-    width: 100%;
-    max-width: 100%;
-    min-width: 100%;
+#bg-video::-webkit-media-controls-panel {
+    display: flex !important;
+    opacity: 1 !important;
 }
 
 /* Ensure the main content starts after the video */
@@ -117,13 +117,11 @@
     position: relative;
     z-index: 1;
     background-color: #fff; /* Or any color that matches your design */
-    margin-top: -50px; /* Adjust based on the height of your video controls */
-    padding-top: 50px; /* To offset the negative margin */
 }
 
 /* Responsive adjustments */
 @media screen and (max-width: 736px) {
-    #banner, #bg-video {
-        height: 100vh;
+    #banner {
+        height: calc(100vh - 60px); /* Adjust based on your mobile header height */
     }
 }
