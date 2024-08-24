@@ -91,13 +91,13 @@
 		background-size: cover;
 		border-bottom: 0 !important;
 		cursor: default;
-		height: 40vh; /* Reduced height */
-		min-height: 30em; /* Adjusted min-height */
-		max-height: 45em; /* Adjusted max-height */
+		height: 30vh; 
+		min-height: 20em; 
+		max-height: 35em; 
 		margin-top: 0;
 	
-		&:after {
-			display: none; /* Remove overlay for video */
+		&::after {
+			content: none; /* Remove the overlay */
 		}
 	
 		> .inner {
@@ -211,4 +211,9 @@ body {
     @include breakpoint(small) {
         padding-top: 2.75em;
     }
+}
+
+/* Ensure the overlay is removed for this specific banner */
+section#banner::after {
+    display: none !important;
 }
