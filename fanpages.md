@@ -8,6 +8,16 @@ nav-menu: true
 <!-- Main -->
 <div id="main" class="alt">
 
+<!-- One -->
+<section id="one">
+	<div class="inner">
+		<!-- <header class="major">
+			<h2>Fan Pages </h2>
+		</header>
+		<p>Placeholder.</p> -->
+	</div>
+</section>
+
 <!-- Content -->
 <h2 id="content">Active Fan Pages</h2>
 <p>Placeholder text. </p>

@@ -9,6 +9,16 @@ nav-menu: true
 <!-- Main -->
 <div id="main" class="alt">
 
+<!-- One -->
+<section id="one">
+	<div class="inner">
+		<!-- <header class="major">
+			<h2>FayMay Profile</h2>
+		</header>
+		<p>Placeholder.</p> -->
+	</div>
+</section>
+
 <!-- Content -->
 <h2 id="content" style="color: #87CEFA;">Fay</h2>
 <p><strong>First Name:</strong> Kunyaphat</p>
