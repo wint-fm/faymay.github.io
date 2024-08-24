@@ -24,183 +24,26 @@
 
     <!-- Main -->
     <div id="main">
-        <!-- Two -->
-        <section id="two">
-            <div class="inner">
-                <header class="major">
-                    <h2>FayMay เฟย์เมษ์</h2>
-                </header>
-                <p>{{ content }}</p>
-                <ul class="actions">
-                    <li><a href="profile.html" class="button next">Get to know them more</a></li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- One -->
-        {% include tiles.html %}
+        <!-- Add the id="content" here to wrap the main content for translation -->
+        <div id="content">
+            <!-- Two -->
+            <section id="two">
+                <div class="inner">
+                    <header class="major">
+                        <h2>FayMay เฟย์เมษ์</h2>
+                    </header>
+                    <p>{{ content }}</p>
+                    <ul class="actions">
+                        <li><a href="profile.html" class="button next">Get to know them more</a></li>
+                    </ul>
+                </div>
+            </section>
+        
+            <!-- One -->
+            {% include tiles.html %}
+        </div>
     </div>
 
     {% include footer.html %}
-
-    <script>
-        // JavaScript to handle video playback on mobile devices
-        document.addEventListener('DOMContentLoaded', function() {
-        var video = document.getElementById('bg-video');
-        var fallbackImage = document.querySelector('.fallback-image');
-
-        function isIOS() {
-            return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-        }
-
-        function isMobile() {
-            return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-        }
-
-        function playVideo() {
-            if (video.paused) {
-                video.play().catch(function(error) {
-                    console.log("Video play failed:", error);
-                    showFallbackImage();
-                });
-            }
-        }
-
-        function showFallbackImage() {
-            if (fallbackImage) {
-                fallbackImage.style.display = 'block';
-            }
-            if (video) {
-                video.style.display = 'none';
-            }
-        }
-
-        if (isMobile()) {
-            video.setAttribute('playsinline', '');
-            video.muted = true;
-            video.setAttribute('muted', '');
-            
-            // For iOS, we need to play the video programmatically
-            if (isIOS()) {
-                document.body.addEventListener('touchstart', function() {
-                    playVideo();
-                }, { once: true });
-            }
-
-            // Play video when it becomes visible
-            var observer = new IntersectionObserver(function(entries) {
-                if (entries[0].isIntersecting) {
-                    playVideo();
-                }
-            }, { threshold: 0.1 });
-            observer.observe(video);
-        }
-
-        // Ensure video is visible
-        if (video) {
-            video.style.display = 'block';
-        }
-        if (fallbackImage) {
-            fallbackImage.style.display = 'none';
-        }
-
-        // Fallback for devices that don't support autoplay
-        video.addEventListener('canplay', function() {
-            playVideo();
-        });
-
-        // Add a click event listener to play/pause the video
-        video.addEventListener('click', function() {
-            if (video.paused) {
-                playVideo();
-            } else {
-                video.pause();
-            }
-        });
-    });
-    </script>
-
-    <!-- Google Translate Implementation -->
-    <script>
-        let googleTranslateElementInit;
-        let googleTranslateLoaded = false;
-        
-        function initGoogleTranslate() {
-            if (googleTranslateLoaded) return;
-            
-            if (typeof google !== 'undefined' && typeof google.translate !== 'undefined') {
-                new google.translate.TranslateElement({
-                    pageLanguage: 'en',
-                    includedLanguages: 'en,zh-CN,fil,fr,id,it,ja,ko,my,es,th,vi',
-                    layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
-                    autoDisplay: false
-                }, 'google_translate_element');
-                googleTranslateLoaded = true;
-            } else {
-                setTimeout(initGoogleTranslate, 100); // Try again after 100ms
-            }
-        }
-        
-        function translateLanguage() {
-            if (!googleTranslateLoaded) {
-                console.log('Google Translate not loaded yet. Attempting to initialize...');
-                initGoogleTranslate();
-                setTimeout(translateLanguage, 200); // Try again after 200ms
-                return;
-            }
-        
-            const language = document.getElementById("languageSelector").value;
-            
-            try {
-                const select = document.querySelector('.goog-te-combo');
-                if (select) {
-                    select.value = language;
-                    select.dispatchEvent(new Event('change'));
-                } else {
-                    throw new Error('Google Translate selector not found');
-                }
-            } catch (error) {
-                console.error('Error during translation:', error);
-                alert('An error occurred while translating. Please try again later.');
-            }
-        }
-        
-        // Load Google Translate script
-        function loadGoogleTranslate() {
-            const script = document.createElement('script');
-            script.src = 'https://translate.google.com/translate_a/element.js?cb=initGoogleTranslate';
-            script.async = true;
-            script.onerror = () => {
-                console.error('Failed to load Google Translate script');
-                alert('Failed to load Google Translate. Please check your internet connection and try again.');
-            };
-            document.body.appendChild(script);
-        }
-        
-        // Call this function when the page loads
-        document.addEventListener('DOMContentLoaded', loadGoogleTranslate);
-        </script>
-        
-        <style>
-            /* Hide Google Translate elements */
-            .goog-te-banner-frame, .goog-te-balloon-frame, #goog-gt-tt, .goog-te-menu-value, .goog-tooltip, .goog-tooltip:hover {
-                display: none !important;
-            }
-            .goog-text-highlight {
-                background-color: transparent !important;
-                border: none !important;
-                box-shadow: none !important;
-            }
-            body {
-                top: 0 !important;
-            }
-            /* Ensure the Google Translate element is hidden */
-            #google_translate_element {
-                display: none !important;
-            }
-        </style>
-        
-        <!-- Add this hidden div for Google Translate -->
-        <div id="google_translate_element" style="display:none;"></div>
-    </body>
+</body>
 </html>

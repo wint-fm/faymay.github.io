@@ -47,13 +47,6 @@ button,
         }
     }
 
-    /* Add styles for the fa-language icon */
-    &.fa-language {
-        font-family: "FontAwesome";
-        font-size: 1em; /* Adjust the size as needed */
-        margin-right: 0.5em; /* Space between icon and text */
-    }
-
     &.fit {
         display: block;
         margin: 0 0 (_size(element-margin) * 0.5) 0;
