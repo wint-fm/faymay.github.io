@@ -42,38 +42,41 @@
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         async function translateContent() {
-            const contentElement = document.getElementById('content');
-            if (!contentElement) {
-                console.error('Content element with ID "content" not found.');
-                return;
-            }
+			const contentElement = document.getElementById('content');
+			if (!contentElement) {
+				console.error('Content element with ID "content" not found.');
+				return;
+			}
 
-            const textToTranslate = contentElement.innerText;
-            const targetLanguage = document.getElementById('languageSelector').value;
+			const textToTranslate = contentElement.innerText;
+			const targetLanguage = document.getElementById('languageSelector').value;
 
-            const subscriptionKey = '1e5e3e1298d345dbbd3b5a0f54c4139c';  // Replace with your actual subscription key
-            const endpoint = 'https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&to=' + targetLanguage; // Full URL with parameters
+			const subscriptionKey = '1e5e3e1298d345dbbd3b5a0f54c4139c';  // Replace with your actual subscription key
+			const region = 'southeastasia';  // Specify the region for your Azure resource
+			const endpoint = 'https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&to=' + targetLanguage;
 
-            try {
-                const response = await fetch(endpoint, {
-                    method: 'POST',
-                    headers: {
-                        'Ocp-Apim-Subscription-Key': subscriptionKey,
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify([{ Text: textToTranslate }])
-                });
+			try {
+				const response = await fetch(endpoint, {
+					method: 'POST',
+					headers: {
+						'Ocp-Apim-Subscription-Key': subscriptionKey,
+						'Ocp-Apim-Subscription-Region': region,  // Add the region header here
+						'Content-Type': 'application/json'
+					},
+					body: JSON.stringify([{ Text: textToTranslate }])
+				});
 
-                if (response.ok) {
-                    const data = await response.json();
-                    contentElement.innerText = data[0].translations[0].text;
-                } else {
-                    console.error('Translation request failed', response.status, response.statusText);
-                }
-            } catch (error) {
-                console.error('Error translating content:', error);
-            }
-        }
+				if (response.ok) {
+					const data = await response.json();
+					contentElement.innerText = data[0].translations[0].text;
+				} else {
+					console.error('Translation request failed', response.status, response.statusText);
+				}
+			} catch (error) {
+				console.error('Error translating content:', error);
+			}
+		}
+
 
         // Attach the translateContent function to the global window object for access from the HTML
         window.translateContent = translateContent;
