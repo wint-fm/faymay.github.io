@@ -79,133 +79,148 @@
 	@import 'layout/wrapper';
 	@import 'layout/menu';
 
-	// Video Banner.
-	#banner {
-		@include vendor('align-items', 'center');
-		@include vendor('display', 'flex');
-		position: relative;
-		overflow: hidden;
-		background-attachment: fixed;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		border-bottom: 0 !important;
-		cursor: default;
-		height: calc(54vh + 3.25em); // Account for header height
-		min-height: calc(42em + 3.25em); // Account for header height
-		max-height: calc(60em + 3.25em); // Account for header height
-		margin-top: 0; // Remove top margin
-		padding-top: 3.25em; // Add padding equal to header height
-	
-		&:after {
-			@include vendor('transition', 'opacity #{_duration(banner)} ease');
-			@include vendor('transition-delay', '0.75s');
-			@include vendor('pointer-events', 'none');
-			background-color: _palette(bg);
-			content: '';
-			display: block;
-			height: 100%;
-			left: 0;
-			opacity: 0.85;
-			position: absolute;
-			top: 0;
-			width: 100%;
-			z-index: 1;
-		}
-	
-		> .inner {
-			@include vendor('transition', (
-				'opacity 1.5s ease',
-				'transform 0.5s ease-out',
-				'filter 0.5s ease',
-				'-webkit-filter 0.5s ease'
-			));
-			position: relative;
-			z-index: 3; // Increased z-index to appear above video
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			height: 100%;
-			width: 100%;
-			padding: 0 !important;
-		}
-	
-		// Updated video styles
-		.video-container {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			overflow: hidden;
-			z-index: 1;
-		}
-	
-		#bg-video {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			min-width: 100%;
-			min-height: 100%;
-			width: auto;
-			height: auto;
-			transform: translateX(-50%) translateY(-50%);
-			object-fit: cover;
-			object-position: center;
-		}
-	
-		.content {
-			position: relative;
-			z-index: 3;
-			text-align: center;
-			padding: 2em;
-			background-color: rgba(0, 0, 0, 0.5);
-			border-radius: 10px;
-			max-width: 80%;
-		}
-	
-		// Styles for image banner
-		&.image-banner {
-			@include vendor('background-image', 'url("../images/fmbannerwed.jpg")');
-		}
-	
-		// Responsive adjustments
-		@include breakpoint(medium) {
-			background-attachment: scroll;
-		}
-	
-		@include breakpoint(small) {
-			height: calc(54vh + 2.75em); // Account for smaller header on small screens
-			min-height: calc(36em + 2.75em); // Account for smaller header on small screens
-			padding-top: 2.75em; // Adjust padding for smaller header
-	
-			.content {
-				padding: 1.5em;
-			}
-	
-			#bg-video {
-				height: 100%;
-				width: 100%;
-				object-fit: cover;
-			}
-		}
-	}
-	
-	// Ensure the header (menu) is always on top
-	#header {
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
-		z-index: 10000;
-		background-color: rgba(46, 49, 65, 0.8);
-	}
-	
-	// Adjust body padding to account for fixed header
-	body {
-		padding-top: 3.25em; // Match header height
-	
-		@include breakpoint(small) {
-			padding-top: 2.75em; // Match smaller header height on small screens
-		}
-	}
+	// Video Banner
+#banner {
+    @include vendor('align-items', 'center');
+    @include vendor('display', 'flex');
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 0 !important;
+    cursor: default;
+    height: 54vh;
+    min-height: 42em;
+    max-height: 60em;
+    margin-top: 0;
+
+    &:after {
+        @include vendor('transition', 'opacity #{_duration(banner)} ease');
+        @include vendor('transition-delay', '0.75s');
+        @include vendor('pointer-events', 'none');
+        background-color: _palette(bg);
+        content: '';
+        display: block;
+        height: 100%;
+        left: 0;
+        opacity: 0.85;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+
+    > .inner {
+        @include vendor('transition', (
+            'opacity 1.5s ease',
+            'transform 0.5s ease-out',
+            'filter 0.5s ease',
+            '-webkit-filter 0.5s ease'
+        ));
+        position: relative;
+        z-index: 3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        padding: 0 !important;
+    }
+
+    .video-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        z-index: 1;
+    }
+
+    #bg-video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        transform: translateX(-50%) translateY(-50%);
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .content {
+        position: relative;
+        z-index: 3;
+        text-align: center;
+        padding: 2em;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        max-width: 80%;
+    }
+
+    &.image-banner {
+        @include vendor('background-image', 'url("../images/fmbannerwed.jpg")');
+    }
+
+    // Fallback for devices that don't support video
+    .fallback-image {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('../images/fmbannerwed.jpg');
+        background-size: cover;
+        background-position: center;
+        z-index: 1;
+    }
+
+    @include breakpoint(medium) {
+        background-attachment: scroll;
+    }
+
+    @include breakpoint(small) {
+        height: calc(54vh + 2.75em);
+        min-height: calc(36em + 2.75em);
+        padding-top: 2.75em;
+
+        .content {
+            padding: 1.5em;
+        }
+
+        #bg-video {
+            height: 100%;
+            width: 100%;
+        }
+
+        .fallback-image {
+            display: block;
+        }
+
+        #bg-video {
+            display: none;
+        }
+    }
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+    background-color: rgba(46, 49, 65, 0.8);
+}
+
+body {
+    padding-top: 3.25em;
+
+    @include breakpoint(small) {
+        padding-top: 2.75em;
+    }
+}

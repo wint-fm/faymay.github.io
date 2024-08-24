@@ -13,12 +13,12 @@
     {% include header.html %}
 
     <!-- Banner -->
-    <section id="banner" class="major">
-        <div class="inner">
-            <video autoplay loop muted playsinline id="bg-video">
+    <section id="banner">
+        <div class="video-container">
+            <video id="bg-video" autoplay loop muted playsinline>
                 <source src="assets/videos/homebanner.mp4" type="video/mp4">
-                Your browser does not support the video tag.
             </video>
+            <div class="fallback-image"></div>
         </div>
     </section>
 
@@ -44,6 +44,71 @@
     </div>
 
     {% include footer.html %}
+
+    <script>
+        // JavaScript to handle video playback on mobile devices
+        document.addEventListener('DOMContentLoaded', function() {
+            var video = document.getElementById('bg-video');
+            var fallbackImage = document.querySelector('.fallback-image');
+        
+            // Function to check if the device is iOS
+            function isIOS() {
+                return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+            }
+        
+            // Function to play video
+            function playVideo() {
+                if (video.paused) {
+                    video.play().catch(function(error) {
+                        console.log("Video play failed:", error);
+                        showFallbackImage();
+                    });
+                }
+            }
+        
+            // Function to show fallback image
+            function showFallbackImage() {
+                if (fallbackImage) {
+                    fallbackImage.style.display = 'block';
+                }
+                if (video) {
+                    video.style.display = 'none';
+                }
+            }
+        
+            // Check if it's iOS
+            if (isIOS()) {
+                // For iOS, we need to play the video programmatically
+                video.setAttribute('playsinline', '');
+                video.muted = true;
+                video.setAttribute('muted', '');
+                
+                // Play video on page load
+                playVideo();
+        
+                // Play video when it becomes visible
+                var observer = new IntersectionObserver(function(entries) {
+                    if (entries[0].isIntersecting) {
+                        playVideo();
+                    }
+                }, { threshold: 0.1 });
+                observer.observe(video);
+            } else {
+                // For non-iOS devices, just make sure the video is visible
+                if (video) {
+                    video.style.display = 'block';
+                }
+                if (fallbackImage) {
+                    fallbackImage.style.display = 'none';
+                }
+            }
+        
+            // Fallback for devices that don't support autoplay
+            video.addEventListener('canplay', function() {
+                playVideo();
+            });
+        });
+        </script>
 
 </body>
 
