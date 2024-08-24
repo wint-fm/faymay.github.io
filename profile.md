@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: landing
 title: FayMay Profile
 description: 
 image: assets/images/fmbanner.jpeg

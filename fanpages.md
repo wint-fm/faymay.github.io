@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: landing
 title: Fan Pages 
 image: assets/images/fmsquare.jpeg
 nav-menu: true
@@ -52,8 +52,3 @@ nav-menu: true
 		</tbody>
 	</table>
 </div>
-
-<ul class="actions">
-	<li><a href="#" class="button special icon language">Icon</a></li>
-	<li><a href="#" class="button icon fa-language">Icon</a></li>
-</ul>
