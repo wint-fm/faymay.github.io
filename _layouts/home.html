@@ -122,38 +122,53 @@
 
     <!-- Google Translate Implementation -->
     <script>
+        let googleTranslateElementInit;
         let googleTranslateLoaded = false;
-
-        function googleTranslateElementInit() {
-            googleTranslateLoaded = true;
-        }
-
-        function translateLanguage() {
-            const language = document.getElementById("languageSelector").value;
+        
+        function initGoogleTranslate() {
+            if (googleTranslateLoaded) return;
             
+            if (typeof google !== 'undefined' && typeof google.translate !== 'undefined') {
+                new google.translate.TranslateElement({
+                    pageLanguage: 'en',
+                    includedLanguages: 'en,zh-CN,fil,fr,id,it,ja,ko,my,es,th,vi',
+                    layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                    autoDisplay: false
+                }, 'google_translate_element');
+                googleTranslateLoaded = true;
+            } else {
+                setTimeout(initGoogleTranslate, 100); // Try again after 100ms
+            }
+        }
+        
+        function translateLanguage() {
             if (!googleTranslateLoaded) {
-                console.error('Google Translate not loaded yet. Please try again in a few seconds.');
-                alert('Google Translate is not ready yet. Please try again in a few seconds.');
+                console.log('Google Translate not loaded yet. Attempting to initialize...');
+                initGoogleTranslate();
+                setTimeout(translateLanguage, 200); // Try again after 200ms
                 return;
             }
+        
+            const language = document.getElementById("languageSelector").value;
             
             try {
-                const googleTranslateElement = google.translate.TranslateElement.getInstance();
-                if (googleTranslateElement) {
-                    googleTranslateElement.setVisible(false);
-                    googleTranslateElement.setLanguage(language);
+                const select = document.querySelector('.goog-te-combo');
+                if (select) {
+                    select.value = language;
+                    select.dispatchEvent(new Event('change'));
                 } else {
-                    throw new Error('Google Translate instance not found');
+                    throw new Error('Google Translate selector not found');
                 }
             } catch (error) {
                 console.error('Error during translation:', error);
-                alert('An error occurred while translating. Please try again later or check your connection.');
+                alert('An error occurred while translating. Please try again later.');
             }
         }
-
+        
+        // Load Google Translate script
         function loadGoogleTranslate() {
             const script = document.createElement('script');
-            script.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+            script.src = 'https://translate.google.com/translate_a/element.js?cb=initGoogleTranslate';
             script.async = true;
             script.onerror = () => {
                 console.error('Failed to load Google Translate script');
@@ -161,13 +176,11 @@
             };
             document.body.appendChild(script);
         }
-
-        // Load Google Translate when the page is ready
-        document.addEventListener('DOMContentLoaded', function() {
-            loadGoogleTranslate();
-        });
+        
+        // Call this function when the page loads
+        document.addEventListener('DOMContentLoaded', loadGoogleTranslate);
         </script>
-
+        
         <style>
             /* Hide Google Translate elements */
             .goog-te-banner-frame, .goog-te-balloon-frame, #goog-gt-tt, .goog-te-menu-value, .goog-tooltip, .goog-tooltip:hover {
@@ -181,6 +194,13 @@
             body {
                 top: 0 !important;
             }
+            /* Ensure the Google Translate element is hidden */
+            #google_translate_element {
+                display: none !important;
+            }
         </style>
+        
+        <!-- Add this hidden div for Google Translate -->
+        <div id="google_translate_element" style="display:none;"></div>
     </body>
 </html>
