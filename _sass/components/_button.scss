@@ -138,31 +138,24 @@ button,
 
 /* Ensure dropdown aligns perfectly in the center */
 #languageSelector.button {
-    appearance: none; /* Reset browser default styling */
-    background-color: transparent;
-    border: 0;
-    border-radius: 0;
-    color: _palette(fg-bold); /* Use the same color as the menu */
-    cursor: pointer;
-    display: flex;
-    align-items: center; /* Center text vertically */
-    justify-content: center; /* Center text horizontally if needed */
-    font-size: 0.8em; /* Match font size to menu */
-    font-weight: _font(weight-bold);
-    height: 40px; /* Ensures a consistent button height */
-    padding: 0 10px; /* Control padding to center text */
-    margin: 0; /* Reset any margins */
+    appearance: none; /* Remove default dropdown styling */
+    background-color: transparent; /* Match background */
+    border: none; /* Remove default border */
+    color: inherit; /* Inherit text color to match other menu items */
+    font-size: 0.9em; /* Match "MENU" font size */
+    font-weight: _font(weight-bold); /* Use the same weight */
+    line-height: 1; /* Adjust line height for proper alignment */
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
     text-align: center;
     text-transform: uppercase;
-    white-space: nowrap;
-    line-height: 1.5; /* Line height adjustment for better vertical centering */
-
+    cursor: pointer;
+    
     &:hover,
     &:active {
-        color: _palette(highlight); /* Use hover color similar to menu */
+      color: _palette(highlight); /* Use hover color similar to menu */
     }
-
     &:focus {
-        outline: none; /* Remove focus outline if not desired */
+      outline: none; /* Remove focus outline if not desired */
     }
 }
