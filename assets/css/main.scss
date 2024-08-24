@@ -91,9 +91,9 @@
 		background-size: cover;
 		border-bottom: 0 !important;
 		cursor: default;
-		height: 35vh; 
-		min-height: 25em; 
-		max-height: 40em; 
+		height: 40vh; /* Reduced height */
+		min-height: 30em; /* Adjusted min-height */
+		max-height: 45em; /* Adjusted max-height */
 		margin-top: 0;
 	
 		&::after {
