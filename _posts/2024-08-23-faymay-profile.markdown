@@ -8,6 +8,7 @@ tag: [Profile]
 ---
 
 **<span style="color: blue;">Fay</span>**
+
 **First Name:** Kanyaphat
 **Family Name:** Na Nakhon
 **Native name:** เฟย์ กัญญาพัชร ณ นคร
@@ -16,6 +17,7 @@ tag: [Profile]
 **Born:** December 2, 2001
 
 **<span style="color: #FF1493;">May</span>**
+
 **First Name:** Yada
 **Family Name:** Watcharamusik
 **Native name:** เมษ์ ญดา วัชระมูสิก
