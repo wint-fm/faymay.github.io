@@ -40,24 +40,6 @@
 					<li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
 				{% endif %}
 			{% endfor %}
-			<!-- Language Selector Dropdown -->
-			<li>
-				<select id="languageSelector" onchange="translateLanguage()" style="appearance: none; background: none; border: none; font-size: inherit; color: inherit; cursor: pointer; text-transform: uppercase;">
-					<option value="en">English</option>
-					<option value="zh-CN">Chinese</option>
-					<option value="fil">Filipino</option>
-					<option value="fr">French</option>
-					<option value="id">Indonesian</option>
-					<option value="it">Italian</option>
-					<option value="ja">Japanese</option>
-					<option value="ko">Korean</option>
-					<option value="my">Myanmar</option>
-					<option value="es">Spanish</option>
-					<option value="th">Thai</option>
-					<option value="vi">Vietnamese</option>
-					<!-- Add more languages as needed -->
-				</select>
-			</li>
 		</ul>
 	</nav>
 	
@@ -68,25 +50,24 @@
 	<script type="text/javascript">
 		function translateLanguage() {
 			var language = document.getElementById("languageSelector").value;
-	
-			// Remove the existing Translate element if it exists
-			var existingElement = document.querySelector('.skiptranslate');
-			if (existingElement) {
-				existingElement.parentNode.removeChild(existingElement);
+			var googleTranslateElement = google.translate.TranslateElement.getInstance();
+			
+			if (googleTranslateElement) {
+				googleTranslateElement.setLanguage(language);
+			} else {
+				new google.translate.TranslateElement({
+					pageLanguage: 'en',
+					includedLanguages: language,
+					layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+					autoDisplay: false
+				}, 'google_translate_element');
 			}
-	
-			// Reinitialize Google Translate with the selected language
-			new google.translate.TranslateElement({
-				pageLanguage: 'en',
-				includedLanguages: language,
-				layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
-				autoDisplay: false
-			}, 'google_translate_element');
 		}
 	
 		function googleTranslateElementInit() {
 			new google.translate.TranslateElement({
 				pageLanguage: 'en',
+				includedLanguages: 'en,zh-CN,fil,fr,id,it,ja,ko,my,es,th,vi',
 				layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
 				autoDisplay: false // Prevents auto-displaying the default toolbar
 			}, 'google_translate_element');
@@ -98,10 +79,10 @@
 	<style>
 		/* Optional: Add CSS to hide the translate toolbar */
 		.skiptranslate {
-			display: none;
+			display: none !important;
 		}
 		body {
 			top: 0px !important;
 		}
 	</style>
-	
+</div>
