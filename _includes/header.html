@@ -10,7 +10,7 @@
             <a style="margin-right: 20px; position: relative;">
                 <select id="languageSelector" onchange="translateContent()" style="appearance: none; background: none; border: none; font-size: inherit; color: inherit; cursor: pointer; text-transform: uppercase; line-height: inherit;">
                     <option value="en">English</option>
-                    <option value="zh-Hans">Chinese</option>
+                    <option value="zh-Hans">Chinese (Simplified)</option>
                     <option value="ja">Japanese</option>
                     <option value="ko">Korean</option>
                     <option value="th">Thai</option>
@@ -40,32 +40,42 @@
 
 <!-- Microsoft Translator Script -->
 <script>
-	async function translateContent() {
-		const textToTranslate = document.getElementById('content').innerText;
-		const targetLanguage = document.getElementById('languageSelector').value;
+    document.addEventListener('DOMContentLoaded', function() {
+        async function translateContent() {
+            const contentElement = document.getElementById('content');
+            if (!contentElement) {
+                console.error('Content element with ID "content" not found.');
+                return;
+            }
 
-		const subscriptionKey = 'dcba413c0a7743da9c0cbb477ae98349';  // Replace with your actual subscription key
-		const endpoint = 'https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&to=' + targetLanguage; // Full URL with parameters
+            const textToTranslate = contentElement.innerText;
+            const targetLanguage = document.getElementById('languageSelector').value;
 
-		try {
-			const response = await fetch(endpoint, {
-				method: 'POST',
-				headers: {
-					'Ocp-Apim-Subscription-Key': subscriptionKey,
-					'Content-Type': 'application/json'
-				},
-				body: JSON.stringify([{ Text: textToTranslate }])
-			});
+            const subscriptionKey = 'dcba413c0a7743da9c0cbb477ae98349';  // Replace with your actual subscription key
+            const endpoint = 'https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&to=' + targetLanguage; // Full URL with parameters
 
-			if (response.ok) {
-				const data = await response.json();
-				document.getElementById('content').innerText = data[0].translations[0].text;
-			} else {
-				console.error('Translation request failed', response.status, response.statusText);
-			}
-		} catch (error) {
-			console.error('Error translating content:', error);
-		}
-	}
+            try {
+                const response = await fetch(endpoint, {
+                    method: 'POST',
+                    headers: {
+                        'Ocp-Apim-Subscription-Key': subscriptionKey,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify([{ Text: textToTranslate }])
+                });
 
+                if (response.ok) {
+                    const data = await response.json();
+                    contentElement.innerText = data[0].translations[0].text;
+                } else {
+                    console.error('Translation request failed', response.status, response.statusText);
+                }
+            } catch (error) {
+                console.error('Error translating content:', error);
+            }
+        }
+
+        // Attach the translateContent function to the global window object for access from the HTML
+        window.translateContent = translateContent;
+    });
 </script>
