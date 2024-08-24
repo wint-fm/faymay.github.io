@@ -1,11 +1,11 @@
 ---
 layout: home
 title: Home
-landing-title: 'FayMay'
+landing-title: 'FayMay เฟย์เมษ์'
 description: null
 image: null
 author: null
 show_tile: false
 ---
 
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.
+Fay (เฟย์ กัญญาพัชร) and May (เมษ์ ญด) are Thai GL actresses under Idol Factory. Their on-screen couple name is FayMay เฟย์เมษ์ and their first acting project is My Marvelous Dream is You (ฝันรักห้วงนิทรา) also known as DreamGL.
