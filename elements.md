@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Elements
+title: Elements 
 image: assets/images/fmsquare.jpeg
 nav-menu: true
 ---
