@@ -291,8 +291,8 @@ Finally, this is a <a href="#">link</a>.</p>
 	<li><a href="#" class="button fit small">Fit + Small</a></li>
 </ul>
 <ul class="actions">
-	<li><a href="#" class="button special icon fa-search">Icon</a></li>
-	<li><a href="#" class="button icon fa-download">Icon</a></li>
+	<li><a href="#" class="button special icon language">Icon</a></li>
+	<li><a href="#" class="button icon fa-language">Icon</a></li>
 </ul>
 <ul class="actions">
 	<li><span class="button special disabled">Special</span></li>
