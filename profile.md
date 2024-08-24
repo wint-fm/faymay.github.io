@@ -6,36 +6,22 @@ image: assets/images/fmbanner.jpeg
 nav-menu: true
 ---
 
-Tempopary placeholder.
+<!-- Main -->
+<div id="main" class="alt">
 
-**<span style="color: #87CEFA; font-size: 28px;">Fay</span>**
+<!-- Content -->
+<h2 id="content" style="color: #87CEFA;">Fay</h2>
+<p><strong>First Name:</strong> Kunyaphat</p>
+<p><strong>Family Name:</strong> Na Nakorn</p>
+<p><strong>Native name:</strong> เฟย์ กัญญาพัชร ณ นคร</p>
+<p><strong>Nationality:</strong> Thai</p>
+<p><strong>Gender:</strong> Female</p>
+<p><strong>Born:</strong> December 2, 2001</p>
 
-**First Name:** Kunyaphat
-
-**Family Name:** Na Nakorn
-
-**Native name:** เฟย์ กัญญาพัชร ณ นคร
-
-**Nationality:** Thai
-
-**Gender:** Female
-
-**Born:** December 2, 2001
-
-
-
-**<span style="color: #FF1493; font-size: 28px;">May</span>**
-
-**First Name:** Yada
-
-**Family Name:** Watcharamusik
-
-**Native name:** เมษ์ ญดา วัชระมูสิก
-
-**Nationality:** Thai
-
-**Gender:** Female
-
-**Born:** October 31, 1997
-
-End of post.
+<h2 id="content" style="color: #FF1493;">May</h2>
+<p><strong>First Name:</strong> Yada</p>
+<p><strong>Family Name:</strong> Watcharamusik</p>
+<p><strong>Native name:</strong> เมษ์ ญดา วัชระมูสิก</p>
+<p><strong>Nationality:</strong> Thai</p>
+<p><strong>Gender:</strong> Female</p>
+<p><strong>Born:</strong> October 31, 1997</p>
