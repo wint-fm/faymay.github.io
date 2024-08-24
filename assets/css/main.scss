@@ -81,47 +81,14 @@
 
 // Video Banner
 #banner {
-    @include vendor('align-items', 'center');
-    @include vendor('display', 'flex');
-    @include padding(4em, 0, (2em, 0, 0, 0));
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-bottom: 0 !important;
-    cursor: default;
-    height: 45vh;
-    margin-bottom: -3.25em;
-    max-height: 28em;
-    min-height: 20em;
     position: relative;
-    top: -3.25em;
     overflow: hidden;
+    margin-top: 0; // Remove top margin to align with menu
+    min-height: 42em; // Increased by 20% from 35em
+    max-height: 60em; // Increased by 20% from 50em
+    height: 54vh; // Increased by 20% from 45vh
 
-    &:after {
-        @include vendor('transition', 'opacity #{_duration(banner)} ease');
-        @include vendor('transition-delay', '0.75s');
-        @include vendor('pointer-events', 'none');
-        background-color: _palette(bg);
-        content: '';
-        display: block;
-        height: 100%;
-        left: 0;
-        opacity: 0.85;
-        position: absolute;
-        top: 0;
-        width: 100%;
-        z-index: 1;
-    }
-
-    > .inner {
-        @include vendor('transition', (
-            'opacity 1.5s ease',
-            'transform 0.5s ease-out',
-            'filter 0.5s ease',
-            '-webkit-filter 0.5s ease'
-        ));
-        padding: 0 !important;
+    .inner {
         position: relative;
         z-index: 2;
         display: flex;
@@ -129,14 +96,7 @@
         justify-content: center;
         height: 100%;
         width: 100%;
-
-        .content {
-            text-align: center;
-            padding: 2em;
-            background-color: rgba(0, 0, 0, 0.5);
-            border-radius: 10px;
-            max-width: 80%;
-        }
+        padding: 0;
     }
 
     #bg-video {
@@ -148,29 +108,30 @@
         transform: translateX(-50%);
         object-fit: cover;
         object-position: center;
-        z-index: 1;
     }
 
-    &.major {
-        height: 60vh;
-        min-height: 25em;
-        max-height: 35em;
+    .content {
+        position: relative;
+        z-index: 3;
+        text-align: center;
+        padding: 2em;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        max-width: 80%;
     }
 
     // Responsive adjustments
     @include breakpoint(medium) {
-        height: auto;
-        min-height: 35em;
+        height: 54vh; // Maintain the 20% increase
+        min-height: 42em;
     }
 
     @include breakpoint(small) {
-        height: auto;
-        min-height: 30em;
+        height: 54vh; // Maintain the 20% increase
+        min-height: 36em; // Increased by 20% from 30em
 
-        .inner {
-            .content {
-                padding: 1.5em;
-            }
+        .content {
+            padding: 1.5em;
         }
     }
 }
@@ -183,4 +144,9 @@
     width: 100%;
     z-index: 10000;
     background-color: rgba(46, 49, 65, 0.8);
+}
+
+// Add this to ensure the banner starts right below the header
+body {
+    padding-top: 3.25em; // Adjust this value to match your header height
 }
