@@ -1,12 +1,13 @@
 ---
+title: Active Fan Pages
 layout: landing
-title: Fan Pages 
-image: assets/images/fmsquare.jpeg
+description: 
+image: assets/images/fmsquare.jpg
 nav-menu: true
 ---
 
 <!-- Main -->
-<div id="main" class="alt">
+<div id="main">
 
 <!-- One -->
 <section id="one">

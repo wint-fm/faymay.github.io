@@ -1,13 +1,13 @@
 ---
-layout: landing
 title: FayMay Profile
+layout: landing
 description: 
-image: assets/images/fmbanner.jpeg
+image: assets/images/fmbanner.jpg
 nav-menu: true
 ---
 
 <!-- Main -->
-<div id="main" class="alt">
+<div id="main">
 
 <!-- One -->
 <section id="one">
