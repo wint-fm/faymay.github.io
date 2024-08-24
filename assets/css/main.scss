@@ -79,6 +79,7 @@
 	@import 'layout/wrapper';
 	@import 'layout/menu';
 
+	// Video Banner.
 	#banner {
 		@include vendor('align-items', 'center');
 		@include vendor('display', 'flex');
@@ -120,7 +121,7 @@
 				'-webkit-filter 0.5s ease'
 			));
 			position: relative;
-			z-index: 2;
+			z-index: 3; // Increased z-index to appear above video
 			display: flex;
 			align-items: center;
 			justify-content: center;
@@ -129,16 +130,28 @@
 			padding: 0 !important;
 		}
 	
-		#bg-video {
+		// Updated video styles
+		.video-container {
 			position: absolute;
 			top: 0;
-			left: 50%;
+			left: 0;
 			width: 100%;
 			height: 100%;
-			transform: translateX(-50%);
+			overflow: hidden;
+			z-index: 1;
+		}
+	
+		#bg-video {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			min-width: 100%;
+			min-height: 100%;
+			width: auto;
+			height: auto;
+			transform: translateX(-50%) translateY(-50%);
 			object-fit: cover;
 			object-position: center;
-			z-index: 1;
 		}
 	
 		.content {
@@ -169,6 +182,12 @@
 			.content {
 				padding: 1.5em;
 			}
+	
+			#bg-video {
+				height: 100%;
+				width: 100%;
+				object-fit: cover;
+			}
 		}
 	}
 	
@@ -183,10 +202,10 @@
 	}
 	
 	// Adjust body padding to account for fixed header
-body {
-    padding-top: 3.25em; // Match header height
-
-    @include breakpoint(small) {
-        padding-top: 2.75em; // Match smaller header height on small screens
-    }
-}
+	body {
+		padding-top: 3.25em; // Match header height
+	
+		@include breakpoint(small) {
+			padding-top: 2.75em; // Match smaller header height on small screens
+		}
+	}
