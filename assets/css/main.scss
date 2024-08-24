@@ -79,74 +79,114 @@
 	@import 'layout/wrapper';
 	@import 'layout/menu';
 
-// Video Banner
-#banner {
-    position: relative;
-    overflow: hidden;
-    margin-top: 0; // Remove top margin to align with menu
-    min-height: 42em; // Increased by 20% from 35em
-    max-height: 60em; // Increased by 20% from 50em
-    height: 54vh; // Increased by 20% from 45vh
-
-    .inner {
-        position: relative;
-        z-index: 2;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-        width: 100%;
-        padding: 0;
-    }
-
-    #bg-video {
-        position: absolute;
-        top: 0;
-        left: 50%;
-        width: 100%;
-        height: 100%;
-        transform: translateX(-50%);
-        object-fit: cover;
-        object-position: center;
-    }
-
-    .content {
-        position: relative;
-        z-index: 3;
-        text-align: center;
-        padding: 2em;
-        background-color: rgba(0, 0, 0, 0.5);
-        border-radius: 10px;
-        max-width: 80%;
-    }
-
-    // Responsive adjustments
-    @include breakpoint(medium) {
-        height: 54vh; // Maintain the 20% increase
-        min-height: 42em;
-    }
+	#banner {
+		@include vendor('align-items', 'center');
+		@include vendor('display', 'flex');
+		position: relative;
+		overflow: hidden;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		border-bottom: 0 !important;
+		cursor: default;
+		height: calc(54vh + 3.25em); // Account for header height
+		min-height: calc(42em + 3.25em); // Account for header height
+		max-height: calc(60em + 3.25em); // Account for header height
+		margin-top: 0; // Remove top margin
+		padding-top: 3.25em; // Add padding equal to header height
+	
+		&:after {
+			@include vendor('transition', 'opacity #{_duration(banner)} ease');
+			@include vendor('transition-delay', '0.75s');
+			@include vendor('pointer-events', 'none');
+			background-color: _palette(bg);
+			content: '';
+			display: block;
+			height: 100%;
+			left: 0;
+			opacity: 0.85;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			z-index: 1;
+		}
+	
+		> .inner {
+			@include vendor('transition', (
+				'opacity 1.5s ease',
+				'transform 0.5s ease-out',
+				'filter 0.5s ease',
+				'-webkit-filter 0.5s ease'
+			));
+			position: relative;
+			z-index: 2;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100%;
+			width: 100%;
+			padding: 0 !important;
+		}
+	
+		#bg-video {
+			position: absolute;
+			top: 0;
+			left: 50%;
+			width: 100%;
+			height: 100%;
+			transform: translateX(-50%);
+			object-fit: cover;
+			object-position: center;
+			z-index: 1;
+		}
+	
+		.content {
+			position: relative;
+			z-index: 3;
+			text-align: center;
+			padding: 2em;
+			background-color: rgba(0, 0, 0, 0.5);
+			border-radius: 10px;
+			max-width: 80%;
+		}
+	
+		// Styles for image banner
+		&.image-banner {
+			@include vendor('background-image', 'url("../images/fmbannerwed.jpg")');
+		}
+	
+		// Responsive adjustments
+		@include breakpoint(medium) {
+			background-attachment: scroll;
+		}
+	
+		@include breakpoint(small) {
+			height: calc(54vh + 2.75em); // Account for smaller header on small screens
+			min-height: calc(36em + 2.75em); // Account for smaller header on small screens
+			padding-top: 2.75em; // Adjust padding for smaller header
+	
+			.content {
+				padding: 1.5em;
+			}
+		}
+	}
+	
+	// Ensure the header (menu) is always on top
+	#header {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 10000;
+		background-color: rgba(46, 49, 65, 0.8);
+	}
+	
+	// Adjust body padding to account for fixed header
+body {
+    padding-top: 3.25em; // Match header height
 
     @include breakpoint(small) {
-        height: 54vh; // Maintain the 20% increase
-        min-height: 36em; // Increased by 20% from 30em
-
-        .content {
-            padding: 1.5em;
-        }
+        padding-top: 2.75em; // Match smaller header height on small screens
     }
-}
-
-// Ensure the header (menu) is always on top
-#header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 10000;
-    background-color: rgba(46, 49, 65, 0.8);
-}
-
-// Add this to ensure the banner starts right below the header
-body {
-    padding-top: 3.25em; // Adjust this value to match your header height
 }
