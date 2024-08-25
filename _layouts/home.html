@@ -39,10 +39,34 @@
 
         <!-- One -->
         <div id="content">
-        {% include tiles.html %}
+            {% include tiles.html %}
+        </div>
+
+        <!-- Three -->
+        <!-- Image carousel -->
+        <div class="carousel">
+            <div><img src="assets/images/fmsquare.jpeg" alt="Image 1"></div>
+            <div><img src="assets/images/fanart.jpg" alt="Image 2"></div>
+            <div><img src="assets/images/fancover.jpg" alt="Image 3"></div>
+            <div><img src="assets/images/fmbanner.jpg" alt="Image 4"></div>
+            <div><img src="assets/images/fmbanner1.jpg" alt="Image 5"></div>
+            <div><img src="assets/images/fmbannerwed.jpg" alt="Image 6"></div>
         </div>
     </div>
 
     {% include footer.html %}
+
+    <!-- Image carousel script -->
+    <script type="text/javascript">
+        $(document).ready(function(){
+        $('.carousel').slick({
+            dots: true,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 1,
+            adaptiveHeight: true
+        });
+    });
+    </script>
 </body>
 </html>
