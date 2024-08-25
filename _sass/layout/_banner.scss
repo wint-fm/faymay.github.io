@@ -199,3 +199,57 @@
         }
     }
 }
+
+/* Center Both Horizontally and Vertically */
+.center-center {
+    justify-content: center;
+    align-items: center;
+}
+
+/* Top Center */
+.top-center {
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Top Left */
+.top-left {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* Bottom Center */
+.bottom-center {
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* Bottom Left */
+.bottom-left {
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+/* Top Right */
+.top-right {
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+/* Bottom Right */
+.bottom-right {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* Center Left */
+.center-left {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Center Right */
+.center-right {
+    justify-content: flex-end;
+    align-items: center;
+}

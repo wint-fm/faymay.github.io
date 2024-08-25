@@ -8,7 +8,7 @@
 			<a href="#menu">Menu</a>
 			<!-- Updated Language Selector -->
 			<a class="language-selector">
-				<select id="languageSelector" onchange="translateContent()">
+				<select id="languageSelector">
 					<option value="en">English</option>
 					<option value="zh-Hans">Chinese (Simplified)</option>
 					<option value="fil">Filipino</option>
@@ -85,5 +85,17 @@
     </nav>
 </div>
 
-<script src="translator-auth.js"></script>
-<script src="translation-script.js"></script>
+<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		var languageSelector = document.getElementById('languageSelector');
+		if (languageSelector) {
+			languageSelector.addEventListener('change', function() {
+				if (typeof translateContent === 'function') {
+					translateContent();
+				} else {
+					console.error('translateContent function is not defined');
+				}
+			});
+		}
+	});
+	</script>
