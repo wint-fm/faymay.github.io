@@ -45,10 +45,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    // Updated getTextNodes function to include list items
     function getTextNodes(element) {
-        return Array.from(element.querySelectorAll('p, h1, h2, h3, h4, h5, h6, span, a.button, ol, ul, td, th, a.link'));
+        // Include list items, table cells, anchor text, among others
+        return Array.from(element.querySelectorAll('p, h1, h2, h3, h4, h5, h6, span, a.button, li, td, th, a.link, a:not(.button):not(.link)'));
     }
-    
 
     async function fetchTranslations(texts, targetLanguage) {
         const subscriptionKey = '3e82d5998a474d7588390426ac7a904a';
@@ -71,7 +72,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function applyTranslations(data, textNodes) {
         data.forEach((translation, index) => {
-            textNodes[index].textContent = translation.translations[0].text; // Use textContent instead of innerText
+            if (textNodes[index].tagName.toLowerCase() === 'a') {
+                // For anchor tags, update only the textContent to preserve the href
+                textNodes[index].textContent = translation.translations[0].text;
+            } else {
+                // Apply translations to other elements
+                textNodes[index].textContent = translation.translations[0].text;
+            }
         });
     }
 
