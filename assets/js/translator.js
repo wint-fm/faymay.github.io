@@ -1,10 +1,6 @@
-// scripts.js
-
 document.addEventListener('DOMContentLoaded', function() {
-    // Object to store the original text of each element
     const originalText = new Map();
 
-    // Check if there is a stored language preference and apply it
     const storedLanguage = localStorage.getItem('preferredLanguage');
     if (storedLanguage) {
         document.getElementById('languageSelector').value = storedLanguage;
@@ -20,27 +16,23 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const targetLanguage = language || document.getElementById('languageSelector').value;
 
-        // Store the selected language in local storage for future page loads
         localStorage.setItem('preferredLanguage', targetLanguage);
 
-        // Check if reverting to original language
-        if (targetLanguage === 'en') { // Replace 'en' with your default language code
+        if (targetLanguage === 'en') {
             restoreOriginalText();
             return;
         }
 
-        // Gather all text nodes to translate, including button text
-        const textNodes = contentElement.querySelectorAll('p, h1, h2, h3, h4, h5, h6, span, li, td, th, span:not(.button-text), .button-text'); 
+        // Updated selector to target only elements with the 'translate' class
+        const textNodes = contentElement.querySelectorAll('.translate');
 
-        // Store original text before any translation
         textNodes.forEach((node) => {
             if (!originalText.has(node)) {
-                originalText.set(node, node.innerText); // Store original text
+                originalText.set(node, node.innerText);
             }
         });
 
-        // Prepare original texts for translation
-        const textsToTranslate = Array.from(textNodes).map(node => originalText.get(node)); // Always use original text
+        const textsToTranslate = Array.from(textNodes).map(node => originalText.get(node));
 
         const subscriptionKey = '3e82d5998a474d7588390426ac7a904a';  
         const region = 'southeastasia';  
@@ -70,13 +62,11 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    // Function to restore the original text content
     function restoreOriginalText() {
         originalText.forEach((text, element) => {
             element.innerText = text;
         });
     }
 
-    // Attach the translateContent function to the global window object for access from the HTML
     window.translateContent = translateContent;
 });

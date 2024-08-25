@@ -11,43 +11,43 @@ nav-menu: true
     <section id="one">
         <div class="inner">
             <header class="major">
-                <h2>Ongoing Votings</h2>
+                <h2><span class="translate">Ongoing Votings</span></h2>
             </header>
-            <p>All the ongoing voting activities will be shared in this page.</p>
+            <p><span class="translate">All the ongoing voting activities will be shared in this page.</span></p>
             <ol>
-                <li>Please try to keep both of them to have the same vote counts.</li>
-                <li>Please don't use automated tools. We wouldn't want them to get disqualified.</li>
+                <li><span class="translate">Please try to keep both of them to have the same vote counts.</span></li>
+                <li><span class="translate">Please don't use automated tools. We wouldn't want them to get disqualified.</span></li>
             </ol>
         </div>
     </section>
     <section id="two" class="spotlights">
         <section>
             <a href="generic.html" class="image">
-                <img src="{{ 'assets/images/votestarlight.png' | relative_url }}" alt="starlight" data-position="center center"  >
+                <img src="{{ 'assets/images/votestarlight.png' | relative_url }}" alt="starlight" data-position="center center">
             </a>
             <div class="content">
                 <div class="inner">
                     <header class="major">
-                        <h3>2024 The Most Shining Star in Thailand</h3>
+                        <h3><span class="translate">2024 The Most Shining Star in Thailand</span></h3>
                     </header>
-                    <p>The voting period is from Aug 23 to Sep 11 20:00 BKK Time. You can get up to 7 free votes, 4 daily free votes and 3 daily free votes for first social share. Please <a href="https://www.starlightawards.asia/vote">vote for them.</a>
+                    <p><span class="translate">The voting period is from Aug 23 to Sep 11 20:00 BKK Time. You can get up to 7 free votes, 4 daily free votes and 3 daily free votes for first social share. Please</span> <a href="https://www.starlightawards.asia/vote"><span class="translate">vote for them.</span></a>
                     </p>
                 </div>
             </div>
         </section>
         <section>
             <a href="generic.html" class="image">
-                <img src="{{ 'assets/images/votethaiupdate.png' | relative_url }}" alt="thaiupdate" data-position="center center"  >
+                <img src="{{ 'assets/images/votethaiupdate.png' | relative_url }}" alt="thaiupdate" data-position="center center">
             </a>
             <div class="content">
                 <div class="inner">
                     <header class="major">
-                        <h3>The Most Favorite On-Screen Couple of 2024</h3>
+                        <h3><span class="translate">The Most Favorite On-Screen Couple of 2024</span></h3>
                     </header>
-                    <p>The voting period is from Aug 24 to Sep 04 15:00 BKK Time. You can vote unlimitedly. Please <a href="https://www.thaiupdate.info/favorite-couple-2024-group-3/">vote for them.</a>
+                    <p><span class="translate">The voting period is from Aug 24 to Sep 04 15:00 BKK Time. You can vote unlimitedly. Please</span> <a href="https://www.thaiupdate.info/favorite-couple-2024-group-3/"><span class="translate">vote for them.</span></a>
                     </p>
                 </div>
             </div>
         </section>
-	</section>
+    </section>
 </div>
