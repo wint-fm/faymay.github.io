@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const languageSelector = document.getElementById('languageSelector');
     const contentElement = document.getElementById('content');
     
-    // Check if content element exists
     if (!contentElement) {
         console.error('Content element with ID "content" not found.');
         return;
@@ -45,14 +44,13 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Updated getTextNodes function to include list items
     function getTextNodes(element) {
         // Include list items, table cells, anchor text, among others
         return Array.from(element.querySelectorAll('p, h1, h2, h3, h4, h5, h6, span, a.button, li, td, th, a.link, a:not(.button):not(.link)'));
     }
 
     async function fetchTranslations(texts, targetLanguage) {
-        const subscriptionKey = '3e82d5998a474d7588390426ac7a904a';
+        const subscriptionKey = '3e82d5998a474d7588390426ac7a904a';  // Replace with your actual subscription key
         const region = 'southeastasia';
         const endpoint = `https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&to=${targetLanguage}`;
 
@@ -84,10 +82,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function restoreOriginalText() {
         originalText.forEach((text, element) => {
-            element.textContent = text; // Use textContent instead of innerText
+            element.textContent = text;
         });
     }
 
-    // Attach translateContent to global scope for access from the HTML
     window.translateContent = translateContent;
 });
