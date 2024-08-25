@@ -224,25 +224,36 @@ section#banner::after {
 
 /* General carousel styles */
 .carousel-container {
+    position: relative;
     width: 100%;
-    // max-width: 1000px; /* Adjust this for larger screens */
+    max-width: 1200px; /* Optional: set a max-width if needed */
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0;
 }
 
-.carousel img {
+.carousel {
     width: 100%;
-    height: auto;
-    object-fit: cover;
+}
+
+.carousel .slick-list,
+.carousel .slick-track {
+    height: 100%;
 }
 
 .carousel .slick-slide {
     height: 650px; /* Default height for larger screens */
 }
 
-.carousel .slick-slide img {
+.carousel .slick-slide > div {
     height: 100%;
-    object-fit: cover;
+}
+
+.carousel .slick-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Changed from cover to contain */
+    object-position: center; /* Center the image */
+    // background-color: #f0f0f0; /* Light background for empty spaces */
 }
 
 /* Specific styles for mobile devices */
@@ -267,19 +278,29 @@ section#banner::after {
     /* Carousel specific styles for mobile */
     .carousel-container {
         max-width: 100%; /* Full width on mobile */
+        padding: 0; /* Remove any padding */
     }
 
     .carousel .slick-slide {
-        height: 650px; /* Adjust this value as needed for mobile */
+        height: 550px; /* Adjusted height for mobile, you can modify this */
+    }
+
+    .carousel .slick-slide > div {
+        height: 100%;
     }
 
     .carousel .slick-slide img {
+        width: 100%;
         height: 100%;
-        object-fit: cover;
+        object-fit: contain; /* Changed from cover to contain for consistency */
+        object-position: center;
+        // background-color: #f0f0f0; /* Light background for empty spaces */
     }
 
-    /* Hide arrows on mobile if desired */
-    .carousel .slick-arrow {
+    /* Hide arrows on mobile */
+    .carousel .slick-arrow,
+    .carousel .slick-prev,
+    .carousel .slick-next {
         display: none !important;
     }
 
@@ -292,18 +313,16 @@ section#banner::after {
 /* Larger arrows for desktop */
 .carousel .slick-prev,
 .carousel .slick-next {
-    font-size: 0; /* Hide default text */
-    line-height: 0;
     position: absolute;
     top: 0;
-    width: 40px; /* Width of the rectangle */
-    height: 100%; /* Full height of the carousel */
-    padding: 0;
-    cursor: pointer;
-    color: transparent;
+    bottom: 0;
+    width: 40px; /* Adjust width as needed */
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
     border: none;
-    outline: none;
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent dark background */
+    color: transparent;
+    font-size: 0;
+    cursor: pointer;
     z-index: 1;
 }
 
@@ -317,29 +336,35 @@ section#banner::after {
 
 .carousel .slick-prev:before,
 .carousel .slick-next:before {
-    font-family: Arial, sans-serif;
-    font-size: 30px; /* Adjust size as needed */
-    font-weight: bold;
-    line-height: 1;
-    color: white;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    content: '';
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 6px; /* Adjust size of arrow */
 }
 
 .carousel .slick-prev:before {
-    content: '<';
+    transform: translate(-25%, -50%) rotate(135deg);
 }
 
 .carousel .slick-next:before {
-    content: '>';
+    transform: translate(-75%, -50%) rotate(-45deg);
 }
 
 /* Hover effect */
 .carousel .slick-prev:hover,
 .carousel .slick-next:hover {
-    background: rgba(0, 0, 0, 0.7); /* Darker on hover */
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/* Hide arrows on mobile */
+@media screen and (max-width: 768px) {
+    .carousel .slick-prev,
+    .carousel .slick-next {
+        display: none !important;
+    }
 }
