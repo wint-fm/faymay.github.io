@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
             {
                 breakpoint: 736,
                 settings: {
-                arrows: false, // Hide arrows on smaller screens
+                    arrows: false, // Hide arrows on smaller screens
                 }
             }
             ]
