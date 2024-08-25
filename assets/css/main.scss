@@ -225,8 +225,8 @@ section#banner::after {
 /* General carousel styles */
 .carousel-container {
     position: relative;
-    width: 100%;
-    max-width: 1200px; /* Adjust if needed */
+    width: 100%; /* Ensure full width */
+    max-width: 100%; /* Override max-width */
     margin: 0 auto;
     padding: 0; /* Removed padding to make arrows fit the container height */
     display: flex; /* Ensures the buttons align correctly */
@@ -265,10 +265,15 @@ section#banner::after {
     display: flex; /* Center arrow text */
     align-items: center; /* Center arrow text */
     justify-content: center; /* Center arrow text */
+    box-shadow: none; /* Prevent any shadow from appearing */
 }
 
-.carousel-arrow:hover {
+/* Override hover effect for buttons */
+.carousel-arrow:hover, 
+.carousel-arrow:focus {
     background: rgba(0, 0, 0, 0.7);
+    outline: none; /* Removes focus outline */
+    border: none; /* Removes any border on hover */
 }
 
 .carousel-prev {
