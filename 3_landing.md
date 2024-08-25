@@ -74,10 +74,9 @@ nav-menu: true
 			<header class="major">
 				<h2>Fan Translations</h2>
 			</header>
-			<p>Placeholder for texts.</p>
-			<ul class="actions">
-				<li><a href="3_landing.html" class="button next">View All</a></li>
-			</ul>
+			<div id="twitter-users">
+			<!-- User highlights will be inserted here -->
+			</div>
 		</div>
 	</section>
 </div>

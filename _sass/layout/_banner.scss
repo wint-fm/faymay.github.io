@@ -1,30 +1,36 @@
-///
-/// Forty by HTML5 UP
-/// html5up.net | @ajlkn
-/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-///
-
-/* Banner */
-
+/* Banner styles */
 #banner {
+    /* Vendor prefixes for cross-browser compatibility */
     @include vendor('align-items', 'center');
     @include vendor('background-image', 'url("../images/fmbannerwed.jpg")');
     @include vendor('display', 'flex');
+    
+    /* Padding: top 4em, right 0, bottom 2em, left 0 */
     @include padding(4em, 0, (2em, 0, 0, 0));
+    
+    /* Background properties */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
     border-bottom: 0 !important;
     cursor: default;
-    height: 45vh;
-    margin-bottom: -3.25em;
-    max-height: 32em;
-    min-height: 22em;
+    
+    /* Height properties */
+    height: auto; /* Changed from 45vh to auto to prevent unnecessary zooming */
+    max-height: 600px; /* Added to limit the maximum height */
+    min-height: 22em; /* Minimum height to ensure visibility on smaller screens */
+    
+    /* Positioning */
     position: relative;
     top: -3.25em;
-    overflow: hidden; /* Keep this to ensure content doesn't overflow the container */
+    margin-bottom: -3.25em;
+    
+    /* Prevent content overflow */
+    overflow: hidden;
 
+    /* Pseudo-element for overlay */
     &:after {
         @include vendor('transition', 'opacity #{_duration(banner)} ease');
         @include vendor('transition-delay', '0.75s');
@@ -41,10 +47,12 @@
         z-index: 1;
     }
 
+    /* Main heading style */
     h1 {
         font-size: 3.25em;
     }
 
+    /* Inner content container */
     > .inner {
         @include vendor('transition', (
             'opacity 1.5s ease',
@@ -54,20 +62,22 @@
         ));
         padding: 0 !important;
         position: relative;
-        width: 100%; /* Full width of the banner */
-        height: 100%; /* Full height of the banner */
-        display: flex; /* Flexbox to center content if needed */
+        width: 100%;
+        height: 100%;
+        display: flex;
         align-items: center;
         justify-content: center;
-        z-index: 2; /* Maintain layer hierarchy */
+        z-index: 2;
 
-        .image img { /* Corrected selector */
-            width: 100%; /* Image fills the container width */
-            height: 100%; /* Image fills the container height */
-            object-fit: contain; /* Ensures the image covers the container without distortion */
-            display: block; /* Ensures there’s no extra space at the bottom */
+        /* Image styling within the inner container */
+        .image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Changed from contain to cover to fill the container */
+            display: block;
         }
 
+        /* Header styling */
         header {
             width: auto;
 
@@ -80,6 +90,7 @@
             }
         }
 
+        /* Content styling */
         .content {
             @include vendor('display', 'flex');
             @include vendor('align-items', 'center');
@@ -103,16 +114,18 @@
         }
     }
 
+    /* Major variant */
     &.major {
         height: 45vh;
         min-height: 30em;
         max-height: 50em;
 
         &.alt {
-            opacity: 0.3; 
+            opacity: 0.3;
         }
     }
 
+    /* Style variants */
     &.style1 { &:after { background-color: _palette(accent1); } }
     &.style2 { &:after { background-color: _palette(accent2); } }
     &.style3 { &:after { background-color: _palette(accent3); } }
@@ -120,6 +133,7 @@
     &.style5 { &:after { background-color: _palette(accent5); } }
     &.style6 { &:after { background-color: _palette(accent6); } }
 
+    /* Loading state */
     body.is-loading & {
         &:after {
             opacity: 1.0;
@@ -132,6 +146,7 @@
         }
     }
 
+    /* Responsive breakpoints */
     @include breakpoint(large) {
         background-attachment: scroll;
     }
