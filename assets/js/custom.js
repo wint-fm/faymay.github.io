@@ -7,17 +7,19 @@ document.addEventListener('DOMContentLoaded', function() {
             slidesToShow: 1,
             slidesToScroll: 1,
             adaptiveHeight: true,
-            arrows: true, // Ensure arrows are enabled
+            arrows: true,
+            prevArrow: '.carousel-prev',
+            nextArrow: '.carousel-next',
             responsive: [
             {
                 breakpoint: 768,
                 settings: {
-                    arrows: false, // Hide arrows on smaller screens
+                    arrows: false,
                 }
             }
             ]
         });
-        } else {
-            console.error('jQuery or Slick carousel not loaded');
+    } else {
+        console.error('jQuery or Slick carousel not loaded');
     }
 });
