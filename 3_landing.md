@@ -74,76 +74,77 @@ nav-menu: true
 			<header class="major">
 				<h2>Fan Translations</h2>
 			</header>
+			<p>Placeholder for texts.</p>
 			<div class="table-wrapper">
 				<table>
 					<thead>
 						<tr>
-							<th>Language</th>
-							<th>Twitter</th>
-							<th>Youtube</th>
-							<th>TikTok</th>
+							<th scope="col">Language</th>
+							<th scope="col">Twitter</th>
+							<th scope="col">Youtube</th>
+							<th scope="col">TikTok</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
 							<td>Thai/English</td>
 							<td><a href="https://x.com/WinnieCatz">Wᵢₙₙᵢₑ</a></td>
-							<td></td>
-							<td></td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
 						</tr>
 						<tr>
 							<td>Thai/English</td>
 							<td><a href="https://x.com/TSP_theshipper">The_Shipper</a></td>
-							<td></td>
-							<td></td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
 						</tr>
 						<tr>
 							<td>English</td>
 							<td><a href="https://x.com/Diziholic">Diziholic</a></td>
 							<td><a href="https://www.youtube.com/@Diziarchive">Diziholic</a></td>
-							<td></td>
+							<td>&nbsp;</td>
 						</tr>
 						<tr>
 							<td>English</td>
 							<td><a href="https://x.com/4ever_Marvelous">Forever Marvelous</a></td>
 							<td><a href="https://www.youtube.com/@4ever_Marvelous">Forever Marvelous</a></td>
-							<td></td>
+							<td>&nbsp;</td>
 						</tr>
 						<tr>
 							<td>English</td>
-							<td></td>
+							<td>&nbsp;</td>
 							<td><a href="https://www.youtube.com/@GLTHSUB-xd9zq/videos">GLTH SUB</a></td>
-							<td></td>
+							<td>&nbsp;</td>
 						</tr>
 						<tr>
 							<td>English</td>
-							<td></td>
+							<td>&nbsp;</td>
 							<td><a href="https://www.youtube.com/@user-fp6jj6ez3m/videos">ผมจะชิปทุกคู่</a></td>
-							<td></td>
+							<td>&nbsp;</td>
 						</tr>
 						<tr>
 							<td>English</td>
-							<td></td>
-							<td></td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
 							<td><a href="https://www.tiktok.com/@absentxalien?_t=8pAE4MIiswk&_r=1">Alien 👽</a></td>
 						</tr>
 						<tr>
 							<td>Thai/English</td>
-							<td></td>
-							<td></td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
 							<td><a href="https://www.tiktok.com/@teeoheewhy?_t=8pAEpAYN4rw&_r=1">P't 🏳️‍🌈</a></td>
 						</tr>
 						<tr>
 							<td>Thai/English</td>
-							<td></td>
-							<td></td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
 							<td><a href="https://www.tiktok.com/@user113476042384?_t=8pAEFKthOx5&_r=1">มะกรูด</a></td>
 						</tr>
 						<tr>
 							<td>Portuguese</td>
 							<td><a href="https://x.com/princenicolax">𝙽𝙸𝙲𝙾𝙻𝙰𝚂 | 𝙵𝙰𝚈𝙼𝙰𝚈'𝚜 𝚂𝙾𝙽 🐱</a></td>
-							<td></td>
-							<td></td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
 						</tr>
 					</tbody>
 				</table>
