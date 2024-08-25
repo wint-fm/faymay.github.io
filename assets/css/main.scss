@@ -271,7 +271,7 @@ section#banner::after {
     }
 
     .carousel .slick-slide {
-        height: 400px; /* Adjust this value as needed for mobile */
+        height: 500px; /* Adjust this value as needed for mobile */
     }
 
     .carousel .slick-slide img {
@@ -321,7 +321,8 @@ section#banner::after {
 
 .carousel .slick-prev:before,
 .carousel .slick-next:before {
-    font-family: 'slick';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
     font-size: 30px; /* Larger font size for the arrow */
     line-height: 1;
     opacity: .75;
@@ -331,11 +332,11 @@ section#banner::after {
 }
 
 .carousel .slick-prev:before {
-    content: '←';
+    content: '\f104'; /* Font Awesome left arrow */
 }
 
 .carousel .slick-next:before {
-    content: '→';
+    content: '\f105'; /* Font Awesome right arrow */
 }
 
 /* Hover effects for arrows */
