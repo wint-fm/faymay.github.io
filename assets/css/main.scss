@@ -272,8 +272,9 @@ section#banner::after {
 .carousel-arrow:hover, 
 .carousel-arrow:focus {
     background: rgba(0, 0, 0, 0.7);
-    outline: none; /* Removes focus outline */
-    border: none; /* Removes any border on hover */
+    outline: none !important; /* Removes focus outline */
+    border: none !important; /* Removes any border on hover */
+    box-shadow: none !important; /* Removes any box shadow on hover */
 }
 
 .carousel-prev {
