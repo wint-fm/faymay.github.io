@@ -222,6 +222,29 @@ section#banner::after {
     display: none !important;
 }
 
+/* General carousel styles */
+.carousel-container {
+    width: 100%;
+    max-width: 800px; /* Adjust this for larger screens */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.carousel .slick-slide {
+    height: 400px; /* Default height for larger screens */
+}
+
+.carousel .slick-slide img {
+    height: 100%;
+    object-fit: cover;
+}
+
 /* Specific styles for mobile devices */
 @media screen and (max-width: 736px) {
     #banner {
@@ -240,4 +263,88 @@ section#banner::after {
     .video-container {
         height: 100%;
     }
+
+    /* Carousel specific styles for mobile */
+    .carousel-container {
+        padding: 0 10px;
+        max-width: 100%; /* Full width on mobile */
+    }
+
+    .carousel .slick-slide {
+        height: 250px; /* Adjust this value as needed for mobile */
+    }
+
+    .carousel .slick-slide img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* Hide arrows on mobile if desired */
+    .carousel .slick-arrow {
+        display: none !important;
+    }
+
+    /* Adjust dots position if needed */
+    .carousel .slick-dots {
+        bottom: 10px; /* Bring dots closer to the image on mobile */
+    }
+}
+
+/* Larger arrows for desktop */
+.carousel .slick-prev,
+.carousel .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 40px;  /* Increased width */
+    height: 40px; /* Increased height */
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: rgba(0,0,0,0.5); /* Semi-transparent background */
+    border-radius: 50%; /* Circular shape */
+    z-index: 1;
+}
+
+.carousel .slick-prev {
+    left: 25px; /* Adjust as needed */
+}
+
+.carousel .slick-next {
+    right: 25px; /* Adjust as needed */
+}
+
+.carousel .slick-prev:before,
+.carousel .slick-next:before {
+    font-family: 'slick';
+    font-size: 30px; /* Larger font size for the arrow */
+    line-height: 1;
+    opacity: .75;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.carousel .slick-prev:before {
+    content: '←';
+}
+
+.carousel .slick-next:before {
+    content: '→';
+}
+
+/* Hover effects for arrows */
+.carousel .slick-prev:hover,
+.carousel .slick-next:hover {
+    background: rgba(0,0,0,0.8);
+}
+
+.carousel .slick-prev:hover:before,
+.carousel .slick-next:hover:before {
+    opacity: 1;
 }
