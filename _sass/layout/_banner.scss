@@ -9,10 +9,10 @@
     @include padding(4em, 0, (2em, 0, 0, 0));
     
     /* Background properties */
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     
     border-bottom: 0 !important;
     cursor: default;
