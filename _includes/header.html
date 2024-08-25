@@ -1,73 +1,33 @@
+<!-- header.html -->
+
 <!-- Wrapper -->
 <div id="wrapper">
 
     <!-- Header -->
     <header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
-		<a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
-		<nav>
-			<a href="#menu">Menu</a>
-			<!-- Updated Language Selector -->
-			<a class="language-selector">
-				<select id="languageSelector" onchange="translateContent()">
-					<option value="en">English</option>
-					<option value="zh-Hans">Chinese (Simplified)</option>
-					<option value="fil">Filipino</option>
-					<option value="id">Indonesian</option>
-					<option value="it">Italian</option>
-					<option value="ja">Japanese</option>
-					<option value="ko">Korean</option>
-					<option value="my">Myanmar</option>
-					<option value="pt">Portuguese</option>
-					<option value="es">Spanish</option>
-					<option value="th">Thai</option>
-					<option value="vi">Vietnamese</option>
-				</select>
-			</a>
-		</nav>        
-	</header>
+        <a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
+        <nav>
+            <a href="#menu">Menu</a>
+            <!-- Updated Language Selector -->
+            <a class="language-selector">
+                <select id="languageSelector" onchange="translateContent()">
+                    <option value="en">English</option>
+                    <option value="zh-Hans">Chinese (Simplified)</option>
+                    <option value="fil">Filipino</option>
+                    <option value="id">Indonesian</option>
+                    <option value="it">Italian</option>
+                    <option value="ja">Japanese</option>
+                    <option value="ko">Korean</option>
+                    <option value="my">Myanmar</option>
+                    <option value="pt">Portuguese</option>
+                    <option value="es">Spanish</option>
+                    <option value="th">Thai</option>
+                    <option value="vi">Vietnamese</option>
+                </select>
+            </a>
+        </nav>        
+    </header>
 
-	<style>
-		/* Add this to your CSS file or in a <style> tag in the head of your HTML */
-		.language-selector {
-			margin-right: 10px; /* Reduced from 20px */
-			position: relative;
-			padding: 0; /* Remove any padding */
-		}
-	
-		#languageSelector {
-			appearance: none;
-			-webkit-appearance: none;
-			-moz-appearance: none;
-			background: none;
-			border: none;
-			font-size: inherit;
-			color: inherit;
-			cursor: pointer;
-			text-transform: uppercase;
-			line-height: inherit;
-			padding: 0 0.5em; /* Add minimal padding for readability */
-		}
-	
-		/* Optional: Add a custom dropdown arrow */
-		.language-selector::after {
-			content: '\25BC'; /* Unicode for a down arrow */
-			position: absolute;
-			top: 50%;
-			right: 0;
-			transform: translateY(-50%);
-			pointer-events: none;
-		}
-	
-		/* Ensure the select doesn't overflow on smaller screens */
-		@media screen and (max-width: 480px) {
-			#languageSelector {
-				max-width: 150px; /* Adjust as needed */
-				overflow: hidden;
-				text-overflow: ellipsis;
-			}
-		}
-	</style>
-    
     <!-- Menu -->
     <nav id="menu">
         <ul class="links">
@@ -85,86 +45,5 @@
     </nav>
 </div>
 
-<!-- Microsoft Translator Script -->
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        // Object to store the original text of each element
-        const originalText = new Map();
-
-        // Check if there is a stored language preference and apply it
-        const storedLanguage = localStorage.getItem('preferredLanguage');
-        if (storedLanguage) {
-            document.getElementById('languageSelector').value = storedLanguage;
-            translateContent(storedLanguage);
-        }
-
-        async function translateContent(language) {
-            const contentElement = document.getElementById('content');
-            if (!contentElement) {
-                console.error('Content element with ID "content" not found.');
-                return;
-            }
-
-            const targetLanguage = language || document.getElementById('languageSelector').value;
-
-            // Store the selected language in local storage for future page loads
-            localStorage.setItem('preferredLanguage', targetLanguage);
-
-            // Check if reverting to original language
-            if (targetLanguage === 'en') { // Replace 'en' with your default language code
-                restoreOriginalText();
-                return;
-            }
-
-            // Gather all text nodes to translate, including button text
-            const textNodes = contentElement.querySelectorAll('p, h1, h2, h3, h4, h5, h6, span, a.button'); // Include button class
-
-            // Store original text before any translation
-            textNodes.forEach((node) => {
-                if (!originalText.has(node)) {
-                    originalText.set(node, node.innerText); // Store original text
-                }
-            });
-
-            // Prepare original texts for translation
-            const textsToTranslate = Array.from(textNodes).map(node => originalText.get(node)); // Always use original text
-
-            const subscriptionKey = '3e82d5998a474d7588390426ac7a904a';  // Replace with your actual subscription key
-            const region = 'southeastasia';  // Specify the region for your Azure resource
-            const endpoint = 'https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&to=' + targetLanguage;
-
-            try {
-                const response = await fetch(endpoint, {
-                    method: 'POST',
-                    headers: {
-                        'Ocp-Apim-Subscription-Key': subscriptionKey,
-                        'Ocp-Apim-Subscription-Region': region,
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify(textsToTranslate.map(text => ({ Text: text })))
-                });
-
-                if (response.ok) {
-                    const data = await response.json();
-                    data.forEach((translation, index) => {
-                        textNodes[index].innerText = translation.translations[0].text;
-                    });
-                } else {
-                    console.error('Translation request failed', response.status, response.statusText);
-                }
-            } catch (error) {
-                console.error('Error translating content:', error);
-            }
-        }
-
-        // Function to restore the original text content
-        function restoreOriginalText() {
-            originalText.forEach((text, element) => {
-                element.innerText = text;
-            });
-        }
-
-        // Attach the translateContent function to the global window object for access from the HTML
-        window.translateContent = translateContent;
-    });
-</script>
+<!-- Scripts -->
+<script src="assets/js/translator.js"></script>
