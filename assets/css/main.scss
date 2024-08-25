@@ -225,7 +225,7 @@ section#banner::after {
 /* General carousel styles */
 .carousel-container {
     width: 100%;
-    max-width: 800px; /* Adjust this for larger screens */
+    max-width: 1000px; /* Adjust this for larger screens */
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -237,7 +237,7 @@ section#banner::after {
 }
 
 .carousel .slick-slide {
-    height: 400px; /* Default height for larger screens */
+    height: 550px; /* Default height for larger screens */
 }
 
 .carousel .slick-slide img {
@@ -266,12 +266,12 @@ section#banner::after {
 
     /* Carousel specific styles for mobile */
     .carousel-container {
-        padding: 0 10px;
+        padding: 0 0;
         max-width: 100%; /* Full width on mobile */
     }
 
     .carousel .slick-slide {
-        height: 250px; /* Adjust this value as needed for mobile */
+        height: 400px; /* Adjust this value as needed for mobile */
     }
 
     .carousel .slick-slide img {
@@ -285,9 +285,9 @@ section#banner::after {
     }
 
     /* Adjust dots position if needed */
-    .carousel .slick-dots {
-        bottom: 10px; /* Bring dots closer to the image on mobile */
-    }
+    // .carousel .slick-dots {
+    //     bottom: 10px; /* Bring dots closer to the image on mobile */
+    // }
 }
 
 /* Larger arrows for desktop */
