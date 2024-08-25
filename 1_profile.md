@@ -2,7 +2,7 @@
 title: FayMay Profiles
 layout: landing
 description: ""
-image: assets/images/fmbannerwed.jpg
+image: assets/images/fmbanner.jpg
 nav-menu: true
 ---
 
