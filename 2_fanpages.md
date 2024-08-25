@@ -13,7 +13,7 @@ nav-menu: true
 			<header class="major">
 				<h2><span class="translate">Active Fan Pages</span></h2>
 			</header>
-			<p><span class="translate">Placeholder text.</span></p>
+			<p><span class="translate">Here are the active fan pages, both official and unofficial, to keep you connected with the community!</span></p>
 		</div>
 	</section>
 	<!-- Three -->
@@ -22,7 +22,7 @@ nav-menu: true
 			<header class="major">
 				<h2><span class="translate">Fan Pages by Countries</span></h2>
 			</header>
-			<p><span class="translate">Placeholder for texts.</span></p>
+			<p><span class="translate">These fan pages are organized by country for easy browsing.</span></p>
 			<div class="table-wrapper">
 				<table>
 					<thead>
