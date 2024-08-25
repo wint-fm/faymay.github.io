@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function getTextNodes(element) {
         // Include list items, table cells, anchor text, among others
-        return Array.from(element.querySelectorAll('p, h1, h2, h3, h4, h5, h6, span, a.button, li, td, th, a.link, a:not(.button):not(.link)'));
+        return Array.from(element.querySelectorAll('p, h1, h2, h3, h4, h5, h6, span, a.button, li, td, th'));
     }
 
     async function fetchTranslations(texts, targetLanguage) {
