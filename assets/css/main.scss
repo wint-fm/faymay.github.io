@@ -225,7 +225,7 @@ section#banner::after {
 /* General carousel styles */
 .carousel-container {
     width: 100%;
-    max-width: 1000px; /* Adjust this for larger screens */
+    // max-width: 1000px; /* Adjust this for larger screens */
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -237,7 +237,7 @@ section#banner::after {
 }
 
 .carousel .slick-slide {
-    height: 550px; /* Default height for larger screens */
+    height: 650px; /* Default height for larger screens */
 }
 
 .carousel .slick-slide img {
@@ -246,7 +246,7 @@ section#banner::after {
 }
 
 /* Specific styles for mobile devices */
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
     #banner {
         height: 30vh;
         min-height: 20em;
@@ -265,19 +265,18 @@ section#banner::after {
     }
 
     /* Carousel specific styles for mobile */
-    // .carousel-container {
-    //     padding: 0 0;
-    //     max-width: 100%; /* Full width on mobile */
-    // }
+    .carousel-container {
+        max-width: 100%; /* Full width on mobile */
+    }
 
-    // .carousel .slick-slide {
-    //     height: 500px; /* Adjust this value as needed for mobile */
-    // }
+    .carousel .slick-slide {
+        height: 650px; /* Adjust this value as needed for mobile */
+    }
 
-    // .carousel .slick-slide img {
-    //     height: 100%;
-    //     object-fit: cover;
-    // }
+    .carousel .slick-slide img {
+        height: 100%;
+        object-fit: cover;
+    }
 
     /* Hide arrows on mobile if desired */
     .carousel .slick-arrow {
@@ -293,59 +292,54 @@ section#banner::after {
 /* Larger arrows for desktop */
 .carousel .slick-prev,
 .carousel .slick-next {
-    width: 40px;  /* Adjust to match your SVG size */
-    height: 40px; /* Adjust to match your SVG size */
-    background: transparent; /* Remove default background */
+    font-size: 0; /* Hide default text */
+    line-height: 0;
+    position: absolute;
+    top: 0;
+    width: 40px; /* Width of the rectangle */
+    height: 100%; /* Full height of the carousel */
+    padding: 0;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent dark background */
     z-index: 1;
 }
 
-.carousel .slick-prev:before,
-.carousel .slick-next:before {
-    content: '';
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 1; /* Full opacity since we have a background */
-}
-
-.carousel .slick-prev:before,
-.carousel .slick-next:before {
-    content: '';
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.75;
-}
-
-.carousel .slick-prev:before {
-    background-image: url('assets/images/leftarrow.svg');
-}
-
-.carousel .slick-next:before {
-    background-image: url('assets/images/rightarrow.svg');
-}
-
-/* Positioning the arrows */
 .carousel .slick-prev {
-    left: 10px; /* Adjust as needed */
+    left: 0;
 }
 
 .carousel .slick-next {
-    right: 10px; /* Adjust as needed */
+    right: 0;
 }
 
-/* Optional: Hover effect */
-.carousel .slick-prev:hover:before,
-.carousel .slick-next:hover:before {
-    filter: brightness(90%); /* Slightly darken on hover */
+.carousel .slick-prev:before,
+.carousel .slick-next:before {
+    font-family: Arial, sans-serif;
+    font-size: 30px; /* Adjust size as needed */
+    font-weight: bold;
+    line-height: 1;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel .slick-prev:before {
+    content: '<';
+}
+
+.carousel .slick-next:before {
+    content: '>';
+}
+
+/* Hover effect */
+.carousel .slick-prev:hover,
+.carousel .slick-next:hover {
+    background: rgba(0, 0, 0, 0.7); /* Darker on hover */
 }

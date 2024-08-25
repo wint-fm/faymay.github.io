@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
             arrows: true, // Ensure arrows are enabled
             responsive: [
             {
-                breakpoint: 736,
+                breakpoint: 768,
                 settings: {
                     arrows: false, // Hide arrows on smaller screens
                 }
