@@ -30,44 +30,48 @@ nav-menu: true
             </a>
             <div class="content">
                 <div class="inner">
-                    <header class="major" style="color: #87CEFA;">
-                        <h2>Fay</h2>
+                    <header class="major">
+                        <h2 style="color: #87CEFA;">Fay</h2>
                     </header>
-                    <p><strong>First Name:</strong> Kunyaphat</p>
-                    <p><strong>Family Name:</strong> Na Nakorn</p>
-                    <p><strong>Native name:</strong> เฟย์ กัญญาพัชร ณ นคร</p>
-                    <p><strong>Nationality:</strong> Thai</p>
-                    <p><strong>Gender:</strong> Female</p>
-                    <p><strong>Born:</strong> December 2, 2001</p>
-                    <p><strong>Blood Type:</strong> AB</p>
-                    <p><strong>MBTI:</strong> INFJ-T</p>
-                    <p><strong>3 Favorite Things:</strong> Chihuahua, Music, Movie</p>
-                    <p><strong>Hobbies:</strong> Dance, Sing a song, Play Guitar, Watch Movies, Read Novels</p>
-                    <p><strong>Favorite Snacks:</strong> Macaron, Milo Nuggets, Choux Cream</p>
-                    <p><strong>Favorite Colors:</strong> Black, Blue</p>
-                    <p><strong>Favorite Flowers:</strong> Hydrangea</p>
-                    <p><strong>T-shirt Size:</strong> S/M</p>
-                    <p><strong>Wrist Size:</strong> L:14cm R14.5cm</p>
-                    <p><strong>Ring Size:</strong> 46, 48, 55, 52, 52, 50, 51, 52, 43, 40 mm (ordered from left pinkey finger to right pinky finger). Preferred to wear on middle finger.</p>
-                    <header class="major" style="color: #FF1493;">
-                        <h2>May</h2>
+                    <p>
+                        <strong>First Name:</strong> Kunyaphat<br>
+                        <strong>Family Name:</strong> Na Nakorn<br>
+                        <strong>Native name:</strong> เฟย์ กัญญาพัชร ณ นคร<br>
+                        <strong>Nationality:</strong> Thai<br>
+                        <strong>Gender:</strong> Female<br>
+                        <strong>Born:</strong> December 2, 2001<br>
+                        <strong>Blood Type:</strong> AB<br>
+                        <strong>MBTI:</strong> INFJ-T<br>
+                        <strong>3 Favorite Things:</strong> Chihuahua, Music, Movie<br>
+                        <strong>Hobbies:</strong> Dance, Sing a song, Play Guitar, Watch Movies, Read Novels<br>
+                        <strong>Favorite Snacks:</strong> Macaron, Milo Nuggets, Choux Cream<br>
+                        <strong>Favorite Colors:</strong> Black, Blue<br>
+                        <strong>Favorite Flowers:</strong> Hydrangea<br>
+                        <strong>T-shirt Size:</strong> S/M<br>
+                        <strong>Wrist Size:</strong> L:14cm R14.5cm<br>
+                        <strong>Ring Size:</strong> 46, 48, 55, 52, 52, 50, 51, 52, 43, 40 mm (ordered from left pinkey finger to right pinky finger). Preferred to wear on middle finger.
+                    </p>
+                    <header class="major">
+                        <h2 style="color: #FF1493;">May</h2>
                     </header>
-                    <p><strong>First Name:</strong> Yada</p>
-                    <p><strong>Family Name:</strong> Watcharamusik</p>
-                    <p><strong>Native name:</strong> เมษ์ ญดา วัชระมูสิก</p>
-                    <p><strong>Nationality:</strong> Thai</p>
-                    <p><strong>Gender:</strong> Female</p>
-                    <p><strong>Born:</strong> October 31, 1997</p>
-                    <p><strong>Blood Type:</strong> A</p>
-                    <p><strong>MBTI:</strong> ESFJ-T</p>
-                    <p><strong>3 Favorite Things:</strong> Cat, Southern & Northeastern Thai Food, Sea</p>
-                    <p><strong>Hobbies:</strong> Watch Movies, Listen to Music, Hang out with friends</p>
-                    <p><strong>Favorite Snacks:</strong> Jelly</p>
-                    <p><strong>Favorite Colors:</strong> Pastel Pink</p>
-                    <p><strong>Favorite Flowers:</strong> White Rose, Peach Rose</p>
-                    <p><strong>T-shirt Size:</strong> S</p>
-                    <p><strong>Wrist Size:</strong> 14cm</p>
-                    <p><strong>Ring Size:</strong> 50mm. Index finger.</p>
+                    <p>
+                        <strong>First Name:</strong> Yada<br>
+                        <strong>Family Name:</strong> Watcharamusik<br>
+                        <strong>Native name:</strong> เมษ์ ญดา วัชระมูสิก<br>
+                        <strong>Nationality:</strong> Thai<br>
+                        <strong>Gender:</strong> Female<br>
+                        <strong>Born:</strong> October 31, 1997<br>
+                        <strong>Blood Type:</strong> A<br>
+                        <strong>MBTI:</strong> ESFJ-T<br>
+                        <strong>3 Favorite Things:</strong> Cat, Southern & Northeastern Thai Food, Sea<br>
+                        <strong>Hobbies:</strong> Watch Movies, Listen to Music, Hang out with friends<br>
+                        <strong>Favorite Snacks:</strong> Jelly<br>
+                        <strong>Favorite Colors:</strong> Pastel Pink<br>
+                        <strong>Favorite Flowers:</strong> White Rose, Peach Rose<br>
+                        <strong>T-shirt Size:</strong> S<br>
+                        <strong>Wrist Size:</strong> 14cm<br>
+                        <strong>Ring Size:</strong> 50mm. Index finger.
+                    </p>
                 </div>
             </div>
         </section>

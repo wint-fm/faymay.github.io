@@ -30,7 +30,7 @@ nav-menu: true
 					</header>
 					<p>Placeholder for texts.</p>
 					<ul class="actions">
-						<li><a href="allposts.html" class="button">View All</a></li>
+						<li><a href="3_landing.html" class="button">View All</a></li>
 					</ul>
 				</div>
 			</div>
@@ -46,7 +46,7 @@ nav-menu: true
 					</header>
 					<p>Placeholder for texts.</p>
 					<ul class="actions">
-						<li><a href="allposts.html" class="button">View All</a></li>
+						<li><a href="3_landing.html" class="button">View All</a></li>
 					</ul>
 				</div>
 			</div>
@@ -62,7 +62,7 @@ nav-menu: true
 					</header>
 					<p>Placeholder for texts.</p>
 					<ul class="actions">
-						<li><a href="allposts.html" class="button">View All</a></li>
+						<li><a href="3_landing.html" class="button">View All</a></li>
 					</ul>
 				</div>
 			</div>
@@ -76,7 +76,7 @@ nav-menu: true
 			</header>
 			<p>Placeholder for texts.</p>
 			<ul class="actions">
-				<li><a href="allposts.html" class="button next">View All</a></li>
+				<li><a href="3_landing.html" class="button next">View All</a></li>
 			</ul>
 		</div>
 	</section>
