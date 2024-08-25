@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const textsToTranslate = Array.from(textNodes).map(node => originalText.get(node));
 
-        const subscriptionKey = '3e82d5998a474d7588390426ac7a904a';  
+        const subscriptionKey = '163096b81aed46ff8c9e863c3537838f';  
         const region = 'southeastasia';  
         const endpoint = 'https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&to=' + targetLanguage;
 
