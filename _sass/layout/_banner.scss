@@ -64,7 +64,7 @@
         .image img { /* Corrected selector */
             width: 100%; /* Image fills the container width */
             height: 100%; /* Image fills the container height */
-            object-fit: cover; /* Ensures the image covers the container without distortion */
+            object-fit: contain; /* Ensures the image covers the container without distortion */
             display: block; /* Ensures there’s no extra space at the bottom */
         }
 
