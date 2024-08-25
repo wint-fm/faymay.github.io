@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         // Gather all text nodes to translate, including button text
-        const textNodes = contentElement.querySelectorAll('p, h1, h2, h3, h4, h5, h6, span, a.button, li, td, th'); 
+        const textNodes = contentElement.querySelectorAll('p, h1, h2, h3, h4, h5, h6, span, li, td, th, span:not(.button-text), .button-text'); 
 
         // Store original text before any translation
         textNodes.forEach((node) => {
