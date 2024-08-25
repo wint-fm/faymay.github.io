@@ -228,7 +228,7 @@ section#banner::after {
     width: 100%;
     max-width: 1200px; /* Adjust if needed */
     margin: 0 auto;
-    padding: 0 50px; /* Make room for arrows */
+    padding: 0; /* Removed padding to make arrows fit the container height */
 }
 
 .carousel {
@@ -244,6 +244,36 @@ section#banner::after {
     height: 100%;
     object-fit: contain;
     object-position: center;
+}
+
+/* Updated arrows for desktop */
+.carousel-arrow {
+    position: absolute;
+    top: 0; /* Align top */
+    width: 40px; /* Narrower width for a rectangle shape */
+    height: 100%; /* Full container height */
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1;
+    transition: background 0.3s ease;
+    display: flex; /* Center arrow text */
+    align-items: center; /* Center arrow text */
+    justify-content: center; /* Center arrow text */
+}
+
+.carousel-arrow:hover {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-prev {
+    left: 0;
+}
+
+.carousel-next {
+    right: 0;
 }
 
 /* Specific styles for mobile devices */
@@ -296,32 +326,4 @@ section#banner::after {
     // .carousel .slick-dots {
     //     bottom: 10px; /* Bring dots closer to the image on mobile */
     // }
-}
-
-/* Larger arrows for desktop */
-.carousel-arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 40px;
-    height: 80px; /* Taller arrows */
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
-    z-index: 1;
-    transition: background 0.3s ease;
-}
-
-.carousel-arrow:hover {
-    background: rgba(0, 0, 0, 0.7);
-}
-
-.carousel-prev {
-    left: 0;
-}
-
-.carousel-next {
-    right: 0;
 }
