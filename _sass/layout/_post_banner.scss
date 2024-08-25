@@ -1,0 +1,86 @@
+/* Post Banner CSS */
+.post-banner {
+    /* Layout */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* Sizing */
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    max-height: 600px;
+    
+    /* Background */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Text styles */
+    color: #ffffff;
+    text-align: center;
+    
+    /* Ensure content stays within banner */
+    overflow: hidden;
+    
+    /* Positioning */
+    position: relative;
+}
+
+.post-banner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4); /* Darkens the image for better text visibility */
+    z-index: 1;
+}
+
+.post-banner-content {
+    position: relative;
+    z-index: 2; /* Ensures content is above the overlay */
+    padding: 40px 20px;
+    width: 100%;
+    max-width: 800px; /* Limits the width of the content for larger screens */
+}
+
+.post-banner h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    line-height: 1.2;
+}
+
+.post-banner p {
+    font-size: 1.2em;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+/* Optional: Add styles for post meta information */
+.post-banner .post-meta {
+    font-size: 0.9em;
+    margin-top: 1em;
+    opacity: 0.8;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .post-banner {
+        min-height: 200px;
+    }
+    
+    .post-banner h1 {
+        font-size: 2em;
+    }
+    
+    .post-banner p {
+        font-size: 1em;
+    }
+}
+
+/* Optional: Different background colors for different post categories */
+.post-banner.category-music { background-color: #3498db; }
+.post-banner.category-events { background-color: #e74c3c; }
+.post-banner.category-news { background-color: #2ecc71; }
