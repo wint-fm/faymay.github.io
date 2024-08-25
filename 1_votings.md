@@ -13,7 +13,7 @@ nav-menu: true
             <header class="major">
                 <h2>Ongoing Votings</h2>
             </header>
-            <p>All the ongoing votings activities will be shared in this page.</p>
+            <p>All the ongoing voting activities will be shared in this page.</p>
             <ol>
                 <li>Please try to keep both of them to have the same vote counts.</li>
                 <li>Please don't use automated tools. We wouldn't want them to get disqualified.</li>
