@@ -143,7 +143,7 @@ nav-menu: true
 					<header class="major">
 						<h3><span class="translate">Fan Covers</span></h3>
 					</header>
-					<p><span class="translate">Placeholder for texts.</span></p>
+					<p>&nbsp;</p>
 				</div>
 			</div>
 		</section>
