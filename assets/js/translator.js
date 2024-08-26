@@ -8,12 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     async function translateContent(language) {
-        const contentElement = document.getElementById('content');
-        if (!contentElement) {
-            console.error('Content element with ID "content" not found.');
-            return;
-        }
-
         const targetLanguage = language || document.getElementById('languageSelector').value;
 
         localStorage.setItem('preferredLanguage', targetLanguage);
@@ -24,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         // Updated selector to target only elements with the 'translate' class
-        const textNodes = contentElement.querySelectorAll('.translate');
+        const textNodes = document.querySelectorAll('.translate');
 
         textNodes.forEach((node) => {
             if (!originalText.has(node)) {
@@ -50,6 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 },
                 body: JSON.stringify(textsToTranslate.map(text => ({ Text: text })))
             });
+
             // Debugging: log the response status and body
             console.log('Response Status:', response.status);
             console.log('Response Status Text:', response.statusText);
