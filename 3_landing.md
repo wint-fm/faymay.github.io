@@ -76,8 +76,20 @@ nav-menu: true
 								<tr>
 									<td><span class="translate">English</span></td>
 									<td><a href="https://x.com/DoneeyyOfficial">D.A.M.</a></td>
+									<td><a href="https://www.youtube.com/@samon23TER">D.A.M.</a></td>
+									<td><a href="https://www.tiktok.com/@dam23official">dam23official</a></td>
+								</tr>
+								<tr>
+									<td><span class="translate">English</span></td>
+									<td><a href="https://x.com/lovergl__">ೀ Lissa is dreaming ೀ</a></td>
 									<td>&nbsp;</td>
-									<td><a href="https://www.tiktok.com/@dam23official"><dam23official</a></td>
+									<td>&nbsp;</td>
+								</tr>
+								<tr>
+									<td><span class="translate">English</span></td>
+									<td>&nbsp;</td>
+									<td><a href="https://www.youtube.com/playlist?list=PLffObNEMTeXOLV71JV-3kJ2AmsaCp7hti">Nickcompoops</a></td>
+									<td>&nbsp;</td>
 								</tr>
 							</tbody>
 						</table>
