@@ -25,9 +25,9 @@ nav-menu: true
     </section>
     <section id="two" class="spotlights">
         <section>
-            <a href="generic.html" class="image">
+            <div class="image">
                 <img src="{{ 'assets/images/fmprofileimg.jpeg' | relative_url }}" alt="Fan Edit" data-position="top center"  >
-            </a>
+            </div>
             <div class="content">
                 <div class="inner">
                     <header class="major">

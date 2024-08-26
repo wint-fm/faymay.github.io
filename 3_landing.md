@@ -26,7 +26,7 @@ nav-menu: true
 					<header class="major">
 						<h3><span class="translate">Fan Sites</span></h3>
 					</header>
-					<p><span class="translate">Explore this list of fansites, each filled with unique content and the latest updates for fans.</span></p>
+					<p><span class="translate">Here is a list of fansites that often share FayMay's activities through amazing camerawork!</span></p>
 					<div class="table-wrapper">
 						<table>
 							<thead>
@@ -65,7 +65,7 @@ nav-menu: true
 					<header class="major">
 						<h3><span class="translate">Fan Art Creators</span></h3>
 					</header>
-					<p><span class="translate">Check out this list of fan art creators showcasing their amazing work.</span></p>
+					<p><span class="translate">Check out this list of fan art creators showcasing their fantastic artwork!</span></p>
 					<div class="table-wrapper">
 						<table>
 							<thead>
@@ -98,7 +98,7 @@ nav-menu: true
 					<header class="major">
 						<h3><span class="translate">Fan Edit Video Creators</span></h3>
 					</header>
-					<p><span class="translate">Check out these cool fan video makers and their awesome edits.</span></p>
+					<p><span class="translate">Make sure to check out these cool fan video makers and their awesome edits!</span></p>
 					<div class="table-wrapper">
 						<table>
 							<thead>
@@ -143,7 +143,7 @@ nav-menu: true
 					<header class="major">
 						<h3><span class="translate">Fan Covers</span></h3>
 					</header>
-					<p>&nbsp;</p>
+					<p>TBA.</p>
 				</div>
 			</div>
 		</section>
