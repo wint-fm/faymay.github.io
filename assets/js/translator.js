@@ -27,8 +27,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
         const textsToTranslate = Array.from(textNodes).map(node => originalText.get(node));
-        // Debugging: log the texts that will be sent for translation
-        console.log('Texts to Translate:', textsToTranslate);
 
         const subscriptionKey = '163096b81aed46ff8c9e863c3537838f';  
         const region = 'southeastasia';  
@@ -44,10 +42,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 },
                 body: JSON.stringify(textsToTranslate.map(text => ({ Text: text })))
             });
-
-            // Debugging: log the response status and body
-            console.log('Response Status:', response.status);
-            console.log('Response Status Text:', response.statusText);
 
             if (response.ok) {
                 const data = await response.json();
