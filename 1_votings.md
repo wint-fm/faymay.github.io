@@ -13,7 +13,7 @@ nav-menu: true
             <header class="major">
                 <h2><span class="translate">Ongoing Votings</span></h2>
             </header>
-            <p><span class="translate">All the ongoing voting activities will be shared in this page.</span></p>
+            <p><span class="translate">All the ongoing voting activities will be shared on this page. If you have time, please help with the voting as much as you can. It's a good way to show our love for FayMay.</span></p>
             <ol>
                 <li><span class="translate">Please try to keep both of them to have the same vote counts.</span></li>
                 <li><span class="translate">Please don't use automated tools. We wouldn't want them to get disqualified.</span></li>
