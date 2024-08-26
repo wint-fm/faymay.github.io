@@ -36,7 +36,7 @@ nav-menu: true
                    <p>
                         <strong>First Name:</strong> <span class="translate">Kunyaphat</span><br>
                         <strong>Family Name:</strong> <span class="translate">Na Nakorn</span><br>
-                        <strong>Native name:</strong> <span class="translate">เฟย์ กัญญาพัชร ณ นคร</span><br>
+                        <strong>Native name:</strong> <span class="translate">เฟ กัญญาพัชร ณ นคร</span><br>
                         <strong>Nationality:</strong> <span class="translate">Thai</span><br>
                         <strong>Gender:</strong> <span class="translate">Female</span><br>
                         <strong>Born:</strong> <span class="translate">December 2, 2001</span><br>
