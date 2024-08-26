@@ -31,13 +31,25 @@ nav-menu: true
 						<table>
 							<thead>
 								<tr>
-									<th scope="col"><span class="translate">FayMay Only</span></th>
+									<th scope="col"><span class="translate">FayMay Focused</span></th>
 									<th scope="col"><span class="translate">Twitter</span></th>
 									<th scope="col"><span class="translate">Youtube</span></th>
 									<th scope="col"><span class="translate">TikTok</span></th>
 								</tr>
 							</thead>
 							<tbody>
+								<tr>
+									<td><span class="translate">Yes</span></td>
+									<td><a href="https://x.com/Phuriiiii19">𝙋'𝙋𝙤𝙤𝙝ッ🐹 🐶 | ฟมปฟก</a></td>
+									<td><a href="https://www.youtube.com/@Phuriiiii19">Pooh</a></td>
+									<td><a href="https://www.tiktok.com/@Phuriiiii19">phuriiiii19</a></td>
+								</tr>
+								<tr>
+									<td><span class="translate">Yes</span></td>
+									<td><a href="https://x.com/teeoheewhy">P’t 🏳️‍🌈</a></td>
+									<td><a href="https://www.youtube.com/@phi.t">P't</a></td>
+									<td><a href="https://www.tiktok.com/@teeoheewhy?_t=8pAEpAYN4rw&_r=1">P't 🏳️‍🌈</a></td>
+								</tr>
 								<tr>
 									<td><span class="translate">Yes</span></td>
 									<td><a href="https://x.com/Gackyccc_">Gackyccc_</a></td>
