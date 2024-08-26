@@ -3,8 +3,8 @@ title: FayMay Fansite
 subtitle: by InterFans
 email: faymay4evermarvelous@gmail.com
 description: 
-baseurl: "/faymay.github.io" # the subpath of your site, e.g. /blog
-url: "https://wint-fm.github.io" # the base hostname & protocol for 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://luvfaymay.github.io/" # the base hostname & protocol for 
 author:
 street_address: 
 city: 
