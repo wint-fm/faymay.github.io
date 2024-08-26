@@ -9,12 +9,12 @@ nav-menu: true
 <!-- Main -->
 <div id="main">
 	<section id="one">
-	<div class="inner">
-		<header class="major">
-			<h2><span class="translate">Fan Creations</span></h2>
-		</header>
-		<p><span class="translate">This page intends to highlight the profiles of fans who are fansites or fans who create fan arts, fan edits, fan covers, and fan translations.</span></p>
-	</div>
+		<div class="inner">
+			<header class="major">
+				<h2><span class="translate">Fan Creations</span></h2>
+			</header>
+			<p><span class="translate">This page intends to highlight the profiles of fans who are fansites or fans who create fan arts, fan edits, fan covers, and fan translations.</span></p>
+		</div>
 	</section>
 	<section class="spotlights">
 		<section>
@@ -56,7 +56,6 @@ nav-menu: true
 				</div>
 			</div>
 		</section>
-		<section class="spotlights">
 		<section>
 			<div class="image">
 				<img src="{{ 'assets/images/square2.jpeg' | relative_url }}" alt="Fan Art" data-position="center center">
@@ -231,5 +230,5 @@ nav-menu: true
 				</table>
 			</div>
 		</div>
-	</section>
+	</section> 
 </div>
