@@ -81,7 +81,7 @@ nav-menu: true
 									<td><span class="translate">English</span></td>
 									<td><a href="https://x.com/yaalisaya">K R Y | FayMay | DreamGL |</a></td>
 									<td>&nbsp;</td>
-									<td>&nbsp;</td>
+									<td><a href="https://www.tiktok.com/@yaalisayah?_t=8pC3Q0vUo6i&_r=1">yaalisayah</a></td>
 								</tr>
 							</tbody>
 						</table>
