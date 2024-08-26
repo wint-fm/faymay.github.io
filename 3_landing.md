@@ -19,7 +19,7 @@ nav-menu: true
 	<section class="spotlights">
 		<section>
 			<div class="image">
-				<img src="{{ 'assets/images/square1.jpeg' | relative_url }}" alt="Fan Art" data-position="center center">
+				<img src="{{ 'assets/images/portrait11.jpeg' | relative_url }}" alt="Fan Art" data-position="center center">
 			</div>
 			<div class="content">
 				<div class="inner">
@@ -103,7 +103,7 @@ nav-menu: true
 		</section>
 		<section>
 			<div class="image">
-				<img src="{{ 'assets/images/square3.jpeg' | relative_url }}" alt="Fan Edit" data-position="top center">
+				<img src="{{ 'assets/images/portrait18.jpeg' | relative_url }}" alt="Fan Edit" data-position="top center">
 			</div>
 			<div class="content">
 				<div class="inner">
@@ -138,6 +138,30 @@ nav-menu: true
 									<td><span class="translate">English</span></td>
 									<td>&nbsp;</td>
 									<td><a href="https://www.youtube.com/playlist?list=PLffObNEMTeXOLV71JV-3kJ2AmsaCp7hti">Nickcompoops</a></td>
+									<td>&nbsp;</td>
+								</tr>
+								<tr>
+									<td><span class="translate">English</span></td>
+									<td>&nbsp;</td>
+									<td><a href="https://www.youtube.com/playlist?list=PL18vA8XTLPcUSFrpnk859alTotrEAXmei">Drama_addicted_edits</a></td>
+									<td>&nbsp;</td>
+								</tr>
+								<tr>
+									<td><span class="translate">English</span></td>
+									<td><a href="https://x.com/Denon2206">🔅Deno🔅</a></td>
+									<td><a href="https://www.youtube.com/@Denon0122/featured">🔅Deno🔅</a></td>
+									<td>&nbsp;</td>
+								</tr>
+								<tr>
+									<td><span class="translate">English</span></td>
+									<td>&nbsp;</td>
+									<td><a href="https://www.youtube.com/playlist?list=PLJtev7mfaPIA5Lxx8lpvj1G0__mVC_3LZ">kzdreamgledits</a></td>
+									<td>&nbsp;</td>
+								</tr>
+								<tr>
+									<td><span class="translate">English</span></td>
+									<td><a href="https://x.com/bsj1994">Jill</a></td>
+									<td><a href="https://www.youtube.com/playlist?list=PLEjb0lkNnMIGksyEaISEaQ02bizNvmUB9">J FreenBecky and FayMay always and forever</a></td>
 									<td>&nbsp;</td>
 								</tr>
 							</tbody>
