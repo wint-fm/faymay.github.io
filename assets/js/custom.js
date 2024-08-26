@@ -10,13 +10,16 @@ document.addEventListener('DOMContentLoaded', function() {
             arrows: true,
             prevArrow: '.carousel-prev',
             nextArrow: '.carousel-next',
+            fade: true, // Add this line for fade effect
+            cssEase: 'linear', // Optional: Makes the fade smoother
             responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    arrows: false,
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        fade: true // Ensure fade effect is also applied on smaller screens
+                    }
                 }
-            }
             ]
         });
     } else {

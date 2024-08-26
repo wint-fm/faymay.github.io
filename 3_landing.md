@@ -19,7 +19,7 @@ nav-menu: true
 	<section class="spotlights">
 		<section>
 			<div class="image">
-				<img src="{{ 'assets/images/portrait13.jpeg' | relative_url }}" alt="Fan Art" data-position="center center">
+				<img src="{{ 'assets/images/square1.jpeg' | relative_url }}" alt="Fan Art" data-position="center center">
 			</div>
 			<div class="content">
 				<div class="inner">
@@ -91,7 +91,7 @@ nav-menu: true
 		</section>
 		<section>
 			<div class="image">
-				<img src="{{ 'assets/images/square1.jpeg' | relative_url }}" alt="Fan Edit" data-position="top center">
+				<img src="{{ 'assets/images/square3.jpeg' | relative_url }}" alt="Fan Edit" data-position="top center">
 			</div>
 			<div class="content">
 				<div class="inner">
@@ -136,7 +136,7 @@ nav-menu: true
 		</section>
 		<section>
 			<div class="image">
-				<img src="{{ 'assets/images/portrait10.jpeg' | relative_url }}" alt="Fan Covers" data-position="25% 25%">
+				<img src="{{ 'assets/images/square4.jpeg' | relative_url }}" alt="Fan Covers" data-position="25% 25%">
 			</div>
 			<div class="content">
 				<div class="inner">
