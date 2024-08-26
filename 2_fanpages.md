@@ -36,21 +36,27 @@ nav-menu: true
 					<tbody>
 						<tr>
 							<td><span class="translate">Thai</span></td>
-							<td><a href="https://x.com/FayMayOfficial"><span class="translate">FayMay Official</span></a></td>
+							<td><a href="https://x.com/FayMayOfficial">FayMay Official</a></td>
 							<td><span class="translate">Twitter</span></td>
 							<td><span class="translate">Yes</span></td>
 						</tr>
 						<tr>
 							<td><span class="translate">Thai</span></td>
-							<td><a href="https://x.com/FayOfficial_TH"><span class="translate">Fay Official</span></a></td>
+							<td><a href="https://x.com/FayOfficial_TH">Fay Official</a></td>
 							<td><span class="translate">Twitter</span></td>
 							<td><span class="translate">Yes</span></td>
 						</tr>
 						<tr>
 							<td><span class="translate">Thai</span></td>
-							<td><a href="https://x.com/MayOfficial_TH"><span class="translate">May Official</span></a></td>
+							<td><a href="https://x.com/MayOfficial_TH">May Official</a></td>
 							<td><span class="translate">Twitter</span></td>
 							<td><span class="translate">Yes</span></td>
+						</tr>
+						<tr>
+							<td><span class="translate">Brazil</span></td>
+							<td><a href="https://x.com/FayMayBr">FayMay Brasil</a></td>
+							<td><span class="translate">Twitter</span></td>
+							<td><span class="translate">No</span></td>
 						</tr>
 					</tbody>
 				</table>
