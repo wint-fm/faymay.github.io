@@ -2,7 +2,7 @@
 title: Active Fan Pages
 layout: landing
 description: ""
-image: assets/images/fmbanner1.jpg
+image: assets/images/banner2.jpeg
 nav-menu: true
 ---
 <!-- Main -->
@@ -20,7 +20,7 @@ nav-menu: true
 	<section id="three">
 		<div class="inner">
 			<header class="major">
-				<h2><span class="translate">Fan Pages by Countries</span></h2>
+				<h2><span class="translate">Fan Pages by Country</span></h2>
 			</header>
 			<p><span class="translate">These fan pages are organized by country for easy browsing.</span></p>
 			<div class="table-wrapper">

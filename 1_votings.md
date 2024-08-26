@@ -2,7 +2,7 @@
 title: Ongoing Votings
 layout: landing
 description: ""
-image: assets/images/fm2.jpeg
+image: assets/images/banner5.jpeg
 nav-menu: true
 ---
 
@@ -30,7 +30,7 @@ nav-menu: true
                     <header class="major">
                         <h3><span class="translate">2024 The Most Shining Star in Thailand</span></h3>
                     </header>
-                    <p><span class="translate">The voting period is from Aug 23 to Sep 11 20:00 BKK Time. You can get up to 7 free votes, 4 daily free votes and 3 daily free votes for first social share. Please</span> <a href="https://www.starlightawards.asia/vote"><span class="translate">vote for them.</span></a>
+                    <p><span class="translate">The voting period is from Aug 23 to Sep 11 20:00 BKK Time. You can get up to 7 free votes, 4 daily free votes and 3 daily free votes for first social share. Please</span><span class="vote-link"> <a href="https://www.starlightawards.asia/vote"><span class="translate">vote for them.</span></a></span>
                     </p>
                 </div>
             </div>
@@ -44,7 +44,21 @@ nav-menu: true
                     <header class="major">
                         <h3><span class="translate">The Most Favorite On-Screen Couple of 2024</span></h3>
                     </header>
-                    <p><span class="translate">The voting period is from Aug 24 to Sep 04 15:00 BKK Time. You can vote unlimitedly. Please</span> <a href="https://www.thaiupdate.info/favorite-couple-2024-group-3/"><span class="translate">vote for them.</span></a>
+                    <p><span class="translate">The voting period is from Aug 24 to Sep 04 15:00 BKK Time. You can vote unlimitedly. Please</span> <span class="vote-link"><a href="https://www.thaiupdate.info/favorite-couple-2024-group-3/"><span class="translate">vote for them.</span></a></span>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <a href="generic.html" class="image">
+                <img src="{{ 'assets/images/votethaiupdate1.png' | relative_url }}" alt="thaiupdate2" data-position="center center">
+            </a>
+            <div class="content">
+                <div class="inner">
+                    <header class="major">
+                        <h3><span class="translate">The Outstanding Star of 2024 (Final)</span></h3>
+                    </header>
+                    <p><span class="translate">The voting period is from Aug 11 to Aug 28 15:00 BKK Time. You can vote unlimitedly. Please</span> <span class="vote-link"><a href="https://www.thaiupdate.info/the-outstanding-star-of-2024-final/"><span class="translate">vote for them.</span></a></span>
                     </p>
                 </div>
             </div>

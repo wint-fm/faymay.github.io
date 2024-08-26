@@ -168,7 +168,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-image: url('../images/fmbannerwed.jpg');
+        background-image: url('../images/banner12.jpg');
         background-size: cover;
         background-position: center;
         z-index: 1;
@@ -343,3 +343,17 @@ section#banner::after {
     //     bottom: 10px; /* Bring dots closer to the image on mobile */
     // }
 }
+
+.vote-link {
+	color: #ff4c4c; /* Light red color */
+	font-weight: bold;
+}
+
+.vote-link a {
+	color: #ff4c4c; /* Ensuring the link also has the light red color */
+	text-decoration: none; /* Removes underline for a cleaner look */
+}
+
+.vote-link a:hover {
+	text-decoration: underline; /* Adds underline when hovering */
+}  

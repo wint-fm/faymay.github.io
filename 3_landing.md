@@ -2,27 +2,65 @@
 title: Fan Creations
 layout: landing
 description: ""
-image: assets/images/fmdreamkiss.jpg
+image: assets/images/banner1.jpeg
 nav-menu: true
 ---
 
 <!-- Main -->
 <div id="main">
-	<!-- One -->
 	<section id="one">
 	<div class="inner">
 		<header class="major">
 			<h2><span class="translate">Fan Creations</span></h2>
 		</header>
-		<p><span class="translate">This page intends to highlight the profiles of fans who create fan arts, fan edits, fan covers, and fan translations.</span></p>
+		<p><span class="translate">This page intends to highlight the profiles of fans who are fansites or fans who create fan arts, fan edits, fan covers, and fan translations.</span></p>
 	</div>
 	</section>
-	<!-- Two -->
-	<section id="two" class="spotlights">
+	<section class="spotlights">
 		<section>
-			<a href="generic.html" class="image">
-				<img src="{{ 'assets/images/fanart.jpg' | relative_url }}" alt="Fan Art" data-position="center center">
-			</a>
+			<div class="image">
+				<img src="{{ 'assets/images/portrait13.jpeg' | relative_url }}" alt="Fan Art" data-position="center center">
+			</div>
+			<div class="content">
+				<div class="inner">
+					<header class="major">
+						<h3><span class="translate">Fan Sites</span></h3>
+					</header>
+					<p><span class="translate">Explore this list of fansites, each filled with unique content and the latest updates for fans.</span></p>
+					<div class="table-wrapper">
+						<table>
+							<thead>
+								<tr>
+									<th scope="col"><span class="translate">FayMay Only</span></th>
+									<th scope="col"><span class="translate">Twitter</span></th>
+									<th scope="col"><span class="translate">Youtube</span></th>
+									<th scope="col"><span class="translate">TikTok</span></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td><span class="translate">Yes</span></td>
+									<td><a href="https://x.com/Gackyccc_">Gackyccc_</a></td>
+									<td>&nbsp;</td>
+									<td>&nbsp;</td>
+								</tr>
+								<tr>
+									<td><span class="translate">No</span></td>
+									<td><a href="https://x.com/99_99percentt">99.99%</a></td>
+									<td><a href="https://www.youtube.com/@99.99percentt">99.99%</a></td>
+									<td>&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="spotlights">
+		<section>
+			<div class="image">
+				<img src="{{ 'assets/images/square2.jpeg' | relative_url }}" alt="Fan Art" data-position="center center">
+			</div>
 			<div class="content">
 				<div class="inner">
 					<header class="major">
@@ -53,9 +91,9 @@ nav-menu: true
 			</div>
 		</section>
 		<section>
-			<a href="generic.html" class="image">
-				<img src="{{ 'assets/images/fanedit.jpg' | relative_url }}" alt="Fan Edit" data-position="top center">
-			</a>
+			<div class="image">
+				<img src="{{ 'assets/images/square1.jpeg' | relative_url }}" alt="Fan Edit" data-position="top center">
+			</div>
 			<div class="content">
 				<div class="inner">
 					<header class="major">
@@ -98,9 +136,9 @@ nav-menu: true
 			</div>
 		</section>
 		<section>
-			<a href="generic.html" class="image">
-				<img src="{{ 'assets/images/fancover.jpg' | relative_url }}" alt="Fan Covers" data-position="25% 25%">
-			</a>
+			<div class="image">
+				<img src="{{ 'assets/images/portrait10.jpeg' | relative_url }}" alt="Fan Covers" data-position="25% 25%">
+			</div>
 			<div class="content">
 				<div class="inner">
 					<header class="major">
