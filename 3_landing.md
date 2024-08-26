@@ -197,28 +197,23 @@ nav-menu: true
 							<td>&nbsp;</td>
 						</tr>
 						<tr>
-							<td><span class="translate">English</span></td>
-							<td>&nbsp;</td>
+							<td><span class="translate">Thai/English</span></td>
+							<td><a href="https://x.com/AGuyki">คุณชายเฟ | น้องดรีม😴</a></td>
 							<td><a href="https://www.youtube.com/@user-fp6jj6ez3m/videos">ผมจะชิปทุกคู่</a></td>
+							<td><a href="https://www.tiktok.com/@user113476042384?_t=8pAEFKthOx5&_r=1">มะกรูด</a></td>
 							<td>&nbsp;</td>
 						</tr>
 						<tr>
 							<td><span class="translate">English</span></td>
-							<td>&nbsp;</td>
+							<td><a href="https://x.com/alphazalien">alien 👽 faymay</a></td>
 							<td>&nbsp;</td>
 							<td><a href="https://www.tiktok.com/@absentxalien?_t=8pAE4MIiswk&_r=1">Alien 👽</a></td>
 						</tr>
 						<tr>
 							<td><span class="translate">Thai/English</span></td>
-							<td>&nbsp;</td>
-							<td>&nbsp;</td>
+							<td><a href="https://x.com/teeoheewhy">P’t 🏳️‍🌈</a></td>
+							<td><a href="https://www.youtube.com/@phi.t">P't</a></td>
 							<td><a href="https://www.tiktok.com/@teeoheewhy?_t=8pAEpAYN4rw&_r=1">P't 🏳️‍🌈</a></td>
-						</tr>
-						<tr>
-							<td><span class="translate">Thai/English</span></td>
-							<td>&nbsp;</td>
-							<td>&nbsp;</td>
-							<td><a href="https://www.tiktok.com/@user113476042384?_t=8pAEFKthOx5&_r=1">มะกรูด</a></td>
 						</tr>
 						<tr>
 							<td><span class="translate">Portuguese</span></td>
