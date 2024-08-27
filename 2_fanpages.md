@@ -28,34 +28,46 @@ nav-menu: true
 					<thead>
 						<tr>
 							<th><span class="translate">Country</span></th>
-							<th><span class="translate">Fanpage Name</span></th>
-							<th><span class="translate">Social Media</span></th>
+							<th><span class="translate">Twitter</span></th>
+							<th><span class="translate">Facebook</span></th>
+							<th><span class="translate">TikTok</span></th>
 							<th><span class="translate">Official</span></th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<td><span class="translate">Thai</span></td>
+							<td><span class="translate">Thailand</span></td>
 							<td><a href="https://x.com/FayMayOfficial">FayMay Official</a></td>
-							<td><span class="translate">Twitter</span></td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
 							<td><span class="translate">Yes</span></td>
 						</tr>
 						<tr>
-							<td><span class="translate">Thai</span></td>
+							<td><span class="translate">Thailand</span></td>
 							<td><a href="https://x.com/FayOfficial_TH">Fay Official</a></td>
-							<td><span class="translate">Twitter</span></td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
 							<td><span class="translate">Yes</span></td>
 						</tr>
 						<tr>
-							<td><span class="translate">Thai</span></td>
+							<td><span class="translate">Thailand</span></td>
 							<td><a href="https://x.com/MayOfficial_TH">May Official</a></td>
-							<td><span class="translate">Twitter</span></td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
 							<td><span class="translate">Yes</span></td>
 						</tr>
 						<tr>
 							<td><span class="translate">Brazil</span></td>
 							<td><a href="https://x.com/FayMayBr">FayMay Brasil</a></td>
-							<td><span class="translate">Twitter</span></td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td><span class="translate">No</span></td>
+						</tr>
+						<tr>
+							<td><span class="translate">Vietnam</span></td>
+							<td><a href="https://web.facebook.com/people/FayMay-Quen-Nhau-H%E1%BA%A3/61563304355465/">FayMay Quen Nhau Hả</a></td>
+							<td>&nbsp;</td>
+							<td><a href="https://www.tiktok.com/@faymayquennhauha">FayMay quen nhau hả</a></td>
 							<td><span class="translate">No</span></td>
 						</tr>
 					</tbody>
