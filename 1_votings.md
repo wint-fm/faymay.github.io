@@ -49,19 +49,5 @@ nav-menu: true
                 </div>
             </div>
         </section>
-        <section>
-            <div class="image">
-                <img src="{{ 'assets/images/votethaiupdate1.png' | relative_url }}" alt="thaiupdate2" data-position="center center">
-            </div>
-            <div class="content">
-                <div class="inner">
-                    <header class="major">
-                        <h3><span class="translate">The Outstanding Star of 2024 (Final)</span></h3>
-                    </header>
-                    <p><span class="translate">The voting period is from <strong>Aug 11 to Aug 28 15:00 BKK Time</strong>. You can vote unlimitedly. Please</span> <span class="vote-link"><a href="https://www.thaiupdate.info/the-outstanding-star-of-2024-final/"><span class="translate">vote for them.</span></a></span>
-                    </p>
-                </div>
-            </div>
-        </section>
     </section>
 </div>
