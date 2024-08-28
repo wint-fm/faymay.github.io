@@ -102,7 +102,7 @@ nav-menu: true
 					<header class="major">
 						<h3><span class="translate">Teasers</span></h3>
 					</header>
-					<p><span class="translate">This is the link to the </span><a href="https://youtube.com/playlist?list=PL4D0KlUVq4IwGzHhJJOjghXfF23PnG96i&si=PHltvEgXwS4hKR2w"><span class="translate">playlist of series teasers</span></a><span class="translate"> by </span>Idol Factory.</p>
+					<p><span class="translate">Please watch the official teasers and trailer </span><a href="https://youtube.com/playlist?list=PL4D0KlUVq4IwGzHhJJOjghXfF23PnG96i&si=PHltvEgXwS4hKR2w"><span class="translate">in this playlist </span></a><span class="translate"> by </span>Idol Factory.</p>
 				</div>
 			</div>
 		</section>
