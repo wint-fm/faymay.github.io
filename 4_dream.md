@@ -282,7 +282,6 @@ nav-menu: true
         <div class="carousel">
 			<div><a href="assets/images/dts1.jpeg" data-lightbox="image-carousel"><img src="assets/images/dts1.jpeg" alt="Portrait 1"></a></div>
 			<div><a href="assets/images/dts2.jpeg" data-lightbox="image-carousel"><img src="assets/images/dts2.jpeg" alt="Portrait 2"></a></div>
-			<div><a href="assets/images/dts3.jpeg" data-lightbox="image-carousel"><img src="assets/images/dts3.jpeg" alt="Portrait 3"></a></div>
 			<div><a href="assets/images/dts4.jpeg" data-lightbox="image-carousel"><img src="assets/images/dts4.jpeg" alt="Portrait 4"></a></div>
 			<div><a href="assets/images/dts5.jpeg" data-lightbox="image-carousel"><img src="assets/images/dts5.jpeg" alt="Portrait 5"></a></div>
 			<div><a href="assets/images/dts6.jpeg" data-lightbox="image-carousel"><img src="assets/images/dts6.jpeg" alt="Portrait 6"></a></div>
