@@ -357,3 +357,14 @@ section#banner::after {
 .vote-link a:hover {
 	text-decoration: underline; /* Adds underline when hovering */
 }  
+
+/* Spoiler styles */
+.spoiler {
+	color: transparent;
+	background-color: black;
+	cursor: pointer;
+	transition: color 0.3s ease; /* Smooth transition for text color */
+}
+.spoiler.revealed {
+	color: white;
+}
