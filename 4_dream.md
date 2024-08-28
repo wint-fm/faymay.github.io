@@ -14,11 +14,11 @@ nav-menu: true
 				<h2>My Marvellous Dream is You (ฝันรักห้วงนิทรา)</h2>
 			</header>
 			<p><span class="translate">I'm "Dawhan". Since I can remember, I have always had strange dreams about a young girl who was quiet but often played with me in my dreams. One day, a new neighbor moved in, and that led to my family falling apart. My father ran away with the man next door, who turned out to be the father of "Kimhun" the quiet & small girl from next door. Initially, we were not close at all, but various circumstances brought us closer and made us understand each other. However, Kimhun was unaware that while in the real world we were just friends, in my dreams, the small girl and I did things that went far beyond that. So, I kept my feelings concealed because I couldn't let her know. I never realized that in those dreams, I was not the only one dreaming.</span></p>
-			<span class="translate"><strong>Genres:</strong> Romance, Fantasy</span>
+			<span class="translate"><strong>Genres:</strong> Romance, Fantasy</span></br>
 			<header class="major">
 				<h3><span class="translate">Main roles: </span></h3>
 			</header>
-			<p><span class="translate">Please follow and support Dream Girls!</span></p>
+			<p><span class="translate">Please follow and support all the Dream Girls! They are talented actresses, and their TikTok videos are very fun.</span></p>
 			<div class="table-wrapper">
 				<table>
 					<thead>
@@ -179,7 +179,7 @@ nav-menu: true
 								</tr>
 								<tr>
 									<td><a href="https://youtube.com/playlist?list=PL4D0KlUVq4IxCOL0o-tahFEnxkGbgsf7i&si=Fc0phyIY-gLAHjF5">EP.11</a></td>
-									<td><span class="spoiler">Kimhan decides to run away from the wedding with Dawan. This decision brought they back together again. As for Mother Ae, after her worries were over she passed away peacefully.</span></span></td>
+									<td><span class="spoiler"><span class="translate">Kimhan decides to run away from the wedding with Dawan. This decision brought they back together again. As for Mother Ae, after her worries were over she passed away peacefully.</span></span></td>
 									<td><span class="translate">Jul 17, 2024</span></td>
 								</tr>
 								<tr>
