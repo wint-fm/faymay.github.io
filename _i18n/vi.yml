@@ -2,45 +2,45 @@ lang: vi
 
 # Global section
 global:
-  language_name: "English"
-  site_title: "FayMay Fansite"
+  language_name: "Tiếng Việt"
+  site_title: "Trang web fan FayMay"
   couple_name: "FayMay (เฟเมษ์)"
   fay_name: "Fay (เฟ กัญญาพัชร)"
   may_name: "May (เมษ์ ญดา)"
-  series_name: "My Marvellous Dream is You (ฝันรักห้วงนิทรา)"
+  series_name: "Giấc Mơ Tuyệt Vời Là Em (ฝันรักห้วงนิทรา)"
   dreamgl: "DreamGL"
   dream_the_series: "Dream The Series"
   idol_factory: "Idol Factory"
 
 # Navigation
 nav:
-  home: "Home"
-  profiles: "Profiles"
-  fan_pages: "Fan Pages"
-  fan_creations: "Fan Creations"
-  dream_series: "Dream Series"
-  ongoing_votings: "Ongoing Votings"
-  active_fan_pages: "Active Fan Pages"
+  home: "Trang chủ"
+  profiles: "Hồ sơ"
+  fan_pages: "Trang fan"
+  fan_creations: "Sáng tạo của fan"
+  dream_series: "Phim Dream"
+  ongoing_votings: "Bình chọn đang diễn ra"
+  active_fan_pages: "Trang fan đang hoạt động"
 
 # Footer
 footer:
-  copyright: "© 2024 FayMay Fansite. All rights reserved."
-  privacy_policy: "Privacy Policy"
-  terms_of_service: "Terms of Service"
+  copyright: "© 2024 Trang web fan FayMay. Bảo lưu mọi quyền."
+  privacy_policy: "Chính sách bảo mật"
+  terms_of_service: "Điều khoản dịch vụ"
 
 # Common elements
 common:
-  read_more: "Read More"
-  watch_now: "Watch Now"
-  get_to_know_more: "Get to know them more"
-  follow_us: "Follow Us"
-  latest_news: "Latest News"
-  featured_content: "Featured Content"
-  yes: "Yes"
-  no: "No"
-  vote_for_them: "vote for them."
-  thai: "Thai"
-  english: "English"
+  read_more: "Đọc thêm"
+  watch_now: "Xem ngay"
+  get_to_know_more: "Tìm hiểu thêm về họ"
+  follow_us: "Theo dõi chúng tôi"
+  latest_news: "Tin tức mới nhất"
+  featured_content: "Nội dung nổi bật"
+  vote_for_them: "bình chọn cho họ."
+  thai: "Tiếng Thái"
+  english: "Tiếng Anh"
+  common_yes: "Có"
+  common_no: "Không"
 
 # Social media
 social_media:
@@ -52,8 +52,8 @@ social_media:
 
 # Error messages
 error_messages:
-  404: "Page not found"
-  500: "Internal server error"
+  404: "Không tìm thấy trang"
+  500: "Lỗi máy chủ nội bộ"
 
 # Languages
 languages:
@@ -72,182 +72,182 @@ languages:
 
 # Home page content
 home:
-  actress_description: '{fay_name} and {may_name} are Thai GL actresses under {idol_factory}. Their on-screen couple name is {couple_name}.'
-  series_description: 'Their first acting project as lead actresses is {series_name}, also known as {dreamgl} or {dream_the_series}.'
-  watch_teasers: "Please watch the official teasers and trailer {playlist_name} by {idol_factory}."
+  actress_description: '{fay_name} và {may_name} là diễn viên GL Thái Lan thuộc {idol_factory}. Tên cặp đôi trên màn ảnh của họ là {couple_name}.'
+  series_description: 'Dự án diễn xuất đầu tiên của họ với vai chính là {series_name}, còn được biết đến với tên {dreamgl} hoặc {dream_the_series}.'
+  watch_teasers: "Vui lòng xem các teaser và trailer chính thức {playlist_name} của {idol_factory}."
 
 # Profile page content
 profile:
-  title: "FayMay Profiles"
-  header: "FayMay Profiles"
-  welcome_message: "Welcome to FayMay Fansite. This page is maintained by international fans. We are glad that you are curious about FayMay and want to know more about them. We would like to request just five things from you."
+  title: "Hồ sơ FayMay"
+  header: "Hồ sơ FayMay"
+  welcome_message: "Chào mừng đến với Trang web fan FayMay. Trang này được quản lý bởi fan quốc tế. Chúng tôi rất vui vì bạn tò mò về FayMay và muốn biết thêm về họ. Chúng tôi chỉ muốn yêu cầu năm điều từ bạn."
 
   fan_requests:
-    - "FayMay is one. Please learn to love them both."
-    - "Please love and accept both Fay and May as who they are, not your idea of who they should be."
-    - "Please respect and support their decisions, be it for work or personal life."
-    - "Please respect their privacy and know our boundaries as fans and artists. They love to share their lives with us, but that doesn't mean we can overstep our boundaries. That includes their relationship with other people, be it other public figures or private citizens. Respect the relationship they have with others and give them their privacy."
-    - "Please try not to amplify the voices of the haters, drown them out with love instead. Our fandom is built on love, but if someone means to cause harm, we will protect FayMay."
+    - "FayMay là một. Hãy học cách yêu thương cả hai."
+    - "Hãy yêu thương và chấp nhận cả Fay và May như con người thật của họ, không phải như ý tưởng của bạn về con người họ nên là."
+    - "Hãy tôn trọng và ủng hộ quyết định của họ, dù là cho công việc hay cuộc sống cá nhân."
+    - "Hãy tôn trọng sự riêng tư của họ và biết giới hạn của chúng ta với tư cách là fan và nghệ sĩ. Họ thích chia sẻ cuộc sống với chúng ta, nhưng điều đó không có nghĩa là chúng ta có thể vượt quá giới hạn. Điều đó bao gồm cả mối quan hệ của họ với người khác, dù là người nổi tiếng hay công dân bình thường. Hãy tôn trọng mối quan hệ họ có với người khác và cho họ sự riêng tư."
+    - "Hãy cố gắng không khuếch đại tiếng nói của những người ghét bỏ, thay vào đó hãy lấn át họ bằng tình yêu. Fandom của chúng ta được xây dựng trên tình yêu, nhưng nếu ai đó có ý định gây hại, chúng ta sẽ bảo vệ FayMay."
 
   fay:
     first_name: "Kunyaphat"
     family_name: "Na Nakorn"
     native_name: "เฟ กัญญาพัชร ณ นคร"
-    nationality: "Thai"
-    gender: "Female"
-    born: "December 2, 2001"
+    nationality: "Thái Lan"
+    gender: "Nữ"
+    born: "2 tháng 12, 2001"
     blood_type: "AB"
     mbti: "INFJ-T"
-    favorite_things: "Chihuahua, Music, Movie"
-    hobbies: "Dance, Sing a song, Play Guitar, Watch Movies, Read Novels"
-    favorite_snacks: "Macaron, Milo Nuggets, Choux Cream"
-    favorite_colors: "Black, Blue"
-    favorite_flowers: "Hydrangea"
+    favorite_things: "Chó Chihuahua, Âm nhạc, Phim"
+    hobbies: "Nhảy, Hát, Chơi guitar, Xem phim, Đọc tiểu thuyết"
+    favorite_snacks: "Bánh macaron, Milo Nuggets, Bánh su kem"
+    favorite_colors: "Đen, Xanh dương"
+    favorite_flowers: "Cẩm tú cầu"
     t_shirt_size: "S/M"
-    wrist_size: "L:14cm R14.5cm"
-    ring_size: "46, 48, 55, 52, 52, 50, 51, 52, 43, 40 mm (ordered from left pinkey finger to right pinky finger). Preferred to wear on middle finger."
+    wrist_size: "Trái: 14cm Phải: 14.5cm"
+    ring_size: "46, 48, 55, 52, 52, 50, 51, 52, 43, 40 mm (theo thứ tự từ ngón út trái đến ngón út phải). Thích đeo ở ngón giữa."
 
   may:
     first_name: "Yada"
     family_name: "Watcharamusik"
     native_name: "เมษ์ ญดา วัชระมูสิก"
-    nationality: "Thai"
-    gender: "Female"
-    born: "October 31, 1997"
+    nationality: "Thái Lan"
+    gender: "Nữ"
+    born: "31 tháng 10, 1997"
     blood_type: "A"
     mbti: "ESFJ-T"
-    favorite_things: "Cat, Southern & Northeastern Thai Food, Sea"
-    hobbies: "Watch Movies, Listen to Music, Hang out with friends"
-    favorite_snacks: "Jelly"
-    favorite_colors: "Pastel Pink"
-    favorite_flowers: "White Rose, Peach Rose"
+    favorite_things: "Mèo, Đồ ăn miền Nam & Đông Bắc Thái Lan, Biển"
+    hobbies: "Xem phim, Nghe nhạc, Đi chơi với bạn bè"
+    favorite_snacks: "Kẹo dẻo"
+    favorite_colors: "Hồng pastel"
+    favorite_flowers: "Hoa hồng trắng, Hoa hồng màu đào"
     t_shirt_size: "S"
     wrist_size: "14cm"
-    ring_size: "50mm. Index finger."
+    ring_size: "50mm. Ngón trỏ."
 
 # Voting page content
 voting:
-  title: "Ongoing Votings"
-  description: "All the ongoing voting activities will be shared on this page. If you have time, please help with the voting as much as you can. It's a good way to show our love for FayMay."
+  title: "Bình chọn đang diễn ra"
+  description: "Tất cả các hoạt động bình chọn đang diễn ra sẽ được chia sẻ trên trang này. Nếu bạn có thời gian, hãy giúp bình chọn nhiều nhất có thể. Đó là cách tốt để thể hiện tình yêu của chúng ta dành cho FayMay."
   instructions:
-    - "Please try to keep both of them to have the same vote counts."
-    - "Please don't use automated tools. We wouldn't want them to get disqualified."
+    - "Hãy cố gắng giữ cho cả hai có số phiếu bầu như nhau."
+    - "Vui lòng không sử dụng công cụ tự động. Chúng ta không muốn họ bị loại."
   
   starlight_award:
-    title: "2024 The Most Shining Star in Thailand"
-    description: "The voting period is from Aug 23 to Sep 11 20:00 BKK Time. You can get up to 7 free votes, 4 daily free votes and 3 daily free votes for first social share. Please"
-    vote_link: "vote for them."
+    title: "Ngôi sao tỏa sáng nhất Thái Lan 2024"
+    description: "Thời gian bình chọn từ 23/8 đến 11/9 20:00 giờ Bangkok. Bạn có thể nhận tối đa 7 phiếu bầu miễn phí, 4 phiếu miễn phí hàng ngày và 3 phiếu miễn phí hàng ngày cho lần chia sẻ đầu tiên trên mạng xã hội. Vui lòng"
+    vote_link: "bình chọn cho họ."
   
   thai_update_award:
-    title: "The Most Favorite On-Screen Couple of 2024"
-    description: "The voting period is from Aug 24 to Sep 04 15:00 BKK Time. You can vote unlimitedly. Please"
-    vote_link: "vote for them."
+    title: "Cặp đôi màn ảnh được yêu thích nhất 2024"
+    description: "Thời gian bình chọn từ 24/8 đến 4/9 15:00 giờ Bangkok. Bạn có thể bình chọn không giới hạn. Vui lòng"
+    vote_link: "bình chọn cho họ."
 
 # Fan Pages content
 fan_pages:
-  title: "Active Fan Pages"
-  description: "Here are the active fan pages, both official and unofficial, to keep you connected with the community!"
-  by_country: "Fan Pages by Country"
-  country_description: "These fan pages are organized by country for easy browsing."
+  title: "Trang fan đang hoạt động"
+  description: "Đây là các trang fan đang hoạt động, cả chính thức và không chính thức, để giúp bạn kết nối với cộng đồng!"
+  by_country: "Trang fan theo quốc gia"
+  country_description: "Các trang fan này được tổ chức theo quốc gia để dễ dàng duyệt xem."
   table:
-    country: "Country"
+    country: "Quốc gia"
     twitter: "Twitter"
     facebook: "Facebook"
     tiktok: "TikTok"
-    official: "Official"
+    official: "Chính thức"
   countries:
-    thailand: "Thailand"
+    thailand: "Thái Lan"
     brazil: "Brazil"
-    vietnam: "Vietnam"
+    vietnam: "Việt Nam"
     myanmar: "Myanmar"
 
 # Fan Creations content
 fan_creations:
-  title: "Fan Creations"
-  description: "This page intends to highlight the profiles of fans who are fansites or fans who create fan arts, fan edits, fan covers, and fan translations."
+  title: "Sáng tạo của fan"
+  description: "Trang này nhằm mục đích giới thiệu hồ sơ của các fan là fansite hoặc fan tạo ra fan art, fan edit, fan cover và fan translation."
   fan_sites:
-    title: "Fan Sites"
-    description: "Here is a list of fansites that often share FayMay's activities through amazing camerawork!"
+    title: "Fansite"
+    description: "Đây là danh sách các fansite thường xuyên chia sẻ hoạt động của FayMay thông qua việc chụp ảnh tuyệt vời!"
   fan_art:
-    title: "Fan Art Creators"
-    description: "Check out this list of fan art creators showcasing their fantastic artwork!"
+    title: "Người tạo Fan Art"
+    description: "Hãy xem danh sách các nghệ sĩ fan art và tác phẩm tuyệt vời của họ!"
   fan_edits:
-    title: "Fan Edit Video Creators"
-    description: "Make sure to check out these cool fan video makers and their awesome edits!"
+    title: "Người tạo Video Fan Edit"
+    description: "Đừng quên xem những người làm video fan edit này và các bản edit tuyệt vời của họ!"
   fan_covers:
-    title: "Fan Covers"
+    title: "Fan Cover"
   fan_translations:
-    title: "Fan Translations"
-    description: "Here is a list of fan translation accounts along with their respective languages."
+    title: "Fan Translation"
+    description: "Đây là danh sách các tài khoản dịch của fan cùng với ngôn ngữ tương ứng của họ."
   table:
-    faymay_focused: "FayMay Focused"
-    language: "Language"
+    faymay_focused: "Tập trung vào FayMay"
+    language: "Ngôn ngữ"
     twitter: "Twitter"
     youtube: "YouTube"
     tiktok: "TikTok"
   languages:
-    english: "English"
-    thai_english: "Thai/English"
-    portuguese: "Portuguese"
+    english: "Tiếng Anh"
+    thai_english: "Tiếng Thái/Tiếng Anh"
+    portuguese: "Tiếng Bồ Đào Nha"
 
 # Dream Series content
 dream_series:
-  title: "My Marvellous Dream is You (ฝันรักห้วงนิทรา)"
-  description: "I'm \"Dawhan\". Since I can remember, I have always had strange dreams about a young girl who was quiet but often played with me in my dreams. One day, a new neighbor moved in, and that led to my family falling apart. My father ran away with the man next door, who turned out to be the father of \"Kimhan\" the quiet & small girl from next door. Initially, we were not close at all, but various circumstances brought us closer and made us understand each other. However, Kimhan was unaware that while in the real world we were just friends, in my dreams, the small girl and I did things that went far beyond that. So, I kept my feelings concealed because I couldn't let her know. I never realized that in those dreams, I was not the only one dreaming."
-  genres: "Genres: Romance, Fantasy"
-  other_names: "Other Names: DreamGL, Dream The Series"
+  title: "Giấc Mơ Tuyệt Vời Là Em (ฝันรักห้วงนิทรา)"
+  description: "Tôi là \"Dawhan\". Từ khi còn nhỏ, tôi luôn có những giấc mơ kỳ lạ về một cô gái trẻ yên lặng nhưng thường chơi với tôi trong mơ. Một ngày, một người hàng xóm mới chuyển đến, và điều đó dẫn đến sự tan rã của gia đình tôi. Cha tôi bỏ trốn với người đàn ông bên cạnh, người hóa ra là cha của \"Kimhan\", cô gái yên lặng và nhỏ nhắn từ nhà bên. Ban đầu, chúng tôi không hề thân thiết, nhưng nhiều hoàn cảnh khác nhau đã đưa chúng tôi xích lại gần nhau và hiểu nhau hơn. Tuy nhiên, Kimhan không biết rằng trong khi ở thế giới thực chúng tôi chỉ là bạn bè, trong giấc mơ của tôi, cô gái nhỏ và tôi đã làm những việc vượt xa điều đó. Vì vậy, tôi giữ kín cảm xúc của mình vì tôi không thể để cô ấy biết. Tôi chưa bao giờ nhận ra rằng trong những giấc mơ đó, tôi không phải là người duy nhất đang mơ."
+  genres: "Thể loại: Lãng mạn, Giả tưởng"
+  other_names: "Tên khác: DreamGL, Dream The Series"
   main_roles:
-    title: "Main roles:"
-    description: "Please follow and support all the Dream Girls! They are talented actresses, and their TikTok videos are very fun."
+    title: "Vai chính:"
+    description: "Hãy theo dõi và ủng hộ tất cả các Dream Girls! Họ là những diễn viên tài năng, và video TikTok của họ rất vui nhộn."
   table:
-    name: "Name"
-    full_name: "Full Name"
+    name: "Tên"
+    full_name: "Tên đầy đủ"
     instagram: "Instagram"
     twitter: "Twitter"
     tiktok: "TikTok"
     hashtag: "Hashtag"
   teasers:
-    title: "Teasers"
-    description: "Please watch the official teasers and trailer in this playlist by Idol Factory."
+    title: "Teaser"
+    description: "Vui lòng xem các teaser và trailer chính thức trong danh sách phát này của Idol Factory."
   episodes:
-    title: "UNCUT Episodes"
-    description: "Please watch the series. It's a slow burn and might make you feel frustrated at times, but FayMay's chemistry is incredible, and the acting from the whole cast is brilliant. Watching it once isn't enough, so please watch the whole series a few times."
+    title: "Tập UNCUT"
+    description: "Hãy xem bộ phim này. Nó là một câu chuyện tình yêu chậm rãi và có thể khiến bạn cảm thấy thất vọng đôi khi, nhưng sự kết hợp của FayMay thật đáng kinh ngạc, và diễn xuất của toàn bộ dàn diễn viên rất tuyệt vời. Xem một lần là không đủ, vì vậy hãy xem toàn bộ series vài lần nhé."
     table:
-      episode: "Episode"
+      episode: "Tập"
       teaser: "Teaser [Spoiler]"
-      premiered: "Premiered"
+      premiered: "Phát sóng"
     spoilers:
-      ep1: "After a falling out with Dawhan, Kimhan made the decision to join Jessie, Dawhan's rival. Mali, feeling unsettled by the situation, took it upon herself to conduct an investigation, ultimately uncovering the true reason behind Kimhan's decisioned."
-      ep2: "Dawhan finally understood the true reason why Kimhun agreed to work for Jessie, enabling both of them to come to an understanding. Dawhan refused to let Jessie use Kimhun as a tool and challenged Jessie to release evidence used to blackmail her."
-      ep3: "Dawhan encountered a social media frenzy after she brought Kimhan back to the condo until dizziness. Toon decided to use the trending couple \"Pat-Dawhan\" to deflect attention by releasing a leaked video clip."
-      ep4: "Kimhun had a chance encounter with Mawin, the proprietor of the gallery. This unexpected meeting led Kimhun to a decision to work with Mawin's gallery, a choice that brought her sincere joy. Despite Dawan's efforts to impede her, but Kimhun joined the gallery, igniting a heated dispute between them."
-      ep5: "Dawan tried every possible way to interrupt Mawin, leading to a conflict with Kimhan and causing Dawan to choose to return home. While Dawan was asleep, she dreamed of Kimhan drawing a picture of Kim Han together with herselves, but the image transformed into a picture of Mawin instead."
-      ep6: "Pat confesses his love to Dawan. Upon found out this, Kimhan fell ill and was hospitalized. Kimhan opted to leave the room she shared with Dawan. However, she encountered Dawan embracing Pat, leading the two to argue. In the heat of the moment, Kimhan unintentionally revealed his affection for Mawin."
-      ep7: "Kimhan agrees to be Mawin's girlfriend to secure Dawan's future. Dawan missed opportunities to represent Thailand as an actress and underwent treatment for depression."
-      ep8: "Dawan and Kimhan both reconcile again with a sweet kiss. Tim and Pongphon, the people who left both the Dawan and Kimhan families in misery, come back to meet the four of them again."
-      ep9: "Ae, Kimhan's mother, fell suddenly ill and expressed her wish to see Kimhan and Marwin get married. Despite Kimhan's desire to fulfill her mother's wish, but in her heart, she only loved Dawan."
-      ep10: "Dawan is reluctant to attend Kimhan and Marwin's wedding at first. However, upon reading Kimhan's heartfelt letter confessing her feelings, Dawan immediately drops everything and rushes to the wedding to see Kimhan."
-      ep11: "Kimhan decides to run away from the wedding with Dawan. This decision brought they back together again. As for Mother Ae, after her worries were over she passed away peacefully."
-      ep12: "I am happiest when I'm in a dream, because in it... you are there"
+      ep1: "Sau khi xảy ra mâu thuẫn với Dawhan, Kimhan quyết định tham gia cùng Jessie, đối thủ của Dawhan. Mali, cảm thấy bất an về tình huống này, đã tự mình tiến hành điều tra và cuối cùng phát hiện ra lý do thực sự đằng sau quyết định của Kimhan."
+      ep2: "Dawhan cuối cùng đã hiểu được lý do thực sự tại sao Kimhan đồng ý làm việc cho Jessie, giúp cả hai hiểu nhau hơn. Dawhan từ chối để Jessie sử dụng Kimhan như một công cụ và thách thức Jessie công bố bằng chứng được sử dụng để tống tiền cô ấy."
+      ep3: "Dawhan gặp phải cơn sốt trên mạng xã hội sau khi cô ấy đưa Kimhan trở lại căn hộ cho đến khi chóng mặt. Toon quyết định sử dụng cặp đôi đang thịnh hành \"Pat-Dawhan\" để chuyển hướng sự chú ý bằng cách phát hành một đoạn video bị rò rỉ."
+      ep4: "Kimhan tình cờ gặp Mawin, chủ nhân của phòng trưng bày. Cuộc gặp gỡ bất ngờ này dẫn đến quyết định của Kimhan làm việc với phòng trưng bày của Mawin, một lựa chọn mang lại niềm vui chân thành cho cô ấy. Mặc dù Dawan cố gắng ngăn cản, nhưng Kimhan vẫn tham gia vào phòng trưng bày, châm ngòi cho một cuộc tranh cãi nảy lửa giữa họ."
+      ep5: "Dawan cố gắng mọi cách có thể để làm gián đoạn Mawin, dẫn đến xung đột với Kimhan và khiến Dawan chọn cách trở về nhà. Trong khi Dawan đang ngủ, cô ấy mơ thấy Kimhan vẽ một bức tranh của Kim Han cùng với chính mình, nhưng hình ảnh biến thành bức tranh của Mawin thay vào đó."
+      ep6: "Pat thú nhận tình yêu của mình với Dawan. Khi biết được điều này, Kimhan bị ốm và phải nhập viện. Kimhan quyết định rời khỏi phòng mà cô ấy chia sẻ với Dawan. Tuy nhiên, cô ấy bắt gặp Dawan ôm Pat, dẫn đến cuộc cãi vã giữa hai người. Trong lúc nóng giận, Kimhan vô tình tiết lộ tình cảm của mình dành cho Mawin."
+      ep7: "Kimhan đồng ý trở thành bạn gái của Mawin để đảm bảo tương lai cho Dawan. Dawan bỏ lỡ cơ hội đại diện cho Thái Lan với tư cách là một nữ diễn viên và phải điều trị trầm cảm."
+      ep8: "Dawan và Kimhan hòa giải lại với nhau bằng một nụ hôn ngọt ngào. Tim và Pongphon, những người đã bỏ rơi cả gia đình Dawan và Kimhan trong đau khổ, quay trở lại gặp cả bốn người họ một lần nữa."
+      ep9: "Ae, mẹ của Kimhan, bất ngờ ngã bệnh và bày tỏ mong muốn được thấy Kimhan và Marwin kết hôn. Mặc dù Kimhan mong muốn thực hiện ước nguyện của mẹ, nhưng trong trái tim cô ấy chỉ yêu Dawan."
+      ep10: "Dawan ban đầu miễn cưỡng tham dự đám cưới của Kimhan và Marwin. Tuy nhiên, sau khi đọc bức thư chân thành của Kimhan thú nhận tình cảm của mình, Dawan lập tức bỏ tất cả mọi thứ và vội vã đến đám cưới để gặp Kimhan."
+      ep11: "Kimhan quyết định bỏ trốn khỏi đám cưới cùng Dawan. Quyết định này đã đưa họ trở lại bên nhau một lần nữa. Còn về mẹ Ae, sau khi những lo lắng của bà đã qua đi, bà đã ra đi một cách thanh thản."
+      ep12: "Tôi hạnh phúc nhất khi ở trong giấc mơ, bởi vì trong đó... em ở đó"
   osts:
-    title: "OSTs"
-    description: "The OSTs in this series are chef's kiss. Please show them some love!"
+    title: "Nhạc phim"
+    description: "Các bản nhạc phim trong series này thật tuyệt vời. Hãy thể hiện một chút tình yêu với chúng nhé!"
     table:
-      language: "Language"
-      title: "Title"
-      vocal: "Vocal"
-      producer: "Producer"
+      language: "Ngôn ngữ"
+      title: "Tên bài hát"
+      vocal: "Ca sĩ"
+      producer: "Nhà sản xuất"
   fun_facts:
-    title: "Fun Facts:"
+    title: "Thông tin thú vị:"
     facts:
-      - "You can find the English translation of the casting call here."
-      - "May didn't even plan to audition that day; she was just accompanying her friend. Her friend convinced her to audition once they were already at the event. We should all thank May's friend!"
-      - "Fay and May met at the audition event for the first time, and they were both wearing similar black jackets."
-      - "The friend who came with Fay is also May's friend, so they had a mutual friend but didn't get a chance to talk before the audition started."
-      - "Their chemistry was insanely good that day. Many people in the audience watching the audition livestream were cheering for them to be the final two leads."
-      - "That evening, after the audition ended, they had their first TikTok LIVE together with their mutual friend."
-      - "After that TikTok LIVE, they had an Instagram LIVE with just the two of them."
-      - "You can watch some of the subtitled videos about casting day in this playlist."
+      - "Bạn có thể tìm thấy bản dịch tiếng Anh của thông báo tuyển diễn viên tại đây."
+      - "May thậm chí không có kế hoạch thử vai ngày hôm đó; cô ấy chỉ đi cùng bạn. Người bạn của cô ấy đã thuyết phục cô ấy thử vai khi họ đã có mặt tại sự kiện. Chúng ta nên cảm ơn bạn của May!"
+      - "Fay và May gặp nhau lần đầu tiên tại sự kiện thử vai, và cả hai đều mặc áo khoác đen tương tự nhau."
+      - "Người bạn đi cùng Fay cũng là bạn của May, vì vậy họ có một người bạn chung nhưng không có cơ hội trò chuyện trước khi buổi thử vai bắt đầu."
+      - "Sự kết hợp của họ ngày hôm đó thật tuyệt vời. Nhiều người trong khán giả xem buổi thử vai trực tiếp đã cổ vũ cho họ trở thành hai diễn viên chính cuối cùng."
+      - "Tối hôm đó, sau khi buổi thử vai kết thúc, họ đã có buổi LIVE TikTok đầu tiên cùng nhau với người bạn chung của họ."
+      - "Sau buổi LIVE TikTok đó, họ đã có một buổi LIVE Instagram chỉ có hai người."
+      - "Bạn có thể xem một số video có phụ đề về ngày casting trong danh sách phát này."
   spoiler:
-    reveal: "Click to reveal spoiler"
-    hide: "Click to hide spoiler"
+    reveal: "Nhấp để hiện spoiler"
+    hide: "Nhấp để ẩn spoiler"

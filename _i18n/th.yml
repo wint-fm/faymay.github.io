@@ -2,45 +2,45 @@ lang: th
 
 # Global section
 global:
-  language_name: "English"
-  site_title: "FayMay Fansite"
+  language_name: "ภาษาไทย"
+  site_title: "เว็บไซต์แฟนคลับเฟเมษ์"
   couple_name: "FayMay (เฟเมษ์)"
   fay_name: "Fay (เฟ กัญญาพัชร)"
   may_name: "May (เมษ์ ญดา)"
-  series_name: "My Marvellous Dream is You (ฝันรักห้วงนิทรา)"
+  series_name: "ฝันรักห้วงนิทรา (My Marvellous Dream is You)"
   dreamgl: "DreamGL"
   dream_the_series: "Dream The Series"
   idol_factory: "Idol Factory"
 
 # Navigation
 nav:
-  home: "Home"
-  profiles: "Profiles"
-  fan_pages: "Fan Pages"
-  fan_creations: "Fan Creations"
-  dream_series: "Dream Series"
-  ongoing_votings: "Ongoing Votings"
-  active_fan_pages: "Active Fan Pages"
+  home: "หน้าหลัก"
+  profiles: "โปรไฟล์"
+  fan_pages: "เพจแฟนคลับ"
+  fan_creations: "ผลงานแฟนคลับ"
+  dream_series: "ซีรีส์ Dream"
+  ongoing_votings: "การโหวตที่กำลังดำเนินอยู่"
+  active_fan_pages: "เพจแฟนคลับที่ยังใช้งานอยู่"
 
 # Footer
 footer:
-  copyright: "© 2024 FayMay Fansite. All rights reserved."
-  privacy_policy: "Privacy Policy"
-  terms_of_service: "Terms of Service"
+  copyright: "© 2024 เว็บไซต์แฟนคลับเฟเมษ์ สงวนลิขสิทธิ์"
+  privacy_policy: "นโยบายความเป็นส่วนตัว"
+  terms_of_service: "ข้อกำหนดการใช้งาน"
 
 # Common elements
 common:
-  read_more: "Read More"
-  watch_now: "Watch Now"
-  get_to_know_more: "Get to know them more"
-  follow_us: "Follow Us"
-  latest_news: "Latest News"
-  featured_content: "Featured Content"
-  yes: "Yes"
-  no: "No"
-  vote_for_them: "vote for them."
-  thai: "Thai"
-  english: "English"
+  read_more: "อ่านเพิ่มเติม"
+  watch_now: "รับชมเลย"
+  get_to_know_more: "รู้จักพวกเขามากขึ้น"
+  follow_us: "ติดตามเรา"
+  latest_news: "ข่าวล่าสุด"
+  featured_content: "เนื้อหาแนะนำ"
+  vote_for_them: "โหวตให้พวกเขา"
+  thai: "ภาษาไทย"
+  english: "ภาษาอังกฤษ"
+  common_yes: "ใช่"
+  common_no: "ไม่"
 
 # Social media
 social_media:
@@ -52,8 +52,8 @@ social_media:
 
 # Error messages
 error_messages:
-  404: "Page not found"
-  500: "Internal server error"
+  404: "ไม่พบหน้าที่คุณต้องการ"
+  500: "เกิดข้อผิดพลาดภายในเซิร์ฟเวอร์"
 
 # Languages
 languages:
@@ -72,182 +72,182 @@ languages:
 
 # Home page content
 home:
-  actress_description: '{fay_name} and {may_name} are Thai GL actresses under {idol_factory}. Their on-screen couple name is {couple_name}.'
-  series_description: 'Their first acting project as lead actresses is {series_name}, also known as {dreamgl} or {dream_the_series}.'
-  watch_teasers: "Please watch the official teasers and trailer {playlist_name} by {idol_factory}."
+  actress_description: '{fay_name} และ {may_name} เป็นนักแสดงสาวไทยจาก {idol_factory} ชื่อคู่จิ้นของพวกเธอคือ {couple_name}'
+  series_description: 'ผลงานการแสดงชิ้นแรกของพวกเธอในฐานะนักแสดงนำคือ {series_name} หรือที่รู้จักกันในชื่อ {dreamgl} หรือ {dream_the_series}'
+  watch_teasers: "กรุณารับชมทีเซอร์และตัวอย่างอย่างเป็นทางการ {playlist_name} โดย {idol_factory}"
 
 # Profile page content
 profile:
-  title: "FayMay Profiles"
-  header: "FayMay Profiles"
-  welcome_message: "Welcome to FayMay Fansite. This page is maintained by international fans. We are glad that you are curious about FayMay and want to know more about them. We would like to request just five things from you."
+  title: "โปรไฟล์เฟเมษ์"
+  header: "โปรไฟล์เฟเมษ์"
+  welcome_message: "ยินดีต้อนรับสู่เว็บไซต์แฟนคลับเฟเมษ์ หน้านี้ดูแลโดยแฟนคลับนานาชาติ เรายินดีที่คุณสนใจเฟเมษ์และต้องการรู้จักพวกเธอมากขึ้น เราขอร้องเพียง 5 สิ่งจากคุณ"
 
   fan_requests:
-    - "FayMay is one. Please learn to love them both."
-    - "Please love and accept both Fay and May as who they are, not your idea of who they should be."
-    - "Please respect and support their decisions, be it for work or personal life."
-    - "Please respect their privacy and know our boundaries as fans and artists. They love to share their lives with us, but that doesn't mean we can overstep our boundaries. That includes their relationship with other people, be it other public figures or private citizens. Respect the relationship they have with others and give them their privacy."
-    - "Please try not to amplify the voices of the haters, drown them out with love instead. Our fandom is built on love, but if someone means to cause harm, we will protect FayMay."
+    - "เฟเมษ์เป็นหนึ่งเดียว โปรดเรียนรู้ที่จะรักทั้งคู่"
+    - "โปรดรักและยอมรับทั้งเฟและเมษ์ในแบบที่พวกเธอเป็น ไม่ใช่ในแบบที่คุณคิดว่าพวกเธอควรจะเป็น"
+    - "โปรดเคารพและสนับสนุนการตัดสินใจของพวกเธอ ไม่ว่าจะเป็นเรื่องงานหรือชีวิตส่วนตัว"
+    - "โปรดเคารพความเป็นส่วนตัวของพวกเธอและรู้จักขอบเขตของเราในฐานะแฟนคลับและศิลปิน พวกเธอชอบแบ่งปันชีวิตกับเรา แต่นั่นไม่ได้หมายความว่าเราสามารถก้าวล่วงขอบเขตได้ รวมถึงความสัมพันธ์ของพวกเธอกับคนอื่น ๆ ไม่ว่าจะเป็นบุคคลสาธารณะหรือบุคคลทั่วไป เคารพความสัมพันธ์ที่พวกเธอมีกับผู้อื่นและให้ความเป็นส่วนตัวแก่พวกเธอ"
+    - "โปรดพยายามอย่าขยายเสียงของผู้ที่เกลียดชัง แต่ให้กลบเสียงพวกเขาด้วยความรักแทน แฟนดอมของเราสร้างขึ้นบนพื้นฐานของความรัก แต่ถ้ามีใครตั้งใจที่จะสร้างความเสียหาย เราจะปกป้องเฟเมษ์"
 
   fay:
-    first_name: "Kunyaphat"
-    family_name: "Na Nakorn"
+    first_name: "กัญญาพัชร"
+    family_name: "ณ นคร"
     native_name: "เฟ กัญญาพัชร ณ นคร"
-    nationality: "Thai"
-    gender: "Female"
-    born: "December 2, 2001"
+    nationality: "ไทย"
+    gender: "หญิง"
+    born: "2 ธันวาคม 2544"
     blood_type: "AB"
     mbti: "INFJ-T"
-    favorite_things: "Chihuahua, Music, Movie"
-    hobbies: "Dance, Sing a song, Play Guitar, Watch Movies, Read Novels"
-    favorite_snacks: "Macaron, Milo Nuggets, Choux Cream"
-    favorite_colors: "Black, Blue"
-    favorite_flowers: "Hydrangea"
+    favorite_things: "ชิวาวา, ดนตรี, ภาพยนตร์"
+    hobbies: "เต้น, ร้องเพลง, เล่นกีตาร์, ดูหนัง, อ่านนิยาย"
+    favorite_snacks: "มาการอง, ไมโลนักเก็ต, ชูครีม"
+    favorite_colors: "ดำ, น้ำเงิน"
+    favorite_flowers: "ไฮเดรนเยีย"
     t_shirt_size: "S/M"
-    wrist_size: "L:14cm R14.5cm"
-    ring_size: "46, 48, 55, 52, 52, 50, 51, 52, 43, 40 mm (ordered from left pinkey finger to right pinky finger). Preferred to wear on middle finger."
+    wrist_size: "ซ้าย: 14 ซม. ขวา: 14.5 ซม."
+    ring_size: "46, 48, 55, 52, 52, 50, 51, 52, 43, 40 มม. (เรียงจากนิ้วก้อยซ้ายไปนิ้วก้อยขวา) ชอบใส่ที่นิ้วกลาง"
 
   may:
-    first_name: "Yada"
-    family_name: "Watcharamusik"
+    first_name: "ญดา"
+    family_name: "วัชระมูสิก"
     native_name: "เมษ์ ญดา วัชระมูสิก"
-    nationality: "Thai"
-    gender: "Female"
-    born: "October 31, 1997"
+    nationality: "ไทย"
+    gender: "หญิง"
+    born: "31 ตุลาคม 2540"
     blood_type: "A"
     mbti: "ESFJ-T"
-    favorite_things: "Cat, Southern & Northeastern Thai Food, Sea"
-    hobbies: "Watch Movies, Listen to Music, Hang out with friends"
-    favorite_snacks: "Jelly"
-    favorite_colors: "Pastel Pink"
-    favorite_flowers: "White Rose, Peach Rose"
+    favorite_things: "แมว, อาหารใต้และอีสาน, ทะเล"
+    hobbies: "ดูหนัง, ฟังเพลง, ออกไปเที่ยวกับเพื่อน"
+    favorite_snacks: "เยลลี่"
+    favorite_colors: "ชมพูพาสเทล"
+    favorite_flowers: "กุหลาบขาว, กุหลาบสีพีช"
     t_shirt_size: "S"
-    wrist_size: "14cm"
-    ring_size: "50mm. Index finger."
+    wrist_size: "14 ซม."
+    ring_size: "50 มม. นิ้วชี้"
 
 # Voting page content
 voting:
-  title: "Ongoing Votings"
-  description: "All the ongoing voting activities will be shared on this page. If you have time, please help with the voting as much as you can. It's a good way to show our love for FayMay."
+  title: "การโหวตที่กำลังดำเนินอยู่"
+  description: "กิจกรรมการโหวตที่กำลังดำเนินอยู่ทั้งหมดจะถูกแบ่งปันในหน้านี้ หากคุณมีเวลา โปรดช่วยโหวตให้มากที่สุดเท่าที่จะทำได้ เป็นวิธีที่ดีในการแสดงความรักต่อเฟเมษ์"
   instructions:
-    - "Please try to keep both of them to have the same vote counts."
-    - "Please don't use automated tools. We wouldn't want them to get disqualified."
+    - "โปรดพยายามรักษาคะแนนโหวตของทั้งคู่ให้เท่ากัน"
+    - "โปรดอย่าใช้เครื่องมืออัตโนมัติ เราไม่อยากให้พวกเธอถูกตัดสิทธิ์"
   
   starlight_award:
-    title: "2024 The Most Shining Star in Thailand"
-    description: "The voting period is from Aug 23 to Sep 11 20:00 BKK Time. You can get up to 7 free votes, 4 daily free votes and 3 daily free votes for first social share. Please"
-    vote_link: "vote for them."
+    title: "ดาวดวงสว่างที่สุดในประเทศไทย 2567"
+    description: "ระยะเวลาการโหวตคือตั้งแต่วันที่ 23 สิงหาคม ถึง 11 กันยายน เวลา 20:00 น. ตามเวลาประเทศไทย คุณสามารถรับโหวตฟรีได้สูงสุด 7 โหวต โดยแบ่งเป็น 4 โหวตฟรีรายวัน และ 3 โหวตฟรีสำหรับการแชร์ในโซเชียลครั้งแรกของวัน โปรด"
+    vote_link: "โหวตให้พวกเธอ"
   
   thai_update_award:
-    title: "The Most Favorite On-Screen Couple of 2024"
-    description: "The voting period is from Aug 24 to Sep 04 15:00 BKK Time. You can vote unlimitedly. Please"
-    vote_link: "vote for them."
+    title: "คู่จิ้นยอดนิยมแห่งปี 2567"
+    description: "ระยะเวลาการโหวตคือตั้งแต่วันที่ 24 สิงหาคม ถึง 4 กันยายน เวลา 15:00 น. ตามเวลาประเทศไทย คุณสามารถโหวตได้ไม่จำกัด โปรด"
+    vote_link: "โหวตให้พวกเธอ"
 
 # Fan Pages content
 fan_pages:
-  title: "Active Fan Pages"
-  description: "Here are the active fan pages, both official and unofficial, to keep you connected with the community!"
-  by_country: "Fan Pages by Country"
-  country_description: "These fan pages are organized by country for easy browsing."
+  title: "เพจแฟนคลับที่ยังใช้งานอยู่"
+  description: "นี่คือเพจแฟนคลับที่ยังใช้งานอยู่ ทั้งที่เป็นทางการและไม่เป็นทางการ เพื่อให้คุณติดต่อกับชุมชนได้!"
+  by_country: "เพจแฟนคลับแยกตามประเทศ"
+  country_description: "เพจแฟนคลับเหล่านี้ถูกจัดเรียงตามประเทศเพื่อให้ง่ายต่อการค้นหา"
   table:
-    country: "Country"
+    country: "ประเทศ"
     twitter: "Twitter"
     facebook: "Facebook"
     tiktok: "TikTok"
-    official: "Official"
+    official: "เป็นทางการ"
   countries:
-    thailand: "Thailand"
-    brazil: "Brazil"
-    vietnam: "Vietnam"
-    myanmar: "Myanmar"
+    thailand: "ไทย"
+    brazil: "บราซิล"
+    vietnam: "เวียดนาม"
+    myanmar: "พม่า"
 
 # Fan Creations content
 fan_creations:
-  title: "Fan Creations"
-  description: "This page intends to highlight the profiles of fans who are fansites or fans who create fan arts, fan edits, fan covers, and fan translations."
+  title: "ผลงานแฟนคลับ"
+  description: "หน้านี้มีจุดประสงค์เพื่อเน้นย้ำโปรไฟล์ของแฟนคลับที่เป็นแฟนไซต์หรือแฟนคลับที่สร้างแฟนอาร์ต แฟนเอดิต คัฟเวอร์เพลง และการแปลโดยแฟนคลับ"
   fan_sites:
-    title: "Fan Sites"
-    description: "Here is a list of fansites that often share FayMay's activities through amazing camerawork!"
+    title: "แฟนไซต์"
+    description: "นี่คือรายชื่อแฟนไซต์ที่มักจะแบ่งปันกิจกรรมของเฟเมษ์ผ่านการถ่ายภาพที่ยอดเยี่ยม!"
   fan_art:
-    title: "Fan Art Creators"
-    description: "Check out this list of fan art creators showcasing their fantastic artwork!"
+    title: "ผู้สร้างแฟนอาร์ต"
+    description: "ลองดูรายชื่อผู้สร้างแฟนอาร์ตที่นำเสนอผลงานศิลปะที่ยอดเยี่ยมของพวกเขา!"
   fan_edits:
-    title: "Fan Edit Video Creators"
-    description: "Make sure to check out these cool fan video makers and their awesome edits!"
+    title: "ผู้สร้างวิดีโอแฟนเอดิต"
+    description: "อย่าลืมเช็คผู้สร้างวิดีโอแฟนเอดิตเหล่านี้และการตัดต่อที่สุดยอดของพวกเขา!"
   fan_covers:
-    title: "Fan Covers"
+    title: "คัฟเวอร์เพลงโดยแฟนคลับ"
   fan_translations:
-    title: "Fan Translations"
-    description: "Here is a list of fan translation accounts along with their respective languages."
+    title: "การแปลโดยแฟนคลับ"
+    description: "นี่คือรายชื่อบัญชีแปลโดยแฟนคลับพร้อมภาษาที่พวกเขาแปล"
   table:
-    faymay_focused: "FayMay Focused"
-    language: "Language"
+    faymay_focused: "เน้นเฟเมษ์"
+    language: "ภาษา"
     twitter: "Twitter"
     youtube: "YouTube"
     tiktok: "TikTok"
   languages:
-    english: "English"
-    thai_english: "Thai/English"
-    portuguese: "Portuguese"
+    english: "ภาษาอังกฤษ"
+    thai_english: "ภาษาไทย/ภาษาอังกฤษ"
+    portuguese: "ภาษาโปรตุเกส"
 
 # Dream Series content
 dream_series:
-  title: "My Marvellous Dream is You (ฝันรักห้วงนิทรา)"
-  description: "I'm \"Dawhan\". Since I can remember, I have always had strange dreams about a young girl who was quiet but often played with me in my dreams. One day, a new neighbor moved in, and that led to my family falling apart. My father ran away with the man next door, who turned out to be the father of \"Kimhan\" the quiet & small girl from next door. Initially, we were not close at all, but various circumstances brought us closer and made us understand each other. However, Kimhan was unaware that while in the real world we were just friends, in my dreams, the small girl and I did things that went far beyond that. So, I kept my feelings concealed because I couldn't let her know. I never realized that in those dreams, I was not the only one dreaming."
-  genres: "Genres: Romance, Fantasy"
-  other_names: "Other Names: DreamGL, Dream The Series"
+  title: "ฝันรักห้วงนิทรา (My Marvellous Dream is You)"
+  description: "ฉันคือ \"ดาวัล\" ตั้งแต่ที่จำความได้ ฉันมักจะฝันแปลกๆ เกี่ยวกับเด็กผู้หญิงคนหนึ่งที่เงียบขรึมแต่มักจะเล่นกับฉันในความฝัน วันหนึ่งมีเพื่อนบ้านใหม่ย้ายเข้ามา และนั่นนำไปสู่การที่ครอบครัวของฉันแตกแยก พ่อของฉันหนีไปกับผู้ชายข้างบ้าน ซึ่งเป็นพ่อของ \"คิมหัน\" เด็กผู้หญิงเงียบๆ และตัวเล็กๆ จากบ้านข้างๆ ตอนแรกเราไม่ได้สนิทกันเลย แต่สถานการณ์ต่างๆ ทำให้เราสนิทกันมากขึ้นและเข้าใจกันมากขึ้น อย่างไรก็ตาม คิมหันไม่รู้ว่าในขณะที่ในโลกความเป็นจริงเราเป็นแค่เพื่อนกัน แต่ในความฝันของฉัน เด็กผู้หญิงตัวเล็กๆ คนนั้นและฉันทำอะไรที่เกินกว่านั้นมาก ดังนั้นฉันจึงปิดบังความรู้สึกของฉันไว้เพราะฉันไม่สามารถบอกเธอได้ ฉันไม่เคยรู้เลยว่าในความฝันเหล่านั้น ฉันไม่ได้เป็นคนเดียวที่ฝัน"
+  genres: "แนว: โรแมนซ์, แฟนตาซี"
+  other_names: "ชื่ออื่นๆ: DreamGL, Dream The Series"
   main_roles:
-    title: "Main roles:"
-    description: "Please follow and support all the Dream Girls! They are talented actresses, and their TikTok videos are very fun."
+    title: "นักแสดงนำ:"
+    description: "กรุณาติดตามและสนับสนุนสาวๆ Dream ทุกคน! พวกเธอเป็นนักแสดงที่มีความสามารถ และวิดีโอ TikTok ของพวกเธอสนุกมาก"
   table:
-    name: "Name"
-    full_name: "Full Name"
+    name: "ชื่อ"
+    full_name: "ชื่อเต็ม"
     instagram: "Instagram"
     twitter: "Twitter"
     tiktok: "TikTok"
-    hashtag: "Hashtag"
+    hashtag: "แฮชแท็ก"
   teasers:
-    title: "Teasers"
-    description: "Please watch the official teasers and trailer in this playlist by Idol Factory."
+    title: "ทีเซอร์"
+    description: "กรุณารับชมทีเซอร์และตัวอย่างอย่างเป็นทางการในเพลย์ลิสต์นี้โดย Idol Factory"
   episodes:
-    title: "UNCUT Episodes"
-    description: "Please watch the series. It's a slow burn and might make you feel frustrated at times, but FayMay's chemistry is incredible, and the acting from the whole cast is brilliant. Watching it once isn't enough, so please watch the whole series a few times."
+    title: "ตอน UNCUT"
+    description: "กรุณารับชมซีรีส์นี้ มันเป็นการพัฒนาความสัมพันธ์อย่างช้าๆ และอาจทำให้คุณรู้สึกหงุดหงิดในบางครั้ง แต่เคมีของเฟเมษ์นั้นน่าทึ่งมาก และการแสดงของนักแสดงทั้งหมดยอดเยี่ยม การดูแค่ครั้งเดียวไม่พอ ดังนั้นกรุณาดูทั้งซีรีส์สักสองสามครั้ง"
     table:
-      episode: "Episode"
-      teaser: "Teaser [Spoiler]"
-      premiered: "Premiered"
+      episode: "ตอน"
+      teaser: "ทีเซอร์ [สปอยล์]"
+      premiered: "ออกอากาศ"
     spoilers:
-      ep1: "After a falling out with Dawhan, Kimhan made the decision to join Jessie, Dawhan's rival. Mali, feeling unsettled by the situation, took it upon herself to conduct an investigation, ultimately uncovering the true reason behind Kimhan's decisioned."
-      ep2: "Dawhan finally understood the true reason why Kimhun agreed to work for Jessie, enabling both of them to come to an understanding. Dawhan refused to let Jessie use Kimhun as a tool and challenged Jessie to release evidence used to blackmail her."
-      ep3: "Dawhan encountered a social media frenzy after she brought Kimhan back to the condo until dizziness. Toon decided to use the trending couple \"Pat-Dawhan\" to deflect attention by releasing a leaked video clip."
-      ep4: "Kimhun had a chance encounter with Mawin, the proprietor of the gallery. This unexpected meeting led Kimhun to a decision to work with Mawin's gallery, a choice that brought her sincere joy. Despite Dawan's efforts to impede her, but Kimhun joined the gallery, igniting a heated dispute between them."
-      ep5: "Dawan tried every possible way to interrupt Mawin, leading to a conflict with Kimhan and causing Dawan to choose to return home. While Dawan was asleep, she dreamed of Kimhan drawing a picture of Kim Han together with herselves, but the image transformed into a picture of Mawin instead."
-      ep6: "Pat confesses his love to Dawan. Upon found out this, Kimhan fell ill and was hospitalized. Kimhan opted to leave the room she shared with Dawan. However, she encountered Dawan embracing Pat, leading the two to argue. In the heat of the moment, Kimhan unintentionally revealed his affection for Mawin."
-      ep7: "Kimhan agrees to be Mawin's girlfriend to secure Dawan's future. Dawan missed opportunities to represent Thailand as an actress and underwent treatment for depression."
-      ep8: "Dawan and Kimhan both reconcile again with a sweet kiss. Tim and Pongphon, the people who left both the Dawan and Kimhan families in misery, come back to meet the four of them again."
-      ep9: "Ae, Kimhan's mother, fell suddenly ill and expressed her wish to see Kimhan and Marwin get married. Despite Kimhan's desire to fulfill her mother's wish, but in her heart, she only loved Dawan."
-      ep10: "Dawan is reluctant to attend Kimhan and Marwin's wedding at first. However, upon reading Kimhan's heartfelt letter confessing her feelings, Dawan immediately drops everything and rushes to the wedding to see Kimhan."
-      ep11: "Kimhan decides to run away from the wedding with Dawan. This decision brought they back together again. As for Mother Ae, after her worries were over she passed away peacefully."
-      ep12: "I am happiest when I'm in a dream, because in it... you are there"
+      ep1: "หลังจากทะเลาะกับดาวัล คิมหันตัดสินใจเข้าร่วมกับเจสซี่ คู่แข่งของดาวัล มาลี รู้สึกไม่สบายใจกับสถานการณ์นี้ จึงลงมือสืบหาความจริงด้วยตัวเอง และในที่สุดก็ค้นพบเหตุผลที่แท้จริงเบื้องหลังการตัดสินใจของคิมหัน"
+      ep2: "ดาวัลเข้าใจเหตุผลที่แท้จริงว่าทำไมคิมหันถึงยอมทำงานให้เจสซี่ ทำให้ทั้งคู่เข้าใจกัน ดาวัลปฏิเสธที่จะให้เจสซี่ใช้คิมหันเป็นเครื่องมือและท้าทายให้เจสซี่เปิดเผยหลักฐานที่ใช้แบล็คเมล์เธอ"
+      ep3: "ดาวัลเผชิญกับกระแสโซเชียลมีเดียหลังจากพาคิมหันกลับไปที่คอนโดจนเวียนหัว ตูนตัดสินใจใช้คู่จิ้น \"แพท-ดาวัล\" เบี่ยงเบนความสนใจโดยปล่อยคลิปวิดีโอที่หลุดออกมา"
+      ep4: "คิมหันบังเอิญได้พบกับมาวิน เจ้าของแกลเลอรี่ การพบกันโดยบังเอิญนี้นำคิมหันไปสู่การตัดสินใจทำงานกับแกลเลอรี่ของมาวิน ซึ่งเป็นทางเลือกที่ทำให้เธอมีความสุขอย่างจริงใจ แม้ว่าดาวัลจะพยายามขัดขวาง แต่คิมหันก็เข้าร่วมกับแกลเลอรี่ ทำให้เกิดการโต้เถียงอย่างรุนแรงระหว่างพวกเธอ"
+      ep5: "ดาวัลพยายามทุกวิถีทางที่จะรบกวนมาวิน นำไปสู่ความขัดแย้งกับคิมหันและทำให้ดาวัลเลือกที่จะกลับบ้าน ในขณะที่ดาวัลหลับ เธอฝันว่าคิมหันวาดภาพของคิมหันกับตัวเองด้วยกัน แต่ภาพนั้นกลับเปลี่ยนเป็นภาพของมาวินแทน"
+      ep6: "แพทสารภาพรักกับดาวัล เมื่อรู้เรื่องนี้ คิมหันล้มป่วยและถูกส่งโรงพยาบาล คิมหันเลือกที่จะออกจากห้องที่แบ่งกับดาวัล อย่างไรก็ตาม เธอเห็นดาวัลกอดแพท ทำให้ทั้งคู่ทะเลาะกัน ในช่วงเวลาที่อารมณ์พลุ่งพล่าน คิมหันเผลอเปิดเผยความรู้สึกของเธอที่มีต่อมาวินโดยไม่ตั้งใจ"
+      ep7: "คิมหันตกลงเป็นแฟนกับมาวินเพื่อรับรองอนาคตของดาวัล ดาวัลพลาดโอกาสเป็นตัวแทนประเทศไทยในฐานะนักแสดงและเข้ารับการรักษาอาการซึมเศร้า"
+      ep8: "ดาวัลและคิมหันกลับมาคืนดีกันอีกครั้งด้วยจูบหวานๆ ทิมและพงษ์พล คนที่ทิ้งครอบครัวของดาวัลและคิมหันให้ตกอยู่ในความทุกข์ กลับมาพบกับทั้งสี่คนอีกครั้ง"
+      ep9: "แอ๋ แม่ของคิมหัน ล้มป่วยกะทันหันและแสดงความปรารถนาที่จะเห็นคิมหันและมาวินแต่งงานกัน แม้ว่าคิมหันต้องการที่จะทำตามความปรารถนาของแม่ แต่ในใจของเธอนั้นรักแต่ดาวัลเท่านั้น"
+      ep10: "ดาวัลลังเลที่จะเข้าร่วมงานแต่งงานของคิมหันและมาวินในตอนแรก อย่างไรก็ตาม เมื่อได้อ่านจดหมายที่คิมหันเขียนสารภาพความรู้สึกอย่างจริงใจ ดาวัลก็รีบทิ้งทุกอย่างและวิ่งไปที่งานแต่งงานทันทีเพื่อพบกับคิมหัน"
+      ep11: "คิมหันตัดสินใจหนีออกจากงานแต่งงานกับดาวัล การตัดสินใจนี้ทำให้พวกเธอกลับมาอยู่ด้วยกันอีกครั้ง ส่วนแม่แอ๋ หลังจากที่ความกังวลของเธอหมดไป เธอก็จากไปอย่างสงบ"
+      ep12: "ฉันมีความสุขที่สุดเมื่ออยู่ในความฝัน เพราะในนั้น... เธออยู่ตรงนั้น"
   osts:
-    title: "OSTs"
-    description: "The OSTs in this series are chef's kiss. Please show them some love!"
+    title: "เพลงประกอบซีรีส์"
+    description: "เพลงประกอบในซีรีส์นี้ยอดเยี่ยมมาก กรุณาแสดงความรักให้พวกเขาด้วย!"
     table:
-      language: "Language"
-      title: "Title"
-      vocal: "Vocal"
-      producer: "Producer"
+      language: "ภาษา"
+      title: "ชื่อเพลง"
+      vocal: "นักร้อง"
+      producer: "โปรดิวเซอร์"
   fun_facts:
-    title: "Fun Facts:"
+    title: "เกร็ดน่ารู้:"
     facts:
-      - "You can find the English translation of the casting call here."
-      - "May didn't even plan to audition that day; she was just accompanying her friend. Her friend convinced her to audition once they were already at the event. We should all thank May's friend!"
-      - "Fay and May met at the audition event for the first time, and they were both wearing similar black jackets."
-      - "The friend who came with Fay is also May's friend, so they had a mutual friend but didn't get a chance to talk before the audition started."
-      - "Their chemistry was insanely good that day. Many people in the audience watching the audition livestream were cheering for them to be the final two leads."
-      - "That evening, after the audition ended, they had their first TikTok LIVE together with their mutual friend."
-      - "After that TikTok LIVE, they had an Instagram LIVE with just the two of them."
-      - "You can watch some of the subtitled videos about casting day in this playlist."
+      - "คุณสามารถหาคำแปลภาษาอังกฤษของประกาศรับสมัครนักแสดงได้ที่นี่"
+      - "เมษ์ไม่ได้วางแผนที่จะออดิชั่นในวันนั้นด้วยซ้ำ เธอแค่มาเป็นเพื่อนเพื่อนของเธอ เพื่อนของเธอเป็นคนโน้มน้าวให้เธอออดิชั่นหลังจากที่มาถึงงานแล้ว เราควรขอบคุณเพื่อนของเมษ์ทุกคน!"
+      - "เฟและเมษ์เจอกันครั้งแรกที่งานออดิชั่น และพวกเธอทั้งคู่ใส่แจ็คเก็ตสีดำคล้ายๆ กัน"
+      - "เพื่อนที่มากับเฟก็เป็นเพื่อนของเมษ์ด้วย ดังนั้นพวกเธอจึงมีเพื่อนร่วมกัน แต่ไม่มีโอกาสได้คุยกันก่อนการออดิชั่นเริ่ม"
+      - "เคมีของพวกเธอในวันนั้นดีมากจนน่าทึ่ง หลายคนในกลุ่มผู้ชมที่ดูการถ่ายทอดสดการออดิชั่นต่างเชียร์ให้พวกเธอเป็นนักแสดงนำทั้งคู่"
+      - "ในคืนนั้น หลังจากการออดิชั่นจบลง พวกเธอมีไลฟ์ TikTok ร่วมกันครั้งแรกกับเพื่อนร่วมกันของพวกเธอ"
+      - "หลังจากไลฟ์ TikTok นั้น พวกเธอมีไลฟ์ Instagram กันสองคน"
+      - "คุณสามารถดูวิดีโอที่มีคำบรรยายเกี่ยวกับวันคัดเลือกนักแสดงได้ในเพลย์ลิสต์นี้"
   spoiler:
-    reveal: "Click to reveal spoiler"
-    hide: "Click to hide spoiler"
+    reveal: "คลิกเพื่อเปิดเผยสปอยล์"
+    hide: "คลิกเพื่อซ่อนสปอยล์"
