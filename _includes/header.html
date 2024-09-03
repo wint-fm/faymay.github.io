@@ -2,72 +2,59 @@
 
 <!-- Wrapper -->
 <div id="wrapper">
-
     <!-- Header -->
     <header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
         <a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
         <nav>
             <a href="#menu">Menu</a>
-            <!-- Updated Language Selector -->
-            <a class="language-selector">
-                <select id="languageSelector" onchange="translateContent()">
-                    <option value="en">English</option>
-                    <option value="zh-Hans">Chinese (Simplified)</option>
-                    <option value="fil">Filipino</option>
-                    <option value="id">Indonesian</option>
-                    <option value="it">Italian</option>
-                    <option value="ja">Japanese</option>
-                    <option value="ko">Korean</option>
-                    <option value="my">Myanmar</option>
-                    <option value="pt">Portuguese</option>
-                    <option value="es">Spanish</option>
-                    <option value="th">Thai</option>
-                    <option value="vi">Vietnamese</option>
+            <!-- Simplified Language Selector -->
+            <div class="language-selector">
+                <select id="languageSelector" onchange="changeLanguage(this.value)">
+                    {% for lang in site.jekyll-multiple-languages-plugin.languages %}
+                        {% assign lang_name = site.jekyll-multiple-languages-plugin.languages_name[lang] %}
+                        <option value="{{ lang }}" {% if site.lang == lang %}selected{% endif %}>
+                            {{ lang_name }}
+                        </option>
+                    {% endfor %}
                 </select>
-            </a>
+            </div>
         </nav>        
     </header>
 
-	<style>
-		.language-selector {
-			margin-right: 10px; /* Reduced from 20px */
-			position: relative;
-			padding: 0; /* Remove any padding */
-		}
-	
-		#languageSelector {
-			appearance: none;
-			-webkit-appearance: none;
-			-moz-appearance: none;
-			background: none;
-			border: none;
-			font-size: inherit;
-			color: inherit;
-			cursor: pointer;
-			text-transform: uppercase;
-			line-height: inherit;
-			padding: 0 0.5em; /* Add minimal padding for readability */
-		}
-	
-		/* Optional: Add a custom dropdown arrow */
-		.language-selector::after {
-			content: '\25BC'; /* Unicode for a down arrow */
-			position: absolute;
-			top: 50%;
-			right: 0;
-			transform: translateY(-50%);
-			pointer-events: none;
-		}
-	
-		/* Ensure the select doesn't overflow on smaller screens */
-		@media screen and (max-width: 480px) {
-			#languageSelector {
-				max-width: 150px; /* Adjust as needed */
-				overflow: hidden;
-				text-overflow: ellipsis;
-			}
-		}
-	</style>
+    <style>
+        .language-selector {
+            margin-right: 10px;
+            position: relative;
+        }
+    
+        #languageSelector {
+            appearance: none;
+            background: none;
+            border: none;
+            font-size: inherit;
+            color: inherit;
+            cursor: pointer;
+            text-transform: uppercase;
+            padding: 0 1.5em 0 0.5em;
+        }
+    
+        .language-selector::after {
+            content: '\25BC';
+            position: absolute;
+            top: 50%;
+            right: 0.5em;
+            transform: translateY(-50%);
+            pointer-events: none;
+        }
+    
+        @media screen and (max-width: 480px) {
+            #languageSelector {
+                max-width: 100px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+    </style>
 
     <!-- Menu -->
     <nav id="menu">
@@ -86,5 +73,51 @@
     </nav>
 </div>
 
-<!-- Scripts -->
-<script src="assets/js/translator.js"></script>
+<script>
+    function changeLanguage(selectedLang) {
+        var currentPath = window.location.pathname;
+        var languages = {{ site.jekyll-multiple-languages-plugin.languages | jsonify }};
+        var defaultLanguage = '{{ site.jekyll-multiple-languages-plugin.default_language }}';
+        
+        var currentLang = languages.find(lang => currentPath.startsWith('/' + lang + '/')) || defaultLanguage;
+        
+        if (selectedLang === currentLang) return;
+        
+        var pathWithoutLang = currentPath.replace(new RegExp('^/' + currentLang + '(/|$)'), '/');
+        var newUrl = selectedLang === defaultLanguage ? pathWithoutLang : '/' + selectedLang + pathWithoutLang;
+        newUrl = newUrl.replace(/\/+/g, '/');
+        
+        // Store the selected language in localStorage
+        localStorage.setItem('selectedLanguage', selectedLang);
+        
+        window.location.href = newUrl;
+    }
+
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var languageSelector = document.getElementById('languageSelector');
+        if (languageSelector) {
+            // Retrieve the stored language from localStorage
+            var storedLanguage = localStorage.getItem('selectedLanguage');
+            
+            if (storedLanguage) {
+                // If a language is stored, use it
+                languageSelector.value = storedLanguage;
+                
+                // Check if the current URL matches the stored language
+                var currentPath = window.location.pathname;
+                var currentLang = '{{ site.jekyll-multiple-languages-plugin.languages }}'.split(',').find(lang => currentPath.startsWith('/' + lang + '/')) || '{{ site.jekyll-multiple-languages-plugin.default_language }}';
+                
+                if (currentLang !== storedLanguage) {
+                    // If the URL doesn't match the stored language, change it
+                    changeLanguage(storedLanguage);
+                }
+            } else {
+                // If no language is stored, use the current language
+                var currentLang = '{{ site.lang }}';
+                languageSelector.value = currentLang;
+                localStorage.setItem('selectedLanguage', currentLang);
+            }
+        }
+    });
+</script>

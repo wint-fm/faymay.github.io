@@ -1,25 +1,27 @@
+@use "sass:math";
+@use "sass:list";
+
 /// Makes an element's :before pseudoelement a FontAwesome icon.
 /// @param {string} $content Optional content value to use.
 /// @param {string} $where Optional pseudoelement to target (before or after).
 @mixin icon($content: false, $where: before) {
+    text-decoration: none;
 
-	text-decoration: none;
+    &::#{$where} {
+        @if $content {
+            content: $content;
+        }
 
-	&:#{$where} {
-
-		@if $content {
-			content: $content;
-		}
-
-		-moz-osx-font-smoothing: grayscale;
-		-webkit-font-smoothing: antialiased;
-		font-family: FontAwesome;
-		font-style: normal;
-		font-weight: normal;
-		text-transform: none !important;
-
-	}
-
+        /* Wrapping declarations in & { } to avoid deprecation warnings */
+        & {
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            font-family: FontAwesome;
+            font-style: normal;
+            font-weight: normal;
+            text-transform: none !important;
+        }
+    }
 }
 
 /// Applies padding to an element, taking the current element-margin value into account.
@@ -27,30 +29,39 @@
 /// @param {mixed} $lr Left/right padding.
 /// @param {list} $pad Optional extra padding (in the following order top, right, bottom, left)
 /// @param {bool} $important If true, adds !important.
-@mixin padding($tb, $lr, $pad: (0,0,0,0), $important: null) {
+@mixin padding($tb, $lr, $pad: (0, 0, 0, 0), $important: false) {
+    $important-rule: if($important, '!important', '');
+    $calc-top: $tb + list.nth($pad, 1);
+    $calc-right: $lr + list.nth($pad, 2);
+    $calc-bottom: max(0.1em, $tb - _size(element-margin) + list.nth($pad, 3));
+    $calc-left: $lr + list.nth($pad, 4);
 
-	@if $important {
-		$important: '!important';
-	}
-
-	padding: ($tb + nth($pad,1)) ($lr + nth($pad,2)) max(0.1em, $tb - _size(element-margin) + nth($pad,3)) ($lr + nth($pad,4)) #{$important};
-
+    padding: $calc-top $calc-right $calc-bottom $calc-left #{$important-rule};
 }
 
 /// Encodes a SVG data URL so IE doesn't choke (via codepen.io/jakob-e/pen/YXXBrp).
 /// @param {string} $svg SVG data URL.
 /// @return {string} Encoded SVG data URL.
 @function svg-url($svg) {
+    $svg: str-replace($svg, '"', '\'');
+    $svg: str-replace($svg, '<', '%3C');
+    $svg: str-replace($svg, '>', '%3E');
+    $svg: str-replace($svg, '&', '%26');
+    $svg: str-replace($svg, '#', '%23');
+    $svg: str-replace($svg, '{', '%7B');
+    $svg: str-replace($svg, '}', '%7D');
+    $svg: str-replace($svg, ';', '%3B');
 
-	$svg: str-replace($svg, '"', '\'');
-	$svg: str-replace($svg, '<', '%3C');
-	$svg: str-replace($svg, '>', '%3E');
-	$svg: str-replace($svg, '&', '%26');
-	$svg: str-replace($svg, '#', '%23');
-	$svg: str-replace($svg, '{', '%7B');
-	$svg: str-replace($svg, '}', '%7D');
-	$svg: str-replace($svg, ';', '%3B');
+    @return url("data:image/svg+xml;charset=utf8,#{$svg}");
+}
 
-	@return url("data:image/svg+xml;charset=utf8,#{$svg}");
-
+/// Helper function for `svg-url()` above.
+@function str-replace($string, $search, $replace: '') {
+    $index: str-index($string, $search);
+    
+    @if $index {
+        @return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+    }
+    
+    @return $string;
 }

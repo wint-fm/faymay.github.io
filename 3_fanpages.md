@@ -5,77 +5,78 @@ description: ""
 image: assets/images/banner2.jpeg
 nav-menu: true
 ---
+
 <!-- Main -->
 <div id="main">
 	<!-- One -->
 	<section id="one">
 		<div class="inner">
 			<header class="major">
-				<h2><span class="translate">Active Fan Pages</span></h2>
+				<h2>{{ site.data[site.lang].fan_pages.title }}</h2>
 			</header>
-			<p><span class="translate">Here are the active fan pages, both official and unofficial, to keep you connected with the community!</span></p>
+			<p>{{ site.data[site.lang].fan_pages.description }}</p>
 		</div>
 	</section>
 	<!-- Three -->
 	<section id="three">
 		<div class="inner">
 			<header class="major">
-				<h2><span class="translate">Fan Pages by Country</span></h2>
+				<h2>{{ site.data[site.lang].fan_pages.by_country }}</h2>
 			</header>
-			<p><span class="translate">These fan pages are organized by country for easy browsing.</span></p>
+			<p>{{ site.data[site.lang].fan_pages.country_description }}</p>
 			<div class="table-wrapper">
 				<table>
 					<thead>
 						<tr>
-							<th><span class="translate">Country</span></th>
-							<th><span class="translate">Twitter</span></th>
-							<th><span class="translate">Facebook</span></th>
-							<th><span class="translate">TikTok</span></th>
-							<th><span class="translate">Official</span></th>
+							<th>{{ site.data[site.lang].fan_pages.table.country }}</th>
+							<th>{{ site.data[site.lang].fan_pages.table.twitter }}</th>
+							<th>{{ site.data[site.lang].fan_pages.table.facebook }}</th>
+							<th>{{ site.data[site.lang].fan_pages.table.tiktok }}</th>
+							<th>{{ site.data[site.lang].fan_pages.table.official }}</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<td><span class="translate">Thailand</span></td>
+							<td>{{ site.data[site.lang].fan_pages.countries.thailand }}</td>
 							<td><a href="https://x.com/FayMayOfficial">FayMay Official</a></td>
 							<td>&nbsp;</td>
 							<td>&nbsp;</td>
-							<td><span class="translate">Yes</span></td>
+							<td>{{ site.data[site.lang].common.common_yes }}</td>
 						</tr>
 						<tr>
-							<td><span class="translate">Thailand</span></td>
+							<td>{{ site.data[site.lang].fan_pages.countries.thailand }}</td>
 							<td><a href="https://x.com/FayOfficial_TH">Fay Official</a></td>
 							<td>&nbsp;</td>
 							<td>&nbsp;</td>
-							<td><span class="translate">Yes</span></td>
+							<td>{{ site.data[site.lang].common.common_yes }}</td>
 						</tr>
 						<tr>
-							<td><span class="translate">Thailand</span></td>
+							<td>{{ site.data[site.lang].fan_pages.countries.thailand }}</td>
 							<td><a href="https://x.com/MayOfficial_TH">May Official</a></td>
 							<td>&nbsp;</td>
 							<td>&nbsp;</td>
-							<td><span class="translate">Yes</span></td>
+							<td>{{ site.data[site.lang].common.common_yes }}</td>
 						</tr>
 						<tr>
-							<td><span class="translate">Brazil</span></td>
+							<td>{{ site.data[site.lang].fan_pages.countries.brazil }}</td>
 							<td><a href="https://x.com/FayMayBr">FayMay Brasil</a></td>
 							<td>&nbsp;</td>
 							<td>&nbsp;</td>
-							<td><span class="translate">No</span></td>
+							<td>{{ site.data[site.lang].common.common_no }}</td>
 						</tr>
 						<tr>
-							<td><span class="translate">Vietnam</span></td>
+							<td>{{ site.data[site.lang].fan_pages.countries.vietnam }}</td>
 							<td>&nbsp;</td>
 							<td><a href="https://web.facebook.com/people/FayMay-Quen-Nhau-H%E1%BA%A3/61563304355465/">FayMay Quen Nhau Hả</a></td>
 							<td><a href="https://www.tiktok.com/@faymayquennhauha">FayMay quen nhau hả</a></td>
-							<td><span class="translate">No</span></td>
+							<td>{{ site.data[site.lang].common.common_no }}</td>
 						</tr>
 						<tr>
-							<td><span class="translate">Myanmar</span></td>
+							<td>{{ site.data[site.lang].fan_pages.countries.myanmar }}</td>
 							<td>&nbsp;</td>
 							<td><a href="https://web.facebook.com/profile.php?id=61559683192636">FayMay 1st Myanmar FC</a></td>
 							<td>&nbsp;</td>
-							<td><span class="translate">No</span></td>
+							<td>{{ site.data[site.lang].common.common_no }}</td>
 						</tr>
 					</tbody>
 				</table>

@@ -1,20 +1,24 @@
-{% if 'posts' == site.tiles-source %}
+{% if site.tiles-source == 'posts' %}
     {% assign tiles = site.posts %}
-{% elsif 'pages' == site.tiles-source %}
+{% elsif site.tiles-source == 'pages' %}
     {% assign tiles = site.html_pages | where_exp: "item", "item.show_tile != false" %}
 {% endif %}
+
+{% assign filtered_tiles = tiles | reject: "title", "FayMay Profiles" %}
+
 <section id="one" class="tiles">
-  {% for tile in tiles limit:site.tiles-count %}
-    {% unless tile.title == "FayMay Profiles" %}
+  {% for tile in filtered_tiles limit: site.tiles-count %}
+    {% if tile.image and tile.title %}
       <article>
         <span class="image">
-          <img src="{{ tile.image }}" alt="{{ tile.title }}" />
+          <!-- Using relative_url filter to ensure image paths are correct -->
+          <img src="{{ tile.image | relative_url }}" alt="{{ tile.title }}" />
         </span>
         <header class="major">
           <h3><a href="{{ tile.url | relative_url }}" class="link">{{ tile.title }}</a></h3>
           <p>{{ tile.description }}</p>
         </header>
       </article>
-    {% endunless %}
+    {% endif %}
   {% endfor %}
 </section>

@@ -1,5 +1,7 @@
 ---
 ---
+@use 'sass:math';
+
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
@@ -8,159 +10,160 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic');
 
 /*
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    Forty by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-	@include skel-breakpoints((
-		xlarge: '(max-width: 1680px)',
-		large: '(max-width: 1280px)',
-		medium: '(max-width: 980px)',
-		small: '(max-width: 736px)',
-		xsmall: '(max-width: 480px)',
-		xxsmall: '(max-width: 360px)'
-	));
+@include skel-breakpoints((
+    xlarge: '(max-width: 1680px)',
+    large: '(max-width: 1280px)',
+    medium: '(max-width: 980px)',
+    small: '(max-width: 736px)',
+    xsmall: '(max-width: 480px)',
+    xxsmall: '(max-width: 360px)'
+));
 
-	@include skel-layout((
-		reset: 'full',
-		boxModel: 'border',
-		grid: ( gutters: 2em ),
-		breakpoints: (
-			large: (
-				grid: ( gutters: 1.5em )
-			),
-			small: (
-				grid: ( gutters: 1.25em )
-			)
-		)
-	));
+@include skel-layout((
+    reset: 'full',
+    boxModel: 'border',
+    grid: ( gutters: 2em ),
+    breakpoints: (
+        large: (
+            grid: ( gutters: 1.5em )
+        ),
+        small: (
+            grid: ( gutters: 1.25em )
+        )
+    )
+));
 
-	@mixin inner {
-		> .inner {
-			@include padding(4em, 0);
-			margin: 0 auto;
-			max-width: _size(inner);
-			width: calc(100% - 6em);
+@mixin inner {
+    > .inner {
+        @include padding(4em, 0);
+        margin: 0 auto;
+        max-width: _size(inner);
+        width: calc(100% - 6em);
 
-			@include breakpoint(small) {
-				@include padding(3em, 0);
-				width: calc(100% - 3em);
-			}
-		}
-	}
+        @include breakpoint(small) {
+            @include padding(3em, 0);
+            width: calc(100% - 3em);
+        }
+    }
+}
 
 // Base.
 
-	@import 'base/page';
-	@import 'base/typography';
+@import 'base/page';
+@import 'base/typography';
 
 // Component.
 
-	@import 'components/section';
-	@import 'components/form';
-	@import 'components/box';
-	@import 'components/icon';
-	@import 'components/image';
-	@import 'components/list';
-	@import 'components/table';
-	@import 'components/button';
-	@import 'components/tiles';
-	@import 'components/contact-method';
-	@import 'components/spotlights';
+@import 'components/section';
+@import 'components/form';
+@import 'components/box';
+@import 'components/icon';
+@import 'components/image';
+@import 'components/list';
+@import 'components/table';
+@import 'components/button';
+@import 'components/tiles';
+@import 'components/contact-method';
+@import 'components/spotlights';
 
 // Layout.
 
-	@import 'layout/header';
-	@import 'layout/banner';
-	@import 'layout/main';
-	@import 'layout/contact';
-	@import 'layout/footer';
-	@import 'layout/wrapper';
-	@import 'layout/menu';
+@import 'layout/header';
+@import 'layout/_banner.scss';
+@import 'layout/main';
+@import 'layout/contact';
+@import 'layout/footer';
+@import 'layout/wrapper';
+@import 'layout/menu';
 
-	// Video Banner
-	#banner {
-		@include vendor('align-items', 'center');
-		@include vendor('display', 'flex');
-		position: relative;
-		overflow: hidden;
-		background-attachment: fixed;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		border-bottom: 0 !important;
-		cursor: default;
-		height: 40vh; /* Reduced height */
-		min-height: 30em; /* Adjusted min-height */
-		max-height: 45em; /* Adjusted max-height */
-		margin-top: 0;
-	
-		&::after {
-			content: none; /* Remove the overlay */
-		}
-	
-		> .inner {
-			@include vendor('transition', (
-				'opacity 1.5s ease',
-				'transform 0.5s ease-out',
-				'filter 0.5s ease',
-				'-webkit-filter 0.5s ease'
-			));
-			position: relative;
-			z-index: 2; /* Reduced z-index to allow video controls to be on top */
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			height: 100%;
-			width: 100%;
-			padding: 0 !important;
-		}
-	
-		.video-container {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			overflow: hidden;
-			z-index: 1;
-		}
-	
-		#bg-video {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			min-width: 100%;
-			min-height: 100%;
-			width: auto;
-			height: auto;
-			transform: translateX(-50%) translateY(-50%);
-			object-fit: cover;
-			object-position: center;
-		}
-	
-		.content {
-			position: relative;
-			z-index: 3;
-			text-align: center;
-			padding: 2em;
-			background-color: rgba(0, 0, 0, 0.5);
-			border-radius: 10px;
-			max-width: 80%;
-		}
+// Video Banner
+#banner {
+    /* Wrapping declarations in & { } to avoid deprecation warnings */
+    & {
+        @include vendor('align-items', 'center');
+        @include vendor('display', 'flex');
+        position: relative;
+        overflow: hidden;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-bottom: 0 !important;
+        cursor: default;
+        height: 40vh;
+        min-height: 30em;
+        max-height: 45em;
+        margin-top: 0;
+    }
 
-		/* Ensure video controls are visible */
-		video::-webkit-media-controls {
-			z-index: 2147483647; /* Maximum z-index value */
-			position: relative;
-		}
+    &::after {
+        content: none;
+    }
+
+    > .inner {
+        @include vendor('transition', (
+            'opacity 1.5s ease',
+            'transform 0.5s ease-out',
+            'filter 0.5s ease',
+            '-webkit-filter 0.5s ease'
+        ));
+        position: relative;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        padding: 0 !important;
+    }
+
+    .video-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        z-index: 1;
+    }
+
+    #bg-video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        transform: translateX(-50%) translateY(-50%);
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .content {
+        position: relative;
+        z-index: 3;
+        text-align: center;
+        padding: 2em;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        max-width: 80%;
+    }
+
+    video::-webkit-media-controls {
+        z-index: 2147483647;
+        position: relative;
+    }
 
     &.image-banner {
         @include vendor('background-image', 'url("../images/banner6.jpg")');
     }
 
-    // Fallback for devices that don't support video
     .fallback-image {
         display: none;
         position: absolute;
@@ -179,7 +182,7 @@
     }
 
     @include breakpoint(small) {
-        height: 30vh; /* Reduced height for mobile */
+        height: 30vh;
         min-height: 20em;
         padding-top: 2.75em;
 
@@ -188,14 +191,14 @@
         }
 
         #bg-video {
-            display: block !important; /* Force display on mobile */
+            display: block !important;
             height: 100%;
             width: 100%;
             object-fit: cover;
         }
 
         .fallback-image {
-            display: none; /* Hide fallback image by default */
+            display: none;
         }
     }
 }
@@ -217,64 +220,64 @@ body {
     }
 }
 
-/* Ensure the overlay is removed for this specific banner */
 section#banner::after {
     display: none !important;
 }
 
-/* General carousel styles */
+// Carousel styles
 .carousel-container {
     position: relative;
-    width: 100%; /* Ensure full width */
-    max-width: 100%; /* Override max-width */
+    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 0; /* Removed padding to make arrows fit the container height */
-    display: flex; /* Ensures the buttons align correctly */
-    align-items: center; /* Center content vertically */
+    padding: 0;
+    display: flex;
+    align-items: center;
 }
 
 .carousel {
     width: 100%;
+
+    .slick-slide {
+        height: 650px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            object-position: center;
+        }
+    }
 }
 
-.carousel .slick-slide {
-    height: 650px; /* Adjust as needed */
-}
-
-.carousel .slick-slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    object-position: center;
-}
-
-/* Updated arrows for desktop */
 .carousel-arrow {
-    position: absolute;
-    top: 0; /* Align top */
-    width: 40px; /* Narrower width for a rectangle shape */
-    height: 100%; /* Full container height */
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    outline: none; /* Removes default outline */
-    font-size: 24px;
-    cursor: pointer;
-    z-index: 1;
-    transition: background 0.3s ease;
-    display: flex; /* Center arrow text */
-    align-items: center; /* Center arrow text */
-    justify-content: center; /* Center arrow text */
-    box-shadow: none; /* Prevent any shadow from appearing */
-}
+    /* Wrapping declarations in & { } to avoid deprecation warnings */
+    & {
+        position: absolute;
+        top: 0;
+        width: 40px;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        outline: none;
+        font-size: 24px;
+        cursor: pointer;
+        z-index: 1;
+        transition: background 0.3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: none;
+    }
 
-/* Override hover effect for buttons */
-.carousel-arrow:hover, 
-.carousel-arrow:focus {
-    background: rgba(0, 0, 0, 0.7);
-    outline: none !important; /* Removes focus outline */
-    border: none !important; /* Removes any border on hover */
-    box-shadow: none !important; /* Removes any box shadow on hover */
+    &:hover,
+    &:focus {
+        background: rgba(0, 0, 0, 0.7);
+        outline: none !important;
+        border: none !important;
+        box-shadow: none !important;
+    }
 }
 
 .carousel-prev {
@@ -285,86 +288,77 @@ section#banner::after {
     right: 0;
 }
 
-/* Remove borders and outline */
-.carousel-arrow {
-    border: none;
-    outline: none;
-    box-shadow: none; /* Prevent any shadow from appearing */
-}
-
-/* Specific styles for mobile devices */
 @media screen and (max-width: 768px) {
     #banner {
         height: 30vh;
         min-height: 20em;
         padding: 2em 0;
+
+        #bg-video {
+            display: block !important;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .video-container {
+            height: 100%;
+        }
     }
 
-    #bg-video {
-        display: block !important;
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
-
-    .video-container {
-        height: 100%;
-    }
-
-    /* Carousel specific styles for mobile */
     .carousel-container {
-        max-width: 100%; /* Full width on mobile */
-        padding: 0; /* Remove any padding */
+        max-width: 100%;
+        padding: 0;
     }
 
     .carousel .slick-slide {
-        height: 450px; /* Adjusted height for mobile, you can modify this */
+        height: 450px;
+
+        > div {
+            height: 100%;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            object-position: center;
+        }
     }
 
-    .carousel .slick-slide > div {
-        height: 100%;
+    .carousel-arrow {
+        display: none !important;
     }
-
-    .carousel .slick-slide img {
-        width: 100%;
-        height: 100%;
-        object-fit: contain; /* Changed from cover to contain for consistency */
-        object-position: center;
-        // background-color: #f0f0f0; /* Light background for empty spaces */
-    }
-
-	/* Hide arrows on mobile */
-	.carousel-arrow {
-        display: none !important; /* Hide arrows on mobile */
-    }
-
-    /* Adjust dots position if needed */
-    // .carousel .slick-dots {
-    //     bottom: 10px; /* Bring dots closer to the image on mobile */
-    // }
 }
 
 .vote-link {
-	color: #ff4c4c; /* Light red color */
-	font-weight: bold;
+    color: #ff4c4c;
+
+    /* Wrapping declarations in & { } to avoid deprecation warnings */
+    & {
+        font-weight: bold;
+    }
+
+    a {
+        color: #ff4c4c;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }
 
-.vote-link a {
-	color: #ff4c4c; /* Ensuring the link also has the light red color */
-	text-decoration: none; /* Removes underline for a cleaner look */
-}
-
-.vote-link a:hover {
-	text-decoration: underline; /* Adds underline when hovering */
-}  
-
-/* Spoiler styles */
 .spoiler {
-	color: transparent;
-	background-color: black;
-	cursor: pointer;
-	transition: color 0.3s ease; /* Smooth transition for text color */
-}
-.spoiler.revealed {
-	color: white;
+    /* Wrapping declarations in & { } to avoid deprecation warnings */
+    & {
+        color: transparent;
+        background-color: black;
+        cursor: pointer;
+        transition: color 0.3s ease;
+    }
+
+    &.revealed {
+        color: white;
+    }
 }
