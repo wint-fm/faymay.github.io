@@ -245,4 +245,62 @@
 				}
 			}
 		}
+		
+		.language-selector {
+			display: inline-block;
+			height: inherit;
+			line-height: inherit;
+			padding: 0 0.75em;
+			position: relative;
+			vertical-align: middle;
+	
+			select {
+				appearance: none;
+				-webkit-appearance: none;
+				-moz-appearance: none;
+				background: transparent;
+				border: 0;
+				color: _palette(fg-bold);
+				cursor: pointer;
+				display: block;
+				font-size: 0.8em;
+				height: inherit;
+				line-height: inherit;
+				padding: 0 2em 0 0.5em; // Adjusted for the dropdown arrow
+				font-weight: _font(weight-bold);
+				letter-spacing: _font(letter-spacing-alt);
+				text-transform: uppercase;
+	
+				&:focus {
+					outline: none;
+				}
+			}
+	
+			&::after {
+				content: '\25BC';
+				position: absolute;
+				top: 50%;
+				right: 0.75em;
+				transform: translateY(-50%);
+				pointer-events: none;
+				font-size: 0.7em;
+				color: _palette(fg-bold);
+			}
+	
+			@include breakpoint(small) {
+				padding: 0 0.5em;
+	
+				select {
+					padding-right: 1.5em;
+				}
+	
+				&::after {
+					right: 0.5em;
+				}
+			}
+	
+			@include breakpoint(xsmall) {
+				padding-right: 0 !important;
+			}
+		}
 	}

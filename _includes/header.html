@@ -7,7 +7,7 @@
         <a href="{% if site.lang == site.jekyll-multiple-languages-plugin.default_language %}{{ '/' | absolute_url }}{% else %}/{{ site.lang }}/{% endif %}" class="logo" id="homeLink"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
         <nav>
             <a href="#menu">Menu</a>
-            <div class="logo">
+            <div class="language-selector">
                 <select id="languageSelector" onchange="changeLanguage(this.value)">
                     {% for lang in site.jekyll-multiple-languages-plugin.languages %}
                         {% assign lang_name = site.jekyll-multiple-languages-plugin.languages_name[lang] %}
@@ -19,45 +19,6 @@
             </div>
         </nav>        
     </header>
-
-    <style>
-        .language-selector {
-            margin-right: 10px;
-            position: relative;
-            padding: 0;
-        }
-
-        #languageSelector {
-            appearance: none;
-            -webkit-appearance: none;
-            -moz-appearance: none;
-            background: none;
-            border: none;
-            font-size: inherit;
-            color: inherit;
-            cursor: pointer;
-            text-transform: uppercase;
-            line-height: inherit;
-            padding: 0 0.5em;
-        }
-
-        .language-selector::after {
-            content: '\25BC';
-            position: absolute;
-            top: 50%;
-            right: 0;
-            transform: translateY(-50%);
-            pointer-events: none;
-        }
-
-        @media screen and (max-width: 480px) {
-            #languageSelector {
-                max-width: 150px;
-                overflow: hidden;
-                text-overflow: ellipsis;
-            }
-        }
-    </style>
 
     <!-- Menu -->
     <nav id="menu">
