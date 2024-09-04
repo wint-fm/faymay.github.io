@@ -1,43 +1,94 @@
-# site settings
+# Site settings
 title: FayMay Fansite
 subtitle: by InterFans
 email: faymay4evermarvelous@gmail.com
-description: 
-baseurl: "/faymay.github.io" # the subpath of your site, e.g. /blog
-url: "https://wint-fm.github.io" # the base hostname & protocol for 
-author:
-street_address: 
-city: 
-state: 
-zip_code: 
-country: 
-phone: 
+description: "FayMay Fansite - Dedicated to Thai GL actresses Fay and May"
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "https://luvfaymay.github.io/" # the base hostname & protocol for your site
+sass:
+  sass_dir: _sass
+  style: compressed
 
-# homepage tiles
+# Multi-language settings
+languages: ["en", "th", "zh-Hans", "fil", "id", "it", "ja", "ko", "my", "pt", "es", "vi"]
+default_lang: "en"
+exclude_from_localization: ["javascript", "images"]
+parallel_localization: true
+data_dir: "_i18n"
+
+# jekyll-multiple-languages-plugin settings
+jekyll-multiple-languages-plugin:
+  languages: ["en", "th", "zh-Hans", "fil", "id", "it", "ja", "ko", "my", "pt", "es", "vi"]
+  default_language: "en"
+  languages_name:
+    en: English
+    th: ไทย
+    zh-Hans: 简体中文
+    fil: Filipino
+    id: Bahasa Indonesia
+    it: Italiano
+    ja: 日本語
+    ko: 한국어
+    my: မြန်မာဘာသာ
+    pt: Português
+    es: Español
+    vi: Tiếng Việt
+  fallbacks:
+    zh-Hans: en
+
+# Homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
 
-# social settings (key must match name of font awesome icon)
-# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
-# Icons are not shown if value is empty
-# You need to restart jekyll for changes to have an effect
-# socials:
-#   instagram: https://www.instagram.com/fay_riezz/
-#   twitter: https://x.com/Fay_riezz
-#   tiktok: https://www.tiktok.com/@fay_riezz
-#   instagram: https://www.instagram.com/maywyda/
-#   twitter: https://x.com/maywyda
-#   tiktok: https://www.tiktok.com/@maywyda
-
-
-# build settings
+# Build settings
 markdown: kramdown
+permalink: pretty
 
+# Sass
 sass:
   style: compressed
 
+# Exclude from processing
 exclude:
-- "*.gemspec"
-- LICENSE.md
-- CONTRIBUTING.md
-- README.md 
+  - "*.gemspec"
+  - LICENSE.md
+  - CONTRIBUTING.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - scripts/
+
+# Plugins
+plugins:
+  - jekyll-multiple-languages-plugin
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:name/
+
+# Author information (optional)
+author:
+  name: 4ever_Marvelous
+
+# SEO settings
+twitter:
+  username: 4ever_Marvelous
+facebook:
+  app_id: 
+  publisher: 
+  admins: 
+social:
+  name: FayMay Fansite
+  links:
+    - https://x.com/4ever_Marvelous
+    - https://www.youtube.com/channel/UCtYnoq_bBFItlEMXhRBnW6Q
+
+# Timezone
+timezone: Asia/Bangkok

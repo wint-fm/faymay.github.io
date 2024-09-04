@@ -1,0 +1,260 @@
+lang: ja
+
+# Global section
+global:
+  language_name: "日本語"
+  site_title: "FayMayファンサイト"
+  couple_name: "FayMay (เฟเมษ์)"
+  fay_name: "Fay (เฟ กัญญาพัชร)"
+  may_name: "May (เมษ์ ญดา)"
+  series_name: "My Marvellous Dream is You (ฝันรักห้วงนิทรา)"
+  dreamgl: "DreamGL"
+  dream_the_series: "Dream The Series"
+  idol_factory: "Idol Factory"
+
+# Navigation
+nav:
+  home: "ホーム"
+  profiles: "プロフィール"
+  fan_pages: "ファンページ"
+  fan_creations: "ファン創作"
+  dream_series: "ドリームシリーズ"
+  ongoing_votings: "進行中の投票"
+  active_fan_pages: "アクティブなファンページ"
+
+# Footer
+footer:
+  copyright: "© 2024 FayMayファンサイト。全権利保有。"
+  privacy_policy: "プライバシーポリシー"
+  terms_of_service: "利用規約"
+
+# Common elements
+common:
+  read_more: "続きを読む"
+  watch_now: "今すぐ視聴"
+  get_to_know_more: "もっと知る"
+  follow_us: "フォローする"
+  latest_news: "最新ニュース"
+  featured_content: "注目コンテンツ"
+  thai: "タイ語"
+  english: "英語"
+  vote_for_them: "彼女たちに投票してください。"
+  common_yes: "はい"
+  common_no: "いいえ"
+
+# Social media
+social_media:
+  instagram: "Instagram"
+  twitter: "Twitter"
+  tiktok: "TikTok"
+  youtube: "YouTube"
+  facebook: "Facebook"
+
+# Error messages
+error_messages:
+  404: "ページが見つかりません"
+  500: "内部サーバーエラー"
+
+# Languages
+languages:
+  en: "English"
+  th: "ไทย"
+  zh-Hans: "简体中文"
+  fil: "Filipino"
+  id: "Bahasa Indonesia"
+  it: "Italiano"
+  ja: "日本語"
+  ko: "한국어"
+  my: "မြန်မာဘာသာ"
+  pt: "Português"
+  es: "Español"
+  vi: "Tiếng Việt"
+
+# Home page content
+home:
+  actress_description: '{fay_name}と{may_name}は{idol_factory}所属のタイのGLアクトレスです。彼女たちの画面上のカップル名は{couple_name}です。'
+  series_description: '彼女たちの初めての主演作品は{series_name}で、{dreamgl}または{dream_the_series}としても知られています。'
+  watch_teasers: "{idol_factory}による公式ティーザーとトレーラー{playlist_name}をぜひご覧ください。"
+
+# Profile page content
+profile:
+  title: "FayMayプロフィール"
+  header: "FayMayプロフィール"
+  welcome_message: "FayMayファンサイトへようこそ。このページは国際的なファンによって運営されています。FayMayについて興味を持ち、もっと知りたいと思ってくださってうれしいです。皆さまに5つのお願いがあります。"
+
+  fan_requests:
+    - "FayMayは一つです。二人とも愛することを学んでください。"
+    - "FayとMayを、あなたが考える彼女たちであるべき姿ではなく、ありのままの彼女たちとして愛し、受け入れてください。"
+    - "仕事であれ私生活であれ、彼女たちの決定を尊重し、サポートしてください。"
+    - "彼女たちのプライバシーを尊重し、ファンとアーティストとしての境界線を理解してください。彼女たちは私たちと生活を共有することを好みますが、それは私たちが境界線を越えてもよいということではありません。これには他の人々との関係も含まれます。他の公人であれ、一般市民であれ、他の人々との関係を尊重し、プライバシーを与えてください。"
+    - "嫌悪者の声を増幅させないようにし、代わりに愛で打ち消してください。私たちのファンダムは愛の上に成り立っていますが、誰かが害を与えようとする場合、私たちはFayMayを守ります。"
+
+  fay:
+    first_name: "クンヤパット"
+    family_name: "ナ・ナコーン"
+    native_name: "เฟ กัญญาพัชร ณ นคร"
+    nationality: "タイ"
+    gender: "女性"
+    born: "2001年12月2日"
+    blood_type: "AB型"
+    mbti: "INFJ-T"
+    favorite_things: "チワワ、音楽、映画"
+    hobbies: "ダンス、歌を歌う、ギターを弾く、映画を観る、小説を読む"
+    favorite_snacks: "マカロン、マイロヌゲット、シュークリーム"
+    favorite_colors: "黒、青"
+    favorite_flowers: "アジサイ"
+    t_shirt_size: "S/M"
+    wrist_size: "左:14cm 右:14.5cm"
+    ring_size: "46、48、55、52、52、50、51、52、43、40 mm（左手の小指から右手の小指まで順番に）。中指での着用を好む。"
+
+  may:
+    first_name: "ヤダー"
+    family_name: "ワッチャラムシック"
+    native_name: "เมษ์ ญดา วัชระมูสิก"
+    nationality: "タイ"
+    gender: "女性"
+    born: "1997年10月31日"
+    blood_type: "A型"
+    mbti: "ESFJ-T"
+    favorite_things: "猫、南部＆東北部タイ料理、海"
+    hobbies: "映画を観る、音楽を聴く、友達と過ごす"
+    favorite_snacks: "ゼリー"
+    favorite_colors: "パステルピンク"
+    favorite_flowers: "白いバラ、桃色のバラ"
+    t_shirt_size: "S"
+    wrist_size: "14cm"
+    ring_size: "50mm。人差し指。"
+
+# Voting page content
+voting:
+  title: "進行中の投票"
+  description: "進行中のすべての投票活動はこのページで共有されます。時間があれば、できるだけ投票にご協力ください。FayMayへの愛を示す良い方法です。"
+  instructions:
+    - "二人の得票数が同じになるようにしてください。"
+    - "自動化ツールは使用しないでください。失格になる可能性があります。"
+  
+  starlight_award:
+    title: "2024年タイで最も輝く星"
+    description: "投票期間は8月23日から9月11日20:00（バンコク時間）までです。最大7票の無料投票ができます。1日4票の無料投票と、初めてのソーシャルシェアで1日3票の無料投票があります。"
+    vote_link: "彼女たちに投票してください。"
+  
+  thai_update_award:
+    title: "2024年最も人気のあるオンスクリーンカップル"
+    description: "投票期間は8月24日から9月4日15:00（バンコク時間）までです。無制限に投票できます。"
+    vote_link: "彼女たちに投票してください。"
+
+# Fan Pages content
+fan_pages:
+  title: "アクティブなファンページ"
+  description: "コミュニティとつながるための公式・非公式のアクティブなファンページはこちらです！"
+  by_country: "国別ファンページ"
+  country_description: "これらのファンページは閲覧しやすいように国別に整理されています。"
+  table:
+    country: "国"
+    twitter: "Twitter"
+    facebook: "Facebook"
+    tiktok: "TikTok"
+    official: "公式"
+  countries:
+    thailand: "タイ"
+    brazil: "ブラジル"
+    vietnam: "ベトナム"
+    myanmar: "ミャンマー"
+
+# Fan Creations content
+fan_creations:
+  title: "ファン創作"
+  description: "このページは、ファンサイトや、ファンアート、ファン編集、ファンカバー、ファン翻訳を作成するファンのプロフィールを紹介することを目的としています。"
+  fan_sites:
+    title: "ファンサイト"
+    description: "素晴らしいカメラワークでFayMayの活動を頻繁に共有しているファンサイトのリストです！"
+  fan_art:
+    title: "ファンアートクリエイター"
+    description: "素晴らしいアートワークを披露しているファンアートクリエイターのリストをチェックしてください！"
+  fan_edits:
+    title: "ファン編集動画クリエイター"
+    description: "これらのクールなファン動画制作者と彼らの素晴らしい編集をチェックしてください！"
+  fan_covers:
+    title: "ファンカバー"
+  fan_translations:
+    title: "ファン翻訳"
+    description: "ファン翻訳アカウントとそれぞれの言語のリストです。"
+  table:
+    faymay_focused: "FayMay中心"
+    language: "言語"
+    twitter: "Twitter"
+    youtube: "YouTube"
+    tiktok: "TikTok"
+  languages:
+    english: "英語"
+    thai_english: "タイ語/英語"
+    portuguese: "ポルトガル語"
+
+# Dream Series content
+dream_series:
+  title: "私の素晴らしい夢は君 (ฝันรักห้วงนิทรา)"
+  description: "私は「ダワン」です。記憶がある限り、私はいつも静かだけど夢の中でよく一緒に遊んでくれる少女について奇妙な夢を見ていました。ある日、新しい隣人が引っ越してきて、それが私の家族を崩壊させる原因となりました。父は隣の男性と逃げてしまい、その男性が隣の静かで小柄な少女「キムハン」の父親だったのです。最初は全く親しくありませんでしたが、様々な状況が私たちを近づけ、お互いを理解させてくれました。しかし、キムハンは現実世界では私たちが友達だったのに、夢の中では小さな女の子と私がそれ以上のことをしていたことを知りませんでした。だから、彼女に知られないように、私は自分の気持ちを隠していました。その夢の中で、私だけが夢を見ていたわけではないことに気づかなかったのです。"
+  genres: "ジャンル：ロマンス、ファンタジー"
+  other_names: "別名：DreamGL、Dream The Series"
+  main_roles:
+    title: "主な役柄："
+    description: "すべてのDream Girlsをフォロー＆応援してください！彼女たちは才能ある女優で、TikTok動画はとても楽しいです。"
+  table:
+    name: "名前"
+    full_name: "フルネーム"
+    instagram: "Instagram"
+    twitter: "Twitter"
+    tiktok: "TikTok"
+    hashtag: "ハッシュタグ"
+  teasers:
+    title: "予告編"
+    description: "Idol Factoryによるこのプレイリストで公式ティーザーとトレーラーをご覧ください。"
+  episodes:
+    title: "未編集エピソード"
+    description: "このシリーズをご覧ください。スローバーンで時々イライラすることもあるかもしれませんが、フェイとメイのケミストリーは信じられないほど素晴らしく、キャスト全員の演技が素晴らしいです。一度見るだけでは足りないので、シリーズ全体を何度か見てください。"
+    table:
+      episode: "エピソード"
+      teaser: "ティーザー [ネタバレ]"
+      premiered: "公開日"
+    spoilers:
+      ep1: "ダワンとの仲たがいの後、キムハンはダワンのライバルであるジェシーと組むことを決意しました。マリは状況に不安を感じ、自ら調査を行い、最終的にキムハンの決断の真の理由を明らかにしました。"
+      ep2: "ダワンはついに、キムハンがジェシーのために働くことに同意した本当の理由を理解し、二人は互いを理解することができました。ダワンはジェシーがキムハンを道具として使うことを拒否し、ジェシーに彼女を脅迫するために使用した証拠を公開するよう挑戦しました。"
+      ep3: "ダワンがキムハンをコンドミニアムに連れ戻した後、めまいがするほどのソーシャルメディアの騒ぎに遭遇しました。トゥーンは注目をそらすために、話題のカップル「パット・ダワン」を利用して流出したビデオクリップをリリースすることにしました。"
+      ep4: "キムハンはギャラリーの所有者であるマウィンと偶然出会いました。この予期せぬ出会いは、キムハンをマウィンのギャラリーで働くという決断に導き、その選択は彼女に心からの喜びをもたらしました。ダワンが彼女を妨げようとしたにもかかわらず、キムハンはギャラリーに加わり、二人の間に激しい争いが生じました。"
+      ep5: "ダワンはあらゆる方法でマウィンを邪魔しようとし、キムハンとの衝突を引き起こし、ダワンは家に帰ることを選びました。ダワンが眠っている間、彼女はキムハンが自分たちと一緒にキムハンの絵を描いている夢を見ましたが、その画像はマウィンの絵に変わってしまいました。"
+      ep6: "パットがダワンに愛を告白します。これを知ったキムハンは病気になり入院しました。キムハンはダワンと共有していた部屋を出ることにしました。しかし、彼女はダワンがパットを抱きしめているのを目撃し、二人は言い争いになりました。その場の熱さで、キムハンは無意識にマウィンへの愛情を明かしてしまいました。"
+      ep7: "キムハンはダワンの将来を確保するためにマウィンのガールフレンドになることに同意します。ダワンは女優としてタイを代表する機会を逃し、うつ病の治療を受けました。"
+      ep8: "ダワンとキムハンは甘いキスで再び和解します。ダワンとキムハンの両家族を不幸にした人々、ティムとポンポンが、四人に会うために戻ってきます。"
+      ep9: "キムハンの母親であるエーが突然病気になり、キムハンとマーウィンの結婚を見たいという願いを表明しました。キムハンは母親の願いを叶えたいと思いましたが、心の中ではダワンだけを愛していました。"
+      ep10: "ダワンは最初、キムハンとマーウィンの結婚式に参加することを渋っていました。しかし、キムハンの気持ちを告白する心のこもった手紙を読んだ後、ダワンはすぐにすべてを投げ出し、キムハンに会うために結婚式に急ぎます。"
+      ep11: "キムハンはダワンと一緒に結婚式から逃げ出すことを決意します。この決断は二人を再び結びつけました。エー母については、彼女の心配が終わった後、平和に亡くなりました。"
+      ep12: "夢の中にいるときが一番幸せです。なぜなら、その中に...あなたがいるからです。"
+  osts:
+    title: "OST"
+    description: "このシリーズのOSTは絶品です。彼らに愛を示してください！"
+    table:
+      language: "言語"
+      title: "タイトル"
+      vocal: "ボーカル"
+      producer: "プロデューサー"
+  fun_facts:
+    title: "豆知識："
+    facts:
+      - "キャスティングコールの英語訳はこちらで見つけることができます。"
+      - "メイはその日オーディションをする予定さえありませんでした。彼女は友達に付き添っただけでした。イベント会場に着いてから、友達が彼女にオーディションを受けるよう説得したのです。私たちはみんなメイの友達に感謝すべきです！"
+      - "フェイとメイはオーディションのイベントで初めて出会い、二人とも似たような黒いジャケットを着ていました。"
+      - "フェイと一緒に来た友達はメイの友達でもあり、二人には共通の友達がいましたが、オーディションが始まる前に話す機会がありませんでした。"
+      - "その日、二人のケミストリーは信じられないほど良かったです。オーディションのライブストリームを見ていた観客の多くが、二人が最終的な二人の主役になることを応援していました。"
+      - "その夜、オーディションが終わった後、彼女たちは共通の友達と一緒に初めてのTikTok LIVEを行いました。"
+      - "そのTikTok LIVEの後、二人だけでInstagram LIVEを行いました。"
+      - "キャスティングの日についての字幕付きビデオの一部をこのプレイリストで見ることができます。"
+  spoiler:
+    reveal: "クリックしてネタバレを表示"
+    hide: "クリックしてネタバレを隠す"
+
+# Translation credit content
+translationcredit:
+  title: "翻訳クレジット"
+  intro: "こんにちは！私たちのファンサイトを真にグローバルなものにするのを助けてくれた素晴らしい人々に、大きな感謝の意を表したいと思います。これらの素晴らしい人々は、世界中のファンにFayMayへの愛を届けるために、時間と労力を惜しみませんでした。"
+  team: "私たちの素晴らしい翻訳/校正チーム："
+  thank_you: "皆さん、最高です！FayMayへの愛を広めるのを手伝ってくれてありがとう 🫶"

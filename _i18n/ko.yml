@@ -1,0 +1,260 @@
+lang: ko
+
+# Global section
+global:
+  language_name: "한국어"
+  site_title: "FayMay 팬사이트"
+  couple_name: "FayMay (เฟเมษ์)"
+  fay_name: "Fay (เฟ กัญญาพัชร)"
+  may_name: "May (เมษ์ ญดา)"
+  series_name: "My Marvellous Dream is You (ฝันรักห้วงนิทรา)"
+  dreamgl: "DreamGL"
+  dream_the_series: "Dream The Series"
+  idol_factory: "Idol Factory"
+
+# Navigation
+nav:
+  home: "홈"
+  profiles: "프로필"
+  fan_pages: "팬 페이지"
+  fan_creations: "팬 창작물"
+  dream_series: "Dream 시리즈"
+  ongoing_votings: "진행 중인 투표"
+  active_fan_pages: "활성화된 팬 페이지"
+
+# Footer
+footer:
+  copyright: "© 2024 FayMay 팬사이트. 모든 권리 보유."
+  privacy_policy: "개인정보 처리방침"
+  terms_of_service: "서비스 이용약관"
+
+# Common elements
+common:
+  read_more: "더 보기"
+  watch_now: "지금 보기"
+  get_to_know_more: "더 알아보기"
+  follow_us: "팔로우하기"
+  latest_news: "최신 소식"
+  featured_content: "주요 콘텐츠"
+  vote_for_them: "투표해주세요."
+  thai: "태국어"
+  english: "영어"
+  common_yes: "네"
+  common_no: "아니오"
+
+# Social media
+social_media:
+  instagram: "Instagram"
+  twitter: "Twitter"
+  tiktok: "TikTok"
+  youtube: "YouTube"
+  facebook: "Facebook"
+
+# Error messages
+error_messages:
+  404: "페이지를 찾을 수 없습니다"
+  500: "내부 서버 오류"
+
+# Languages
+languages:
+  en: "English"
+  th: "ไทย"
+  zh-Hans: "简体中文"
+  fil: "Filipino"
+  id: "Bahasa Indonesia"
+  it: "Italiano"
+  ja: "日本語"
+  ko: "한국어"
+  my: "မြန်မာဘာသာ"
+  pt: "Português"
+  es: "Español"
+  vi: "Tiếng Việt"
+
+# Home page content
+home:
+  actress_description: '{fay_name}와 {may_name}는 {idol_factory} 소속의 태국 GL 배우입니다. 그들의 온스크린 커플 이름은 {couple_name}입니다.'
+  series_description: '그들의 첫 번째 주연 연기 프로젝트는 {series_name}으로, {dreamgl} 또는 {dream_the_series}로도 알려져 있습니다.'
+  watch_teasers: "{idol_factory}의 공식 티저와 트레일러 {playlist_name}를 시청해 주세요."
+
+# Profile page content
+profile:
+  title: "FayMay 프로필"
+  header: "FayMay 프로필"
+  welcome_message: "FayMay 팬사이트에 오신 것을 환영합니다. 이 페이지는 국제 팬들이 관리하고 있습니다. FayMay에 대해 궁금해하시고 더 알고 싶어 하시는 점을 기쁘게 생각합니다. 여러분께 다섯 가지만 부탁드리고 싶습니다."
+
+  fan_requests:
+    - "FayMay는 하나입니다. 둘 다 사랑하는 법을 배워주세요."
+    - "Fay와 May를 있는 그대로 사랑하고 받아들여 주세요. 그들이 어떤 사람이 되어야 한다는 여러분의 생각이 아닌, 그들 자체로 말입니다."
+    - "그들의 결정을 존중하고 지지해 주세요. 일이든 개인적인 삶이든 말입니다."
+    - "그들의 사생활을 존중하고 팬과 아티스트로서의 우리의 경계를 알아주세요. 그들은 자신들의 삶을 우리와 공유하는 것을 좋아하지만, 그렇다고 우리가 경계를 넘을 수 있다는 의미는 아닙니다. 다른 사람들과의 관계도 마찬가지입니다. 공인이든 일반인이든 상관없이요. 그들이 다른 사람들과 맺는 관계를 존중하고 그들의 사생활을 지켜주세요."
+    - "혐오 발언을 확산시키지 말고, 대신 사랑으로 그것을 압도해 주세요. 우리 팬덤은 사랑으로 만들어졌지만, 누군가가 해를 끼치려 한다면 우리는 FayMay를 보호할 것입니다."
+
+  fay:
+    first_name: "Kunyaphat"
+    family_name: "Na Nakorn"
+    native_name: "เฟ กัญญาพัชร ณ นคร"
+    nationality: "태국"
+    gender: "여성"
+    born: "2001년 12월 2일"
+    blood_type: "AB형"
+    mbti: "INFJ-T"
+    favorite_things: "치와와, 음악, 영화"
+    hobbies: "춤추기, 노래 부르기, 기타 연주, 영화 감상, 소설 읽기"
+    favorite_snacks: "마카롱, Milo Nuggets, 슈크림"
+    favorite_colors: "검정, 파랑"
+    favorite_flowers: "수국"
+    t_shirt_size: "S/M"
+    wrist_size: "왼쪽:14cm 오른쪽:14.5cm"
+    ring_size: "46, 48, 55, 52, 52, 50, 51, 52, 43, 40 mm (왼쪽 새끼손가락부터 오른쪽 새끼손가락까지 순서대로). 중지에 착용하는 것을 선호."
+
+  may:
+    first_name: "Yada"
+    family_name: "Watcharamusik"
+    native_name: "เมษ์ ญดา วัชระมูสิก"
+    nationality: "태국"
+    gender: "여성"
+    born: "1997년 10월 31일"
+    blood_type: "A형"
+    mbti: "ESFJ-T"
+    favorite_things: "고양이, 남부 & 동북부 태국 음식, 바다"
+    hobbies: "영화 감상, 음악 듣기, 친구들과 어울리기"
+    favorite_snacks: "젤리"
+    favorite_colors: "파스텔 핑크"
+    favorite_flowers: "흰 장미, 복숭아색 장미"
+    t_shirt_size: "S"
+    wrist_size: "14cm"
+    ring_size: "50mm. 검지."
+
+# Voting page content
+voting:
+  title: "진행 중인 투표"
+  description: "모든 진행 중인 투표 활동이 이 페이지에 공유될 것입니다. 시간이 있다면 가능한 한 많이 투표에 참여해 주세요. FayMay에 대한 우리의 사랑을 보여주는 좋은 방법입니다."
+  instructions:
+    - "두 사람의 투표 수를 같게 유지하도록 노력해 주세요."
+    - "자동화 도구를 사용하지 말아주세요. 그들이 실격되는 것을 원하지 않습니다."
+  
+  starlight_award:
+    title: "2024 태국에서 가장 빛나는 스타"
+    description: "투표 기간은 8월 23일부터 9월 11일 방콕 시간 20:00까지입니다. 최대 7개의 무료 투표, 4개의 일일 무료 투표, 그리고 첫 소셜 공유에 대한 3개의 일일 무료 투표를 얻을 수 있습니다. 부탁드립니다"
+    vote_link: "그들에게 투표해 주세요."
+  
+  thai_update_award:
+    title: "2024년 가장 좋아하는 온스크린 커플"
+    description: "투표 기간은 8월 24일부터 9월 4일 방콕 시간 15:00까지입니다. 무제한으로 투표할 수 있습니다. 부탁드립니다"
+    vote_link: "그들에게 투표해 주세요."
+
+# Fan Pages content
+fan_pages:
+  title: "활성화된 팬 페이지"
+  description: "커뮤니티와 연결을 유지할 수 있는 공식 및 비공식 활성 팬 페이지입니다!"
+  by_country: "국가별 팬 페이지"
+  country_description: "이 팬 페이지들은 쉽게 찾아볼 수 있도록 국가별로 정리되어 있습니다."
+  table:
+    country: "국가"
+    twitter: "Twitter"
+    facebook: "Facebook"
+    tiktok: "TikTok"
+    official: "공식"
+  countries:
+    thailand: "태국"
+    brazil: "브라질"
+    vietnam: "베트남"
+    myanmar: "미얀마"
+
+# Fan Creations content
+fan_creations:
+  title: "팬 창작물"
+  description: "이 페이지는 팬사이트나 팬아트, 팬 편집, 팬 커버, 팬 번역을 만드는 팬들의 프로필을 소개하기 위한 것입니다."
+  fan_sites:
+    title: "팬 사이트"
+    description: "놀라운 카메라 워크로 FayMay의 활동을 자주 공유하는 팬사이트 목록입니다!"
+  fan_art:
+    title: "팬아트 창작자"
+    description: "멋진 작품을 선보이는 팬아트 창작자 목록을 확인해보세요!"
+  fan_edits:
+    title: "팬 편집 비디오 제작자"
+    description: "이 멋진 팬 비디오 제작자들과 그들의 훌륭한 편집을 꼭 확인해보세요!"
+  fan_covers:
+    title: "팬 커버"
+  fan_translations:
+    title: "팬 번역"
+    description: "각 언어별 팬 번역 계정 목록입니다."
+  table:
+    faymay_focused: "FayMay 중심"
+    language: "언어"
+    twitter: "Twitter"
+    youtube: "YouTube"
+    tiktok: "TikTok"
+  languages:
+    english: "영어"
+    thai_english: "태국어/영어"
+    portuguese: "포르투갈어"
+
+# Dream Series content
+dream_series:
+  title: "My Marvellous Dream is You (ฝันรักห้วงนิทรา)"
+  description: "저는 \"다완\"입니다. 기억할 수 있는 때부터, 저는 항상 조용하지만 제 꿈에서 자주 저와 놀아주는 어린 소녀에 대한 이상한 꿈을 꾸었습니다. 어느 날, 새로운 이웃이 이사를 왔고, 그로 인해 제 가족이 붕괴되었습니다. 아버지는 옆집 남자와 도망갔는데, 그는 옆집의 조용하고 작은 소녀 \"김한\"의 아버지였습니다. 처음에는 우리가 전혀 가깝지 않았지만, 여러 상황으로 인해 우리는 더 가까워지고 서로를 이해하게 되었습니다. 하지만 김한은 현실 세계에서 우리가 그저 친구일 뿐이지만, 제 꿈에서는 그 작은 소녀와 제가 그 이상의 일을 한다는 것을 알지 못했습니다. 그래서 저는 그녀가 알 수 없게 제 감정을 숨겼습니다. 저는 그 꿈들 속에서 제가 꿈을 꾸는 유일한 사람이 아니라는 것을 전혀 깨닫지 못했습니다."
+  genres: "장르: 로맨스, 판타지"
+  other_names: "다른 이름: DreamGL, Dream The Series"
+  main_roles:
+    title: "주요 역할:"
+    description: "모든 Dream Girls를 팔로우하고 지지해 주세요! 그들은 재능 있는 배우들이며, 그들의 TikTok 비디오는 매우 재미있습니다."
+  table:
+    name: "이름"
+    full_name: "전체 이름"
+    instagram: "Instagram"
+    twitter: "Twitter"
+    tiktok: "TikTok"
+    hashtag: "해시태그"
+  teasers:
+    title: "티저"
+    description: "Idol Factory의 이 플레이리스트에 있는 공식 티저와 트레일러를 시청해 주세요."
+  episodes:
+    title: "언컷 에피소드"
+    description: "시리즈를 꼭 시청해 주세요. 느린 전개로 인해 때로는 답답함을 느낄 수 있지만, FayMay의 케미스트리는 놀랍고 전체 출연진의 연기가 훌륭합니다. 한 번 보는 것으로는 충분하지 않으니, 전체 시리즈를 여러 번 시청해 주세요."
+    table:
+      episode: "에피소드"
+      teaser: "티저 [스포일러]"
+      premiered: "방영일"
+    spoilers:
+      ep1: "다완과의 불화 후, 김한은 다완의 라이벌인 제시와 함께하기로 결정했습니다. 말리는 상황에 불안을 느끼고 직접 조사를 실시하여 결국 김한의 결정 뒤에 숨겨진 진짜 이유를 밝혀냈습니다."
+      ep2: "다완은 마침내 김훈이 제시를 위해 일하기로 한 진짜 이유를 이해하게 되었고, 이로 인해 둘 다 서로를 이해하게 되었습니다. 다완은 제시가 김훈을 도구로 이용하는 것을 거부하고 제시에게 그녀를 협박하는 데 사용된 증거를 공개하라고 도전했습니다."
+      ep3: "다완은 김한을 콘도로 데려온 후 어지러움을 느끼기까지 소셜 미디어의 광풍을 겪었습니다. 툰은 유출된 비디오 클립을 공개함으로써 주목을 돌리기 위해 트렌딩 커플인 \"팟-다완\"을 이용하기로 결정했습니다."
+      ep4: "김훈은 우연히 갤러리 주인인 마윈을 만났습니다. 이 예상치 못한 만남은 김훈이 마윈의 갤러리에서 일하기로 결정하게 되는 계기가 되었고, 이는 그녀에게 진정한 기쁨을 가져다주었습니다. 다완의 방해 노력에도 불구하고 김훈은 갤러리에 합류했고, 이로 인해 둘 사이에 격렬한 논쟁이 벌어졌습니다."
+      ep5: "다완은 마윈을 방해하기 위해 모든 가능한 방법을 시도했고, 이는 김한과의 갈등으로 이어져 다완이 집으로 돌아가기로 선택하게 만들었습니다. 다완이 잠든 동안, 그녀는 김한이 자신과 함께 김한의 그림을 그리는 꿈을 꾸었지만, 그 이미지는 대신 마윈의 그림으로 변했습니다."
+      ep6: "팟이 다완에게 사랑을 고백합니다. 이를 알게 된 김한은 병에 걸려 병원에 입원했습니다. 김한은 다완과 공유하던 방을 떠나기로 선택했습니다. 그러나 그녀는 다완이 팟을 포옹하는 것을 목격하게 되어 둘 사이에 논쟁이 벌어졌습니다. 흥분한 순간, 김한은 의도치 않게 마윈에 대한 애정을 드러냈습니다."
+      ep7: "김한은 다완의 미래를 보장하기 위해 마윈의 여자친구가 되기로 동의합니다. 다완은 태국을 대표하는 배우로서의 기회를 놓치고 우울증 치료를 받게 되었습니다."
+      ep8: "다완과 김한은 달콤한 키스와 함께 다시 화해합니다. 다완과 김한 가족을 비참하게 만든 팀과 퐁폰이 네 사람을 다시 만나러 돌아옵니다."
+      ep9: "김한의 어머니인 애가 갑자기 병에 걸려 김한과 마윈이 결혼하는 것을 보고 싶다는 소원을 표현했습니다. 김한은 어머니의 소원을 이루고 싶어 했지만, 그녀의 마음속으로는 오직 다완만을 사랑했습니다."
+      ep10: "다완은 처음에 김한과 마윈의 결혼식에 참석하기를 꺼립니다. 하지만 김한의 감정을 고백하는 진심 어린 편지를 읽고 난 후, 다완은 즉시 모든 것을 내려놓고 김한을 보기 위해 결혼식장으로 달려갑니다."
+      ep11: "김한은 다완과 함께 결혼식에서 도망가기로 결정합니다. 이 결정으로 그들은 다시 함께하게 되었습니다. 애 어머니의 경우, 그녀의 걱정이 끝난 후 평화롭게 세상을 떠났습니다."
+      ep12: "나는 꿈속에 있을 때 가장 행복해요, 왜냐하면 그 안에... 당신이 있기 때문이에요"
+  osts:
+    title: "OST"
+    description: "이 시리즈의 OST는 정말 훌륭합니다. 그들에게 사랑을 보여주세요!"
+    table:
+      language: "언어"
+      title: "제목"
+      vocal: "보컬"
+      producer: "프로듀서"
+  fun_facts:
+    title: "재미있는 사실들:"
+    facts:
+      - "여기에서 캐스팅 콜의 영어 번역을 찾을 수 있습니다."
+      - "메이는 그날 오디션을 볼 계획조차 없었습니다; 그녀는 단지 친구를 동행했을 뿐이었습니다. 그녀의 친구가 이미 행사장에 도착한 후에 오디션을 보도록 설득했습니다. 우리 모두 메이의 친구에게 감사해야 합니다!"
+      - "페이와 메이는 오디션 행사에서 처음 만났고, 둘 다 비슷한 검은색 재킷을 입고 있었습니다."
+      - "페이와 함께 온 친구는 메이의 친구이기도 해서, 그들은 공통 친구가 있었지만 오디션이 시작되기 전에 대화할 기회가 없었습니다."
+      - "그날 그들의 케미스트리는 정말 대단했습니다. 오디션 라이브스트림을 보던 관객 중 많은 사람들이 그들이 최종 두 주연이 되기를 응원했습니다."
+      - "그날 저녁, 오디션이 끝난 후 그들은 공통 친구와 함께 첫 TikTok LIVE를 했습니다."
+      - "그 TikTok LIVE 이후, 그들은 둘만의 Instagram LIVE를 진행했습니다."
+      - "이 플레이리스트에서 캐스팅 날에 대한 자막이 있는 일부 비디오를 볼 수 있습니다."
+  spoiler:
+    reveal: "스포일러 보기"
+    hide: "스포일러 숨기기"
+  
+# Translation credit content
+translationcredit:
+  title: "번역 크레딧"
+  intro: "안녕하세요! 우리의 팬사이트를 진정으로 글로벌하게 만드는 데 도움을 주신 놀라운 분들께 큰 감사의 인사를 전하고 싶습니다. 이 멋진 분들은 전 세계 팬들에게 FayMay에 대한 우리의 사랑을 전하기 위해 시간과 노력을 아끼지 않으셨습니다."
+  team: "우리의 멋진 번역/교정 팀:"
+  thank_you: "여러분 최고예요! FayMay에 대한 사랑을 전파하는 데 도움을 주셔서 감사합니다 🫶"

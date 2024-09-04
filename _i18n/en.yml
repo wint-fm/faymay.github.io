@@ -1,0 +1,260 @@
+lang: en
+
+# Global section
+global:
+  language_name: "English"
+  site_title: "FayMay Fansite"
+  couple_name: "FayMay (เฟเมษ์)"
+  fay_name: "Fay (เฟ กัญญาพัชร)"
+  may_name: "May (เมษ์ ญดา)"
+  series_name: "My Marvellous Dream is You (ฝันรักห้วงนิทรา)"
+  dreamgl: "DreamGL"
+  dream_the_series: "Dream The Series"
+  idol_factory: "Idol Factory"
+
+# Navigation
+nav:
+  home: "Home"
+  profiles: "Profiles"
+  fan_pages: "Fan Pages"
+  fan_creations: "Fan Creations"
+  dream_series: "Dream Series"
+  ongoing_votings: "Ongoing Votings"
+  active_fan_pages: "Active Fan Pages"
+
+# Footer
+footer:
+  copyright: "© 2024 FayMay Fansite. All rights reserved."
+  privacy_policy: "Privacy Policy"
+  terms_of_service: "Terms of Service"
+
+# Common elements
+common:
+  read_more: "Read More"
+  watch_now: "Watch Now"
+  get_to_know_more: "Get to know them more"
+  follow_us: "Follow Us"
+  latest_news: "Latest News"
+  featured_content: "Featured Content"
+  vote_for_them: "vote for them."
+  thai: "Thai"
+  english: "English"
+  common_yes: "Yes"
+  common_no: "No"
+
+# Social media
+social_media:
+  instagram: "Instagram"
+  twitter: "Twitter"
+  tiktok: "TikTok"
+  youtube: "YouTube"
+  facebook: "Facebook"
+
+# Error messages
+error_messages:
+  404: "Page not found"
+  500: "Internal server error"
+
+# Languages
+languages:
+  en: "English"
+  th: "ไทย"
+  zh-Hans: "简体中文"
+  fil: "Filipino"
+  id: "Bahasa Indonesia"
+  it: "Italiano"
+  ja: "日本語"
+  ko: "한국어"
+  my: "မြန်မာဘာသာ"
+  pt: "Português"
+  es: "Español"
+  vi: "Tiếng Việt"
+
+# Home page content
+home:
+  actress_description: '{fay_name} and {may_name} are Thai GL actresses under {idol_factory}. Their on-screen couple name is {couple_name}.'
+  series_description: 'Their first acting project as lead actresses is {series_name}, also known as {dreamgl} or {dream_the_series}.'
+  watch_teasers: "Please watch the official teasers and trailer {playlist_name} by {idol_factory}."
+
+# Profile page content
+profile:
+  title: "FayMay Profiles"
+  header: "FayMay Profiles"
+  welcome_message: "Welcome to FayMay Fansite. This page is maintained by international fans. We are glad that you are curious about FayMay and want to know more about them. We would like to request just five things from you."
+
+  fan_requests:
+    - "FayMay is one. Please learn to love them both."
+    - "Please love and accept both Fay and May as who they are, not your idea of who they should be."
+    - "Please respect and support their decisions, be it for work or personal life."
+    - "Please respect their privacy and know our boundaries as fans and artists. They love to share their lives with us, but that doesn't mean we can overstep our boundaries. That includes their relationship with other people, be it other public figures or private citizens. Respect the relationship they have with others and give them their privacy."
+    - "Please try not to amplify the voices of the haters, drown them out with love instead. Our fandom is built on love, but if someone means to cause harm, we will protect FayMay."
+
+  fay:
+    first_name: "Kunyaphat"
+    family_name: "Na Nakorn"
+    native_name: "เฟ กัญญาพัชร ณ นคร"
+    nationality: "Thai"
+    gender: "Female"
+    born: "December 2, 2001"
+    blood_type: "AB"
+    mbti: "INFJ-T"
+    favorite_things: "Chihuahua, Music, Movie"
+    hobbies: "Dance, Sing a song, Play Guitar, Watch Movies, Read Novels"
+    favorite_snacks: "Macaron, Milo Nuggets, Choux Cream"
+    favorite_colors: "Black, Blue"
+    favorite_flowers: "Hydrangea"
+    t_shirt_size: "S/M"
+    wrist_size: "L:14cm R14.5cm"
+    ring_size: "46, 48, 55, 52, 52, 50, 51, 52, 43, 40 mm (ordered from left pinkey finger to right pinky finger). Preferred to wear on middle finger."
+
+  may:
+    first_name: "Yada"
+    family_name: "Watcharamusik"
+    native_name: "เมษ์ ญดา วัชระมูสิก"
+    nationality: "Thai"
+    gender: "Female"
+    born: "October 31, 1997"
+    blood_type: "A"
+    mbti: "ESFJ-T"
+    favorite_things: "Cat, Southern & Northeastern Thai Food, Sea"
+    hobbies: "Watch Movies, Listen to Music, Hang out with friends"
+    favorite_snacks: "Jelly"
+    favorite_colors: "Pastel Pink"
+    favorite_flowers: "White Rose, Peach Rose"
+    t_shirt_size: "S"
+    wrist_size: "14cm"
+    ring_size: "50mm. Index finger."
+
+# Voting page content
+voting:
+  title: "Ongoing Votings"
+  description: "All the ongoing voting activities will be shared on this page. If you have time, please help with the voting as much as you can. It's a good way to show our love for FayMay."
+  instructions:
+    - "Please try to keep both of them to have the same vote counts."
+    - "Please don't use automated tools. We wouldn't want them to get disqualified."
+  
+  starlight_award:
+    title: "2024 The Most Shining Star in Thailand"
+    description: "The voting period is from Aug 23 to Sep 11 20:00 BKK Time. You can get up to 7 free votes, 4 daily free votes and 3 daily free votes for first social share. Please"
+    vote_link: "vote for them."
+  
+  thai_update_award:
+    title: "The Most Favorite On-Screen Couple of 2024"
+    description: "The voting period is from Aug 24 to Sep 04 15:00 BKK Time. You can vote unlimitedly. Please"
+    vote_link: "vote for them."
+
+# Fan Pages content
+fan_pages:
+  title: "Active Fan Pages"
+  description: "Here are the active fan pages, both official and unofficial, to keep you connected with the community!"
+  by_country: "Fan Pages by Country"
+  country_description: "These fan pages are organized by country for easy browsing."
+  table:
+    country: "Country"
+    twitter: "Twitter"
+    facebook: "Facebook"
+    tiktok: "TikTok"
+    official: "Official"
+  countries:
+    thailand: "Thailand"
+    brazil: "Brazil"
+    vietnam: "Vietnam"
+    myanmar: "Myanmar"
+
+# Fan Creations content
+fan_creations:
+  title: "Fan Creations"
+  description: "This page intends to highlight the profiles of fans who are fansites or fans who create fan arts, fan edits, fan covers, and fan translations."
+  fan_sites:
+    title: "Fan Sites"
+    description: "Here is a list of fansites that often share FayMay's activities through amazing camerawork!"
+  fan_art:
+    title: "Fan Art Creators"
+    description: "Check out this list of fan art creators showcasing their fantastic artwork!"
+  fan_edits:
+    title: "Fan Edit Video Creators"
+    description: "Make sure to check out these cool fan video makers and their awesome edits!"
+  fan_covers:
+    title: "Fan Covers"
+  fan_translations:
+    title: "Fan Translations"
+    description: "Here is a list of fan translation accounts along with their respective languages."
+  table:
+    faymay_focused: "FayMay Focused"
+    language: "Language"
+    twitter: "Twitter"
+    youtube: "YouTube"
+    tiktok: "TikTok"
+  languages:
+    english: "English"
+    thai_english: "Thai/English"
+    portuguese: "Portuguese"
+
+# Dream Series content
+dream_series:
+  title: "My Marvellous Dream is You (ฝันรักห้วงนิทรา)"
+  description: "I'm \"Dawhan\". Since I can remember, I have always had strange dreams about a young girl who was quiet but often played with me in my dreams. One day, a new neighbor moved in, and that led to my family falling apart. My father ran away with the man next door, who turned out to be the father of \"Kimhan\" the quiet & small girl from next door. Initially, we were not close at all, but various circumstances brought us closer and made us understand each other. However, Kimhan was unaware that while in the real world we were just friends, in my dreams, the small girl and I did things that went far beyond that. So, I kept my feelings concealed because I couldn't let her know. I never realized that in those dreams, I was not the only one dreaming."
+  genres: "Genres: Romance, Fantasy"
+  other_names: "Other Names: DreamGL, Dream The Series"
+  main_roles:
+    title: "Main roles:"
+    description: "Please follow and support all the Dream Girls! They are talented actresses, and their TikTok videos are very fun."
+  table:
+    name: "Name"
+    full_name: "Full Name"
+    instagram: "Instagram"
+    twitter: "Twitter"
+    tiktok: "TikTok"
+    hashtag: "Hashtag"
+  teasers:
+    title: "Teasers"
+    description: "Please watch the official teasers and trailer in this playlist by Idol Factory."
+  episodes:
+    title: "UNCUT Episodes"
+    description: "Please watch the series. It's a slow burn and might make you feel frustrated at times, but FayMay's chemistry is incredible, and the acting from the whole cast is brilliant. Watching it once isn't enough, so please watch the whole series a few times."
+    table:
+      episode: "Episode"
+      teaser: "Teaser [Spoiler]"
+      premiered: "Premiered"
+    spoilers:
+      ep1: "After a falling out with Dawhan, Kimhan made the decision to join Jessie, Dawhan's rival. Mali, feeling unsettled by the situation, took it upon herself to conduct an investigation, ultimately uncovering the true reason behind Kimhan's decisioned."
+      ep2: "Dawhan finally understood the true reason why Kimhun agreed to work for Jessie, enabling both of them to come to an understanding. Dawhan refused to let Jessie use Kimhun as a tool and challenged Jessie to release evidence used to blackmail her."
+      ep3: "Dawhan encountered a social media frenzy after she brought Kimhan back to the condo until dizziness. Toon decided to use the trending couple \"Pat-Dawhan\" to deflect attention by releasing a leaked video clip."
+      ep4: "Kimhun had a chance encounter with Mawin, the proprietor of the gallery. This unexpected meeting led Kimhun to a decision to work with Mawin's gallery, a choice that brought her sincere joy. Despite Dawan's efforts to impede her, but Kimhun joined the gallery, igniting a heated dispute between them."
+      ep5: "Dawan tried every possible way to interrupt Mawin, leading to a conflict with Kimhan and causing Dawan to choose to return home. While Dawan was asleep, she dreamed of Kimhan drawing a picture of Kim Han together with herselves, but the image transformed into a picture of Mawin instead."
+      ep6: "Pat confesses his love to Dawan. Upon found out this, Kimhan fell ill and was hospitalized. Kimhan opted to leave the room she shared with Dawan. However, she encountered Dawan embracing Pat, leading the two to argue. In the heat of the moment, Kimhan unintentionally revealed his affection for Mawin."
+      ep7: "Kimhan agrees to be Mawin's girlfriend to secure Dawan's future. Dawan missed opportunities to represent Thailand as an actress and underwent treatment for depression."
+      ep8: "Dawan and Kimhan both reconcile again with a sweet kiss. Tim and Pongphon, the people who left both the Dawan and Kimhan families in misery, come back to meet the four of them again."
+      ep9: "Ae, Kimhan's mother, fell suddenly ill and expressed her wish to see Kimhan and Marwin get married. Despite Kimhan's desire to fulfill her mother's wish, but in her heart, she only loved Dawan."
+      ep10: "Dawan is reluctant to attend Kimhan and Marwin's wedding at first. However, upon reading Kimhan's heartfelt letter confessing her feelings, Dawan immediately drops everything and rushes to the wedding to see Kimhan."
+      ep11: "Kimhan decides to run away from the wedding with Dawan. This decision brought they back together again. As for Mother Ae, after her worries were over she passed away peacefully."
+      ep12: "I am happiest when I'm in a dream, because in it... you are there"
+  osts:
+    title: "OSTs"
+    description: "The OSTs in this series are chef's kiss. Please show them some love!"
+    table:
+      language: "Language"
+      title: "Title"
+      vocal: "Vocal"
+      producer: "Producer"
+  fun_facts:
+    title: "Fun Facts:"
+    facts:
+      - "You can find the English translation of the casting call here."
+      - "May didn't even plan to audition that day; she was just accompanying her friend. Her friend convinced her to audition once they were already at the event. We should all thank May's friend!"
+      - "Fay and May met at the audition event for the first time, and they were both wearing similar black jackets."
+      - "The friend who came with Fay is also May's friend, so they had a mutual friend but didn't get a chance to talk before the audition started."
+      - "Their chemistry was insanely good that day. Many people in the audience watching the audition livestream were cheering for them to be the final two leads."
+      - "That evening, after the audition ended, they had their first TikTok LIVE together with their mutual friend."
+      - "After that TikTok LIVE, they had an Instagram LIVE with just the two of them."
+      - "You can watch some of the subtitled videos about casting day in this playlist."
+  spoiler:
+    reveal: "Click to reveal spoiler"
+    hide: "Click to hide spoiler"
+
+# Translation credit content
+translationcredit:
+  title: "Translation Credits"
+  intro: "Hey there! We wanted to give a big shout-out to the incredible folks who've helped make our fansite truly global. These wonderful people have put in their time and effort to bring our love for FayMay to fans around the world."
+  team: "Our awesome translation/proofreading team:"
+  thank_you: "You guys rock! Thank you for helping us spread the love for FayMay 🫶"

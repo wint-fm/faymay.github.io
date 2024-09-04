@@ -1,24 +1,27 @@
-<!DOCTYPE html>
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+---
+layout: home
+---
 
+<!DOCTYPE html>
+<html>
 {% include head.html %}
 
 <body>
-
     {% include header.html %}
 
     <!-- Banner -->
-    <section id="banner" class="major">
+    <section id="banner" class="major video-banner">>
+        <!-- <div class="image-banner">
+        </div> -->
         <div class="video-container">
-            <video id="bg-video" autoplay loop muted playsinline webkit-playsinline>
-                <source src="assets/videos/homebanner.mp4" type="video/mp4">
-            </video>
-            <div class="fallback-image"></div>
+            <iframe 
+                src="https://www.youtube.com/embed/iqos3RiFPdU?si=Vfbw5Hg9stgWNPjy&autoplay=1&mute=1&loop=1&playlist=iqos3RiFPdU&controls=0&rel=0&vq=hd1080"
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
         </div>
     </section>
 
@@ -28,58 +31,45 @@
         <section id="two">
             <div class="inner"> 
                 <header class="major">
-                    <h2><span class="translate">FayMay เฟย์เมษ์</span></h2>
+                    <h2>{{ site.translations[site.lang].global.couple_name }}</h2>
                 </header>
-                <p><span class="translate">{{ content }}</span></p>
-                <ul class="actions">
-                    <li>
-                        <a href="1_profile.html" class="button next">
-                            <span class="button-text translate">Get to know them more</span>
-                        </a>
-                    </li>
-                </ul>
+                {{ content }}
             </div>
         </section>
 
-        <!-- One -->
+        <!-- One (Tiles Section) -->
         <div id="content">
             {% include tiles.html %}
         </div>
     </div>
 
+    <!-- YouTube Embed -->
+    <!-- <div class="video-container">
+        <iframe 
+            src="https://www.youtube.com/embed/iqos3RiFPdU?si=Vfbw5Hg9stgWNPjy&autoplay=1&mute=1&loop=1&playlist=iqos3RiFPdU&controls=0&rel=0&vq=hd1080"
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+        </iframe>
+    </div> -->
+
     <!-- Image carousel -->
     <div class="carousel-container">
         <button type="button" class="carousel-arrow carousel-prev">&lt;</button>
         <div class="carousel">
-            <div><a href="assets/images/fmsquare.jpeg" data-lightbox="image-carousel"><img src="assets/images/fmsquare.jpeg" alt="Image 1"></a></div>
-            <div><a href="assets/images/fanart.jpg" data-lightbox="image-carousel"><img src="assets/images/fanart.jpg" alt="Image 2"></a></div>
-            <div><a href="assets/images/fancover.jpg" data-lightbox="image-carousel"><img src="assets/images/fancover.jpg" alt="Image 3"></a></div>
-            <div><a href="assets/images/fmbanner.jpg" data-lightbox="image-carousel"><img src="assets/images/fmbanner.jpg" alt="Image 4"></a></div>
-            <div><a href="assets/images/fmbanner1.jpg" data-lightbox="image-carousel"><img src="assets/images/fmbanner1.jpg" alt="Image 5"></a></div>
-            <div><a href="assets/images/fm1.jpeg" data-lightbox="image-carousel"><img src="assets/images/fm1.jpeg" alt="Image 6"></a></div>
-            <div><a href="assets/images/fm2.jpeg" data-lightbox="image-carousel"><img src="assets/images/fm2.jpeg" alt="Image 7"></a></div>
-            <div><a href="assets/images/fm3.jpeg" data-lightbox="image-carousel"><img src="assets/images/fm3.jpeg" alt="Image 8"></a></div>
-            <div><a href="assets/images/fm4.jpeg" data-lightbox="image-carousel"><img src="assets/images/fm4.jpeg" alt="Image 9"></a></div>
-            <div><a href="assets/images/fm5.jpeg" data-lightbox="image-carousel"><img src="assets/images/fm5.jpeg" alt="Image 10"></a></div>
-            <!-- <div><img src="assets/images/fmbanner1.jpg" alt="Image 11"></div>
-            <div><img src="assets/images/fmbannerwed.jpg" alt="Image 12"></div> -->
+            {% for image in page.carousel_images %}
+                <div>
+                    <a href="{{ image.url }}" data-lightbox="image-carousel">
+                        <img src="{{ image.url | relative_url }}" alt="{{ image.alt }}">
+                    </a>
+                </div>
+            {% endfor %}
         </div>
         <button type="button" class="carousel-arrow carousel-next">&gt;</button>
     </div>
 
-    {% include footer.html %}
-
-    <!-- Image carousel script -->
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $('.carousel').slick({
-                dots: true,
-                infinite: true,
-                speed: 500,
-                slidesToShow: 1,
-                adaptiveHeight: true
-            });
-        });
-    </script>
+    {% include footer.html %} 
 </body>
 </html>

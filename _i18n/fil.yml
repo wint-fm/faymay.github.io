@@ -1,0 +1,260 @@
+lang: fil
+
+# Global section
+global:
+  language_name: "Filipino"
+  site_title: "FayMay Fansite"
+  couple_name: "FayMay (เฟเมษ์)"
+  fay_name: "Fay (เฟ กัญญาพัชร)"
+  may_name: "May (เมษ์ ญดา)"
+  series_name: "My Marvellous Dream is You (ฝันรักห้วงนิทรา)"
+  dreamgl: "DreamGL"
+  dream_the_series: "Dream The Series"
+  idol_factory: "Idol Factory"
+
+# Navigation
+nav:
+  home: "Home"
+  profiles: "Mga Profile"
+  fan_pages: "Mga Fan Page"
+  fan_creations: "Mga Likha ng Fans"
+  dream_series: "Dream Series"
+  ongoing_votings: "Kasalukuyang Mga Botohan"
+  active_fan_pages: "Mga Aktibong Fan Page"
+
+# Footer
+footer:
+  copyright: "© 2024 FayMay Fansite. Lahat ng karapatan ay nakalaan."
+  privacy_policy: "Patakaran sa Privacy"
+  terms_of_service: "Mga Tuntunin ng Serbisyo"
+
+# Common elements
+common:
+  read_more: "Magbasa pa"
+  watch_now: "Panoorin Ngayon"
+  get_to_know_more: "Kilalanin sila nang higit pa"
+  follow_us: "Sundan Kami"
+  latest_news: "Pinakabagong Balita"
+  featured_content: "Tampok na Nilalaman"
+  vote_for_them: "bumoto para sa kanila."
+  thai: "Thai"
+  english: "Ingles"
+  common_yes: "Oo"
+  common_no: "Hindi"
+
+# Social media
+social_media:
+  instagram: "Instagram"
+  twitter: "Twitter"
+  tiktok: "TikTok"
+  youtube: "YouTube"
+  facebook: "Facebook"
+
+# Error messages
+error_messages:
+  404: "Hindi natagpuan ang pahina"
+  500: "Internal server error"
+
+# Languages
+languages:
+  en: "English"
+  th: "ไทย"
+  zh-Hans: "简体中文"
+  fil: "Filipino"
+  id: "Bahasa Indonesia"
+  it: "Italiano"
+  ja: "日本語"
+  ko: "한국어"
+  my: "မြန်မာဘာသာ"
+  pt: "Português"
+  es: "Español"
+  vi: "Tiếng Việt"
+
+# Home page content
+home:
+  actress_description: 'Sina {fay_name} at {may_name} ay mga Thai GL actress sa ilalim ng {idol_factory}. Ang kanilang on-screen couple name ay {couple_name}.'
+  series_description: 'Ang kanilang unang acting project bilang mga pangunahing aktres ay ang {series_name}, na kilala rin bilang {dreamgl} o {dream_the_series}.'
+  watch_teasers: "Mangyaring panoorin ang mga opisyal na teaser at trailer na {playlist_name} ng {idol_factory}."
+
+# Profile page content
+profile:
+  title: "Mga Profile ng FayMay"
+  header: "Mga Profile ng FayMay"
+  welcome_message: "Maligayang pagdating sa FayMay Fansite. Ang pahinang ito ay pinamamahalaan ng mga internasyonal na tagahanga. Kami ay natutuwa na ikaw ay nag-uusisa tungkol sa FayMay at nais na malaman pa ang tungkol sa kanila. Nais naming humiling ng limang bagay lamang mula sa iyo."
+
+  fan_requests:
+    - "Ang FayMay ay iisa. Mangyaring matutong mahalin sila pareho."
+    - "Mangyaring mahalin at tanggapin sina Fay at May kung sino sila, hindi ang iyong ideya kung sino dapat sila."
+    - "Mangyaring igalang at suportahan ang kanilang mga desisyon, maging ito ay para sa trabaho o personal na buhay."
+    - "Mangyaring igalang ang kanilang privacy at alamin ang ating mga hangganan bilang mga tagahanga at mga artista. Gusto nilang ibahagi ang kanilang buhay sa atin, ngunit hindi ibig sabihin nito na maaari nating lampasan ang ating mga hangganan. Kasama rito ang kanilang relasyon sa ibang tao, maging ito ay ibang mga pampublikong pigura o pribadong mamamayan. Igalang ang relasyon nila sa iba at bigyan sila ng kanilang privacy."
+    - "Mangyaring subukang huwag palakasin ang mga boses ng mga haters, lunurin sila sa pag-ibig sa halip. Ang ating fandom ay nakatayo sa pag-ibig, ngunit kung may isang taong nais magdulot ng pinsala, poprotektahan natin ang FayMay."
+
+  fay:
+    first_name: "Kunyaphat"
+    family_name: "Na Nakorn"
+    native_name: "เฟ กัญญาพัชร ณ นคร"
+    nationality: "Thai"
+    gender: "Babae"
+    born: "Disyembre 2, 2001"
+    blood_type: "AB"
+    mbti: "INFJ-T"
+    favorite_things: "Chihuahua, Musika, Pelikula"
+    hobbies: "Sumayaw, Kumanta, Tumugtog ng Gitara, Manood ng Pelikula, Magbasa ng Nobela"
+    favorite_snacks: "Macaron, Milo Nuggets, Choux Cream"
+    favorite_colors: "Itim, Asul"
+    favorite_flowers: "Hydrangea"
+    t_shirt_size: "S/M"
+    wrist_size: "K:14cm K14.5cm"
+    ring_size: "46, 48, 55, 52, 52, 50, 51, 52, 43, 40 mm (nakaayos mula sa kaliwang hinliliit hanggang sa kanang hinliliit). Mas gustong isuot sa gitnang daliri."
+
+  may:
+    first_name: "Yada"
+    family_name: "Watcharamusik"
+    native_name: "เมษ์ ญดา วัชระมูสิก"
+    nationality: "Thai"
+    gender: "Babae"
+    born: "Oktubre 31, 1997"
+    blood_type: "A"
+    mbti: "ESFJ-T"
+    favorite_things: "Pusa, Pagkaing Thai mula sa Timog at Hilagang-silangan, Dagat"
+    hobbies: "Manood ng Pelikula, Makinig ng Musika, Makisalamuha sa mga kaibigan"
+    favorite_snacks: "Jelly"
+    favorite_colors: "Pastel Pink"
+    favorite_flowers: "Puting Rosas, Peach na Rosas"
+    t_shirt_size: "S"
+    wrist_size: "14cm"
+    ring_size: "50mm. Hintuturong daliri."
+
+# Voting page content
+voting:
+  title: "Kasalukuyang Mga Botohan"
+  description: "Lahat ng kasalukuyang aktibidad sa pagboto ay ibabahagi sa pahinang ito. Kung mayroon kang oras, mangyaring tumulong sa pagboto hangga't maaari. Ito ay isang magandang paraan upang ipakita ang ating pagmamahal para sa FayMay."
+  instructions:
+    - "Mangyaring subukang panatilihin na pareho ang bilang ng boto para sa kanilang dalawa."
+    - "Mangyaring huwag gumamit ng mga automated na tool. Ayaw nating sila ay ma-disqualify."
+  
+  starlight_award:
+    title: "2024 Ang Pinakamatingkad na Bituin sa Thailand"
+    description: "Ang panahon ng pagboto ay mula Agosto 23 hanggang Setyembre 11 20:00 Oras ng BKK. Maaari kang makakuha ng hanggang 7 libreng boto, 4 na libreng boto araw-araw at 3 libreng boto araw-araw para sa unang social share. Mangyaring"
+    vote_link: "bumoto para sa kanila."
+  
+  thai_update_award:
+    title: "Ang Pinakamagusto na On-Screen Couple ng 2024"
+    description: "Ang panahon ng pagboto ay mula Agosto 24 hanggang Setyembre 04 15:00 Oras ng BKK. Maaari kang bumoto nang walang limitasyon. Mangyaring"
+    vote_link: "bumoto para sa kanila."
+
+# Fan Pages content
+fan_pages:
+  title: "Mga Aktibong Fan Page"
+  description: "Narito ang mga aktibong fan page, pareho ang opisyal at hindi opisyal, upang panatilihin kang konektado sa komunidad!"
+  by_country: "Mga Fan Page ayon sa Bansa"
+  country_description: "Ang mga fan page na ito ay inayos ayon sa bansa para sa madaling pag-browse."
+  table:
+    country: "Bansa"
+    twitter: "Twitter"
+    facebook: "Facebook"
+    tiktok: "TikTok"
+    official: "Opisyal"
+  countries:
+    thailand: "Thailand"
+    brazil: "Brazil"
+    vietnam: "Vietnam"
+    myanmar: "Myanmar"
+
+# Fan Creations content
+fan_creations:
+  title: "Mga Likha ng Fans"
+  description: "Ang pahinang ito ay naglalayong i-highlight ang mga profile ng mga tagahanga na mga fansite o mga tagahanga na lumilikha ng fan arts, fan edits, fan covers, at fan translations."
+  fan_sites:
+    title: "Mga Fan Site"
+    description: "Narito ang listahan ng mga fansite na madalas nagbabahagi ng mga aktibidad ng FayMay sa pamamagitan ng kahanga-hangang camerawork!"
+  fan_art:
+    title: "Mga Tagalikha ng Fan Art"
+    description: "Tingnan ang listahang ito ng mga tagalikha ng fan art na nagpapakita ng kanilang kahanga-hangang artwork!"
+  fan_edits:
+    title: "Mga Tagalikha ng Fan Edit Video"
+    description: "Tiyaking tingnan ang mga cool na gumagawa ng fan video na ito at ang kanilang kahanga-hangang mga edit!"
+  fan_covers:
+    title: "Mga Fan Cover"
+  fan_translations:
+    title: "Mga Fan Translation"
+    description: "Narito ang listahan ng mga account ng fan translation kasama ang kani-kanilang mga wika."
+  table:
+    faymay_focused: "Nakatuon sa FayMay"
+    language: "Wika"
+    twitter: "Twitter"
+    youtube: "YouTube"
+    tiktok: "TikTok"
+  languages:
+    english: "Ingles"
+    thai_english: "Thai/Ingles"
+    portuguese: "Portuges"
+
+# Dream Series content
+dream_series:
+  title: "My Marvellous Dream is You (ฝันรักห้วงนิทรา)"
+  description: "Ako si \"Dawhan\". Mula nang maaalala ko, palagi akong may kakaibang mga panaginip tungkol sa isang batang babae na tahimik ngunit madalas na nakikipaglaro sa akin sa aking mga panaginip. Isang araw, may bagong kapitbahay na lumipat, at iyon ang naging dahilan ng pagkasira ng aking pamilya. Tumakas ang aking ama kasama ang lalaking kapitbahay, na lumabas na ama pala ni \"Kimhan\" ang tahimik at maliit na babae mula sa katabing bahay. Sa simula, hindi kami malapit sa isa't isa, ngunit dahil sa iba't ibang pangyayari, kami ay naging mas malapit at naunawaan ang isa't isa. Gayunpaman, hindi alam ni Kimhan na habang sa tunay na mundo ay magkaibigan lang kami, sa aking mga panaginip, ang maliit na babae at ako ay gumagawa ng mga bagay na higit pa doon. Kaya, itinago ko ang aking mga damdamin dahil hindi ko maaaring ipaalam sa kanya. Hindi ko kailanman naunawaan na sa mga panaginip na iyon, hindi lang ako ang nananaginip."
+  genres: "Mga Genre: Romansa, Pantasya"
+  other_names: "Iba pang Pangalan: DreamGL, Dream The Series"
+  main_roles:
+    title: "Mga pangunahing papel:"
+    description: "Mangyaring sundan at suportahan ang lahat ng Dream Girls! Sila ay mga mahuhusay na aktres, at ang kanilang mga TikTok video ay napaka-masaya."
+  table:
+    name: "Pangalan"
+    full_name: "Buong Pangalan"
+    instagram: "Instagram"
+    twitter: "Twitter"
+    tiktok: "TikTok"
+    hashtag: "Hashtag"
+  teasers:
+    title: "Mga Teaser"
+    description: "Mangyaring panoorin ang mga opisyal na teaser at trailer sa playlist na ito ng Idol Factory."
+  episodes:
+    title: "Mga UNCUT na Episode"
+    description: "Mangyaring panoorin ang serye. Ito ay isang slow burn at maaaring magparamdam sa iyo ng frustrasyon sa ilang pagkakataon, ngunit ang chemistry ng FayMay ay hindi kapani-paniwala, at ang pag-arte ng buong cast ay kahanga-hanga. Hindi sapat ang isang beses na panonood, kaya mangyaring panoorin ang buong serye ng ilang beses."
+    table:
+      episode: "Episode"
+      teaser: "Teaser [Spoiler]"
+      premiered: "Ipinalabas"
+    spoilers:
+      ep1: "Matapos ang pagtatalo nila ni Dawhan, nagpasya si Kimhan na sumali kay Jessie, ang karibal ni Dawhan. Si Mali, na nakaramdam ng hindi pagkakomportable sa sitwasyon, ay nagsagawa ng imbestigasyon, at sa huli ay natuklasan ang tunay na dahilan sa likod ng desisyon ni Kimhan."
+      ep2: "Sa wakas ay naunawaan ni Dawhan ang tunay na dahilan kung bakit pumayag si Kimhun na magtrabaho para kay Jessie, na nagbigay-daan sa kanilang dalawa na magkaunawaan. Tumanggi si Dawhan na hayaan si Jessie na gamitin si Kimhun bilang isang kasangkapan at hinamon si Jessie na ilabas ang ebidensyang ginamit para i-blackmail siya."
+      ep3: "Nakaranas si Dawhan ng kaguluhan sa social media matapos niyang iuwi si Kimhan sa condo hanggang sa mahilo siya. Nagpasya si Toon na gamitin ang sikat na pares na \"Pat-Dawhan\" upang ilihis ang atensyon sa pamamagitan ng paglabas ng isang leaked na video clip."
+      ep4: "Nagkaroon ng pagkakataong makilala ni Kimhun si Mawin, ang may-ari ng gallery. Ang hindi inaasahang pagkikitang ito ay humantong sa desisyon ni Kimhun na magtrabaho sa gallery ni Mawin, isang pagpipiliang nagdala sa kanya ng tunay na kagalakan. Sa kabila ng mga pagsisikap ni Dawan na hadlangan siya, sumali pa rin si Kimhun sa gallery, na nag-udyok ng mainit na pagtatalo sa pagitan nila."
+      ep5: "Sinubukan ni Dawan ang lahat ng posibleng paraan upang abalahin si Mawin, na humantong sa isang alitan kay Kimhan at naging dahilan upang piliin ni Dawan na umuwi. Habang natutulog si Dawan, nanaginip siya na si Kimhan ay nagdrodrowing ng larawan nila ni Kim Han, ngunit ang imahe ay nagbago sa isang larawan ni Mawin."
+      ep6: "Ipinahayag ni Pat ang kanyang pag-ibig kay Dawan. Nang malaman ito, nagkasakit si Kimhan at na-ospital. Pinili ni Kimhan na umalis sa kwartong kanyang kinabahagi kay Dawan. Gayunpaman, nakita niya si Dawan na yumayakap kay Pat, na humantong sa kanilang pag-aaway. Sa init ng sandali, hindi sinasadyang ipinahayag ni Kimhan ang kanyang pagmamahal kay Mawin."
+      ep7: "Pumayag si Kimhan na maging girlfriend ni Mawin upang masiguro ang kinabukasan ni Dawan. Si Dawan ay napalampas ng mga pagkakataon na maging kinatawan ng Thailand bilang aktres at sumailalim sa paggamot para sa depresyon."
+      ep8: "Sina Dawan at Kimhan ay nagkabati muli sa pamamagitan ng isang matamis na halik. Sina Tim at Pongphon, ang mga taong nag-iwan sa mga pamilya nina Dawan at Kimhan sa kahirapan, ay bumalik upang makipagkita sa apat na muli."
+      ep9: "Bigla-biglang nagkasakit si Ae, ang ina ni Kimhan, at ipinahayag ang kanyang nais na makita sina Kimhan at Marwin na ikasal. Sa kabila ng kagustuhan ni Kimhan na matupad ang kahilingan ng kanyang ina, sa kanyang puso, si Dawan lamang ang kanyang mahal."
+      ep10: "Sa una ay nag-aalinlangan si Dawan na dumalo sa kasal nina Kimhan at Marwin. Gayunpaman, matapos basahin ang taos-pusong liham ni Kimhan na nagpapahayag ng kanyang damdamin, agad na iniwan ni Dawan ang lahat at nagmadali sa kasal upang makita si Kimhan."
+      ep11: "Nagpasya si Kimhan na tumakas mula sa kasal kasama si Dawan. Ang desisyong ito ay nagdala sa kanila pabalik sa isa't isa muli. Para naman kay Inang Ae, matapos mawala ang kanyang mga alalahanin, siya ay mapayapang pumanaw."
+      ep12: "Ako ay pinakamasaya kapag ako ay nasa panaginip, dahil doon... ikaw ay naroon"
+  osts:
+    title: "Mga OST"
+    description: "Ang mga OST sa seryeng ito ay napakaganda. Mangyaring ipakita sa kanila ang inyong pagmamahal!"
+    table:
+      language: "Wika"
+      title: "Pamagat"
+      vocal: "Boses"
+      producer: "Prodyuser"
+  fun_facts:
+    title: "Mga Kawili-wiling Katotohanan:"
+    facts:
+      - "Maaari mong mahanap ang Ingles na pagsasalin ng casting call dito."
+      - "Hindi man lang binalak ni May na mag-audition noong araw na iyon; siya ay kasama lang ng kanyang kaibigan. Ang kanyang kaibigan ang humikayat sa kanya na mag-audition nang sila ay nasa event na. Dapat nating pasalamatan ang kaibigan ni May!"
+      - "Nakilala nina Fay at May ang isa't isa sa unang pagkakataon sa event ng audition, at pareho silang nakasuot ng mga katulad na itim na jacket."
+      - "Ang kaibigan na kasama ni Fay ay kaibigan din ni May, kaya may mutual friend sila ngunit hindi nagkaroon ng pagkakataon na mag-usap bago nagsimula ang audition."
+      - "Ang kanilang chemistry ay napakahusay noong araw na iyon. Maraming tao sa audience na nanonood ng live stream ng audition ang nag-cheer para sila ang maging dalawang pangunahing bida."
+      - "Noong gabing iyon, matapos matapos ang audition, nagkaroon sila ng kanilang unang TikTok LIVE kasama ang kanilang mutual na kaibigan."
+      - "Matapos ang TikTok LIVE na iyon, nagkaroon sila ng Instagram LIVE na sila lang dalawa."
+      - "Maaari mong panoorin ang ilang mga video na may subtitle tungkol sa araw ng casting sa playlist na ito."
+  spoiler:
+    reveal: "I-click upang ipakita ang spoiler"
+    hide: "I-click upang itago ang spoiler"
+  
+# Translation credit content
+translationcredit:
+  title: "Mga Kredito sa Pagsasalin"
+  intro: "Kumusta! Gusto naming bigyan ng malaking pagkilala ang mga kahanga-hangang tao na tumulong para gawing tunay na global ang aming fansite. Ang mga kamangha-manghang taong ito ay nagbigay ng kanilang oras at pagsisikap para ihatid ang aming pagmamahal para sa FayMay sa mga tagahanga sa buong mundo."
+  team: "Ang aming mahusay na team sa pagsasalin/pagwawasto:"
+  thank_you: "Ang galing ninyo! Salamat sa pagtulong sa amin na ipakalat ang pagmamahal para sa FayMay 🫶"

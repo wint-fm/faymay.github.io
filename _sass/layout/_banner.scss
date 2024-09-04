@@ -2,7 +2,7 @@
 #banner {
     /* Vendor prefixes for cross-browser compatibility */
     @include vendor('align-items', 'center');
-    @include vendor('background-image', 'url("../images/fmbannerwed.jpg")');
+    @include vendor('background-image', 'url("../images/banner12.jpeg")');
     @include vendor('display', 'flex');
     
     /* Padding: top 4em, right 0, bottom 2em, left 0 */

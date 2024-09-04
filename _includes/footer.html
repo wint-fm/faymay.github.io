@@ -8,7 +8,7 @@
             <div class="person-socials-container">
                 <!-- Fay's social media section -->
                 <div class="person-socials">
-                    <img src="assets/images/fay.jpg" alt="Fay" class="profile-pic">
+                    <img src="{{ '/assets/images/fay.jpg' | relative_url }}" alt="Fay" class="profile-pic">
                     <div class="social-icons">
                         <!-- Twitter icon and link -->
                         <a href="https://x.com/Fay_riezz" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
@@ -27,7 +27,7 @@
                 
                 <!-- May's social media section -->
                 <div class="person-socials">
-                    <img src="assets/images/may.jpg" alt="May" class="profile-pic">
+                    <img src="{{ '/assets/images/may.jpg' | relative_url }}" alt="May" class="profile-pic">
                     <div class="social-icons">
                         <!-- Twitter icon and link -->
                         <a href="https://x.com/maywyda" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
@@ -48,7 +48,7 @@
         
         <!-- Copyright section -->
         <div class="copyright">
-            <p>&copy; {{ site.title }} {{ site.subtitle }} | All rights reserved.</p>
+            <p>{{ site.data[site.lang].footer.copyright }}</p>
         </div>
     </div>
 </footer>
@@ -163,19 +163,19 @@
 </style>
 
 <!-- Scripts -->
+    <!-- Load jQuery -->
 	<script src="{{ "assets/js/jquery.min.js" | absolute_url }}"></script>
 	<script src="{{ "assets/js/jquery.scrolly.min.js" | absolute_url }}"></script>
 	<script src="{{ "assets/js/jquery.scrollex.min.js" | absolute_url }}"></script>
 	<script src="{{ "assets/js/skel.min.js" | absolute_url }}"></script>
 	<script src="{{ "assets/js/util.js" | absolute_url }}"></script>
-	<!--[if lte IE 8]><script src="{{ "assets/js/ie/respond.min.js" | absolute_url }}"></script><![endif]-->
 	<script src="{{ "assets/js/main.js" | absolute_url }}"></script>
 
 	<!-- Add Slick Carousel JS -->
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-	<!-- Load custom script -->
+    <!-- Load custom script -->
 	<script src="{{ 'assets/js/custom.js' | relative_url }}"></script>
 
-	<!-- Add Lightbox JS -->
+    <!-- Add Lightbox JS -->
 	<script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/js/lightbox.min.js"></script>

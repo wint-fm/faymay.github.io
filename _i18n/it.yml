@@ -1,0 +1,260 @@
+lang: it
+
+# Global section
+global:
+  language_name: "Italiano"
+  site_title: "FayMay Fansite"
+  couple_name: "FayMay (เฟเมษ์)"
+  fay_name: "Fay (เฟ กัญญาพัชร)"
+  may_name: "May (เมษ์ ญดา)"
+  series_name: "My Marvellous Dream is You (ฝันรักห้วงนิทรา)"
+  dreamgl: "DreamGL"
+  dream_the_series: "Dream The Series"
+  idol_factory: "Idol Factory"
+
+# Navigation
+nav:
+  home: "Home"
+  profiles: "Profili"
+  fan_pages: "Pagine Fan"
+  fan_creations: "Creazioni dei Fan"
+  dream_series: "Serie Dream"
+  ongoing_votings: "Votazioni in Corso"
+  active_fan_pages: "Pagine Fan Attive"
+
+# Footer
+footer:
+  copyright: "© 2024 FayMay Fansite. Tutti i diritti riservati."
+  privacy_policy: "Informativa sulla Privacy"
+  terms_of_service: "Termini di Servizio"
+
+# Common elements
+common:
+  read_more: "Leggi di Più"
+  watch_now: "Guarda Ora"
+  get_to_know_more: "Conoscile meglio"
+  follow_us: "Seguici"
+  latest_news: "Ultime Notizie"
+  featured_content: "Contenuti in Evidenza"
+  vote_for_them: "vota per loro."
+  thai: "Tailandese"
+  english: "Inglese"
+  common_yes: "Sì"
+  common_no: "No"
+
+# Social media
+social_media:
+  instagram: "Instagram"
+  twitter: "Twitter"
+  tiktok: "TikTok"
+  youtube: "YouTube"
+  facebook: "Facebook"
+
+# Error messages
+error_messages:
+  404: "Pagina non trovata"
+  500: "Errore interno del server"
+
+# Languages
+languages:
+  en: "English"
+  th: "ไทย"
+  zh-Hans: "简体中文"
+  fil: "Filipino"
+  id: "Bahasa Indonesia"
+  it: "Italiano"
+  ja: "日本語"
+  ko: "한국어"
+  my: "မြန်မာဘာသာ"
+  pt: "Português"
+  es: "Español"
+  vi: "Tiếng Việt"
+
+# Home page content
+home:
+  actress_description: '{fay_name} e {may_name} sono attrici GL tailandesi sotto {idol_factory}. Il loro nome di coppia sullo schermo è {couple_name}.'
+  series_description: 'Il loro primo progetto di recitazione come attrici protagoniste è {series_name}, noto anche come {dreamgl} o {dream_the_series}.'
+  watch_teasers: "Per favore, guarda i teaser ufficiali e il trailer {playlist_name} di {idol_factory}."
+
+# Profile page content
+profile:
+  title: "Profili FayMay"
+  header: "Profili FayMay"
+  welcome_message: "Benvenuti nel Fansite di FayMay. Questa pagina è gestita da fan internazionali. Siamo felici che tu sia curioso di FayMay e voglia saperne di più su di loro. Vorremmo chiederti solo cinque cose."
+
+  fan_requests:
+    - "FayMay è una cosa sola. Per favore, impara ad amarle entrambe."
+    - "Per favore, ama e accetta sia Fay che May per quello che sono, non per l'idea che hai di come dovrebbero essere."
+    - "Per favore, rispetta e sostieni le loro decisioni, sia per il lavoro che per la vita personale."
+    - "Per favore, rispetta la loro privacy e conosci i nostri limiti come fan e artisti. Amano condividere le loro vite con noi, ma questo non significa che possiamo oltrepassare i nostri limiti. Ciò include le loro relazioni con altre persone, siano esse personaggi pubblici o cittadini privati. Rispetta le relazioni che hanno con gli altri e dai loro la privacy."
+    - "Per favore, cerca di non amplificare le voci degli haters, soffocale invece con l'amore. Il nostro fandom è costruito sull'amore, ma se qualcuno intende causare danni, proteggeremo FayMay."
+
+  fay:
+    first_name: "Kunyaphat"
+    family_name: "Na Nakorn"
+    native_name: "เฟ กัญญาพัชร ณ นคร"
+    nationality: "Tailandese"
+    gender: "Femmina"
+    born: "2 Dicembre 2001"
+    blood_type: "AB"
+    mbti: "INFJ-T"
+    favorite_things: "Chihuahua, Musica, Film"
+    hobbies: "Ballare, Cantare, Suonare la Chitarra, Guardare Film, Leggere Romanzi"
+    favorite_snacks: "Macaron, Milo Nuggets, Choux Cream"
+    favorite_colors: "Nero, Blu"
+    favorite_flowers: "Ortensia"
+    t_shirt_size: "S/M"
+    wrist_size: "S:14cm D:14.5cm"
+    ring_size: "46, 48, 55, 52, 52, 50, 51, 52, 43, 40 mm (ordinati dal mignolo sinistro al mignolo destro). Preferisce indossarlo sul dito medio."
+
+  may:
+    first_name: "Yada"
+    family_name: "Watcharamusik"
+    native_name: "เมษ์ ญดา วัชระมูสิก"
+    nationality: "Tailandese"
+    gender: "Femmina"
+    born: "31 Ottobre 1997"
+    blood_type: "A"
+    mbti: "ESFJ-T"
+    favorite_things: "Gatto, Cibo Tailandese del Sud e del Nord-Est, Mare"
+    hobbies: "Guardare Film, Ascoltare Musica, Uscire con gli amici"
+    favorite_snacks: "Gelatina"
+    favorite_colors: "Rosa Pastello"
+    favorite_flowers: "Rosa Bianca, Rosa Pesca"
+    t_shirt_size: "S"
+    wrist_size: "14cm"
+    ring_size: "50mm. Dito indice."
+
+# Voting page content
+voting:
+  title: "Votazioni in Corso"
+  description: "Tutte le attività di voto in corso saranno condivise su questa pagina. Se hai tempo, per favore aiuta con il voto il più possibile. È un buon modo per mostrare il nostro amore per FayMay."
+  instructions:
+    - "Per favore, cerca di mantenere lo stesso numero di voti per entrambe."
+    - "Per favore, non usare strumenti automatizzati. Non vorremmo che fossero squalificate."
+  
+  starlight_award:
+    title: "2024 La Stella Più Brillante in Thailandia"
+    description: "Il periodo di voto va dal 23 Agosto all'11 Settembre alle 20:00 ora di Bangkok. Puoi ottenere fino a 7 voti gratuiti, 4 voti gratuiti giornalieri e 3 voti gratuiti giornalieri per la prima condivisione sociale. Per favore"
+    vote_link: "vota per loro."
+  
+  thai_update_award:
+    title: "La Coppia Sullo Schermo Preferita del 2024"
+    description: "Il periodo di voto va dal 24 Agosto al 4 Settembre alle 15:00 ora di Bangkok. Puoi votare illimitatamente. Per favore"
+    vote_link: "vota per loro."
+
+# Fan Pages content
+fan_pages:
+  title: "Pagine Fan Attive"
+  description: "Ecco le pagine fan attive, sia ufficiali che non ufficiali, per tenerti connesso con la comunità!"
+  by_country: "Pagine Fan per Paese"
+  country_description: "Queste pagine fan sono organizzate per paese per una facile navigazione."
+  table:
+    country: "Paese"
+    twitter: "Twitter"
+    facebook: "Facebook"
+    tiktok: "TikTok"
+    official: "Ufficiale"
+  countries:
+    thailand: "Thailandia"
+    brazil: "Brasile"
+    vietnam: "Vietnam"
+    myanmar: "Myanmar"
+
+# Fan Creations content
+fan_creations:
+  title: "Creazioni dei Fan"
+  description: "Questa pagina intende evidenziare i profili dei fan che sono fansites o fan che creano fan art, fan edit, fan cover e traduzioni dei fan."
+  fan_sites:
+    title: "Siti Fan"
+    description: "Ecco una lista di fansites che spesso condividono le attività di FayMay attraverso un incredibile lavoro fotografico!"
+  fan_art:
+    title: "Creatori di Fan Art"
+    description: "Dai un'occhiata a questa lista di creatori di fan art che mostrano le loro fantastiche opere d'arte!"
+  fan_edits:
+    title: "Creatori di Video Fan Edit"
+    description: "Assicurati di dare un'occhiata a questi fantastici creatori di video fan e ai loro incredibili edit!"
+  fan_covers:
+    title: "Fan Cover"
+  fan_translations:
+    title: "Traduzioni dei Fan"
+    description: "Ecco una lista di account di traduzioni dei fan insieme alle rispettive lingue."
+  table:
+    faymay_focused: "Focalizzato su FayMay"
+    language: "Lingua"
+    twitter: "Twitter"
+    youtube: "YouTube"
+    tiktok: "TikTok"
+  languages:
+    english: "Inglese"
+    thai_english: "Tailandese/Inglese"
+    portuguese: "Portoghese"
+
+# Dream Series content
+dream_series:
+  title: "My Marvellous Dream is You (ฝันรักห้วงนิทรา)"
+  description: "Sono \"Dawhan\". Da quando posso ricordare, ho sempre avuto strani sogni su una giovane ragazza che era silenziosa ma spesso giocava con me nei miei sogni. Un giorno, una nuova vicina si è trasferita, e questo ha portato alla disintegrazione della mia famiglia. Mio padre è scappato con l'uomo della porta accanto, che si è rivelato essere il padre di \"Kimhan\", la ragazza silenziosa e piccola della porta accanto. Inizialmente, non eravamo affatto vicine, ma varie circostanze ci hanno avvicinato e ci hanno fatto capire l'una l'altra. Tuttavia, Kimhan non sapeva che mentre nel mondo reale eravamo solo amiche, nei miei sogni, la piccola ragazza e io facevamo cose che andavano ben oltre. Così, ho tenuto nascosti i miei sentimenti perché non potevo farglielo sapere. Non ho mai realizzato che in quei sogni, non ero l'unica a sognare."
+  genres: "Generi: Romantico, Fantasy"
+  other_names: "Altri Nomi: DreamGL, Dream The Series"
+  main_roles:
+    title: "Ruoli principali:"
+    description: "Per favore, segui e supporta tutte le Dream Girls! Sono attrici di talento, e i loro video TikTok sono molto divertenti."
+  table:
+    name: "Nome"
+    full_name: "Nome Completo"
+    instagram: "Instagram"
+    twitter: "Twitter"
+    tiktok: "TikTok"
+    hashtag: "Hashtag"
+  teasers:
+    title: "Teaser"
+    description: "Per favore, guarda i teaser ufficiali e il trailer in questa playlist di Idol Factory."
+  episodes:
+    title: "Episodi UNCUT"
+    description: "Per favore, guarda la serie. È una slow burn e potrebbe farti sentire frustrato a volte, ma la chimica di FayMay è incredibile, e la recitazione di tutto il cast è brillante. Guardarla una volta non è abbastanza, quindi per favore guarda l'intera serie più volte."
+    table:
+      episode: "Episodio"
+      teaser: "Teaser [Spoiler]"
+      premiered: "Andata in onda"
+    spoilers:
+      ep1: "Dopo un litigio con Dawhan, Kimhan ha preso la decisione di unirsi a Jessie, la rivale di Dawhan. Mali, sentendosi a disagio per la situazione, ha preso l'iniziativa di condurre un'indagine, scoprendo infine la vera ragione dietro la decisione di Kimhan."
+      ep2: "Dawhan ha finalmente capito la vera ragione per cui Kimhun ha accettato di lavorare per Jessie, permettendo a entrambe di giungere a una comprensione. Dawhan si è rifiutata di lasciare che Jessie usasse Kimhun come uno strumento e ha sfidato Jessie a rilasciare le prove usate per ricattarla."
+      ep3: "Dawhan ha affrontato una frenesia sui social media dopo aver riportato Kimhan al condominio fino a provocarle vertigini. Toon ha deciso di usare la coppia di tendenza \"Pat-Dawhan\" per deviare l'attenzione rilasciando un video clip trapelato."
+      ep4: "Kimhun ha avuto un incontro casuale con Mawin, il proprietario della galleria. Questo incontro inaspettato ha portato Kimhun a decidere di lavorare con la galleria di Mawin, una scelta che le ha portato sincera gioia. Nonostante gli sforzi di Dawan per impedirlo, Kimhun si è unita alla galleria, accendendo una accesa disputa tra loro."
+      ep5: "Dawan ha cercato in ogni modo possibile di interrompere Mawin, portando a un conflitto con Kimhan e facendo sì che Dawan scegliesse di tornare a casa. Mentre Dawan dormiva, ha sognato Kimhan che disegnava un'immagine di Kim Han insieme a se stessa, ma l'immagine si è trasformata in un'immagine di Mawin invece."
+      ep6: "Pat confessa il suo amore a Dawan. Scoperto questo, Kimhan si è ammalata ed è stata ricoverata in ospedale. Kimhan ha scelto di lasciare la stanza che condivideva con Dawan. Tuttavia, ha incontrato Dawan che abbracciava Pat, portando le due a litigare. Nel calore del momento, Kimhan ha rivelato involontariamente il suo affetto per Mawin."
+      ep7: "Kimhan accetta di essere la fidanzata di Mawin per assicurare il futuro di Dawan. Dawan ha perso opportunità di rappresentare la Thailandia come attrice e si è sottoposta a un trattamento per la depressione."
+      ep8: "Dawan e Kimhan si riconciliano di nuovo con un dolce bacio. Tim e Pongphon, le persone che hanno lasciato entrambe le famiglie di Dawan e Kimhan nella miseria, tornano per incontrare di nuovo tutti e quattro."
+      ep9: "Ae, la madre di Kimhan, si è ammalata improvvisamente e ha espresso il desiderio di vedere Kimhan e Marwin sposarsi. Nonostante il desiderio di Kimhan di soddisfare il desiderio di sua madre, nel suo cuore amava solo Dawan."
+      ep10: "Dawan è riluttante a partecipare al matrimonio di Kimhan e Marwin all'inizio. Tuttavia, dopo aver letto la commovente lettera di Kimhan che confessa i suoi sentimenti, Dawan lascia immediatamente tutto e corre al matrimonio per vedere Kimhan."
+      ep11: "Kimhan decide di fuggire dal matrimonio con Dawan. Questa decisione le ha riportate di nuovo insieme. Quanto alla Madre Ae, dopo che le sue preoccupazioni sono finite, è morta pacificamente."
+      ep12: "Sono più felice quando sono in un sogno, perché in esso... tu ci sei"
+  osts:
+    title: "OST"
+    description: "Le OST in questa serie sono sublimi. Per favore, mostra loro un po' d'amore!"
+    table:
+      language: "Lingua"
+      title: "Titolo"
+      vocal: "Voce"
+      producer: "Produttore"
+  fun_facts:
+    title: "Curiosità:"
+    facts:
+      - "Puoi trovare la traduzione in inglese del casting call qui."
+      - "May non aveva nemmeno in programma di fare l'audizione quel giorno; stava solo accompagnando la sua amica. La sua amica l'ha convinta a fare l'audizione una volta che erano già all'evento. Dovremmo tutti ringraziare l'amica di May!"
+      - "Fay e May si sono incontrate all'evento di audizione per la prima volta, ed entrambe indossavano giacche nere simili."
+      - "L'amica che è venuta con Fay è anche amica di May, quindi avevano un'amica in comune ma non hanno avuto la possibilità di parlare prima che l'audizione iniziasse."
+      - "La loro chimica era incredibilmente buona quel giorno. Molte persone tra il pubblico che guardavano la diretta dell'audizione facevano il tifo perché fossero le due protagoniste finali."
+      - "Quella sera, dopo la fine dell'audizione, hanno fatto la loro prima LIVE su TikTok insieme alla loro amica in comune."
+      - "Dopo quella LIVE su TikTok, hanno fatto una LIVE su Instagram solo loro due."
+      - "Puoi guardare alcuni dei video sottotitolati sul giorno del casting in questa playlist."
+  spoiler:
+    reveal: "Clicca per rivelare lo spoiler"
+    hide: "Clicca per nascondere lo spoiler"
+
+# Translation credit content
+translationcredit:
+  title: "Crediti di Traduzione"
+  intro: "Ciao a tutti! Volevamo fare un grande ringraziamento alle persone incredibili che hanno aiutato a rendere il nostro fansite davvero globale. Queste meravigliose persone hanno dedicato il loro tempo e impegno per portare il nostro amore per FayMay ai fan di tutto il mondo."
+  team: "Il nostro fantastico team di traduzione/revisione:"
+  thank_you: "Siete fantastici! Grazie per averci aiutato a diffondere l'amore per FayMay 🫶"

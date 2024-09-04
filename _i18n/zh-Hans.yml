@@ -1,0 +1,260 @@
+lang: zh-Hans
+
+# Global section
+global:
+  language_name: "简体中文"
+  site_title: "FayMay 粉丝网站"
+  couple_name: "FayMay (เฟเมษ์)"
+  fay_name: "Fay (เฟ กัญญาพัชร)"
+  may_name: "May (เมษ์ ญดา)"
+  series_name: "你是我的奇妙梦境 (ฝันรักห้วงนิทรา)"
+  dreamgl: "DreamGL"
+  dream_the_series: "Dream The Series"
+  idol_factory: "Idol Factory"
+
+# Navigation
+nav:
+  home: "首页"
+  profiles: "档案"
+  fan_pages: "粉丝页面"
+  fan_creations: "粉丝创作"
+  dream_series: "Dream 系列"
+  ongoing_votings: "正在进行的投票"
+  active_fan_pages: "活跃的粉丝页面"
+
+# Footer
+footer:
+  copyright: "© 2024 FayMay 粉丝网站。保留所有权利。"
+  privacy_policy: "隐私政策"
+  terms_of_service: "服务条款"
+
+# Common elements
+common:
+  read_more: "阅读更多"
+  watch_now: "立即观看"
+  get_to_know_more: "更多了解她们"
+  follow_us: "关注我们"
+  latest_news: "最新消息"
+  featured_content: "精选内容"
+  vote_for_them: "为她们投票。"
+  thai: "泰语"
+  english: "英语"
+  common_yes: "是"
+  common_no: "否"
+
+# Social media
+social_media:
+  instagram: "Instagram"
+  twitter: "Twitter"
+  tiktok: "抖音"
+  youtube: "YouTube"
+  facebook: "Facebook"
+
+# Error messages
+error_messages:
+  404: "页面未找到"
+  500: "内部服务器错误"
+
+# Languages
+languages:
+  en: "English"
+  th: "ไทย"
+  zh-Hans: "简体中文"
+  fil: "Filipino"
+  id: "Bahasa Indonesia"
+  it: "Italiano"
+  ja: "日本語"
+  ko: "한국어"
+  my: "မြန်မာဘာသာ"
+  pt: "Português"
+  es: "Español"
+  vi: "Tiếng Việt"
+
+# Home page content
+home:
+  actress_description: '{fay_name} 和 {may_name} 是 {idol_factory} 旗下的泰国 GL 女演员。她们的荧幕情侣名是 {couple_name}。'
+  series_description: '她们首次担任主演的作品是 {series_name}，也被称为 {dreamgl} 或 {dream_the_series}。'
+  watch_teasers: "请观看 {idol_factory} 制作的官方预告片和宣传片 {playlist_name}。"
+
+# Profile page content
+profile:
+  title: "FayMay 档案"
+  header: "FayMay 档案"
+  welcome_message: "欢迎来到 FayMay 粉丝网站。本页面由国际粉丝维护。我们很高兴你对 FayMay 感兴趣并想了解更多。我们只想向你提出五个请求。"
+
+  fan_requests:
+    - "FayMay 是一个整体。请学会同时爱她们两个。"
+    - "请爱护和接纳 Fay 和 May 本来的样子，而不是你认为她们应该成为的样子。"
+    - "请尊重和支持她们的决定，无论是工作还是私人生活。"
+    - "请尊重她们的隐私，并了解我们作为粉丝和艺人之间的界限。她们喜欢与我们分享生活，但这并不意味着我们可以越界。这包括她们与其他人的关系，无论是公众人物还是普通人。尊重她们与他人的关系，给予她们隐私。"
+    - "请尽量不要放大仇恨者的声音，而是用爱来淹没他们。我们的粉丝群是建立在爱的基础上的，但如果有人试图造成伤害，我们会保护 FayMay。"
+
+  fay:
+    first_name: "Kunyaphat"
+    family_name: "Na Nakorn"
+    native_name: "เฟ กัญญาพัชร ณ นคร"
+    nationality: "泰国"
+    gender: "女"
+    born: "2001年12月2日"
+    blood_type: "AB"
+    mbti: "INFJ-T"
+    favorite_things: "吉娃娃、音乐、电影"
+    hobbies: "跳舞、唱歌、弹吉他、看电影、读小说"
+    favorite_snacks: "马卡龙、美禄麦片、奶油泡芙"
+    favorite_colors: "黑色、蓝色"
+    favorite_flowers: "绣球花"
+    t_shirt_size: "S/M"
+    wrist_size: "左:14厘米 右:14.5厘米"
+    ring_size: "46、48、55、52、52、50、51、52、43、40 毫米（从左手小指到右手小指排序）。喜欢戴在中指上。"
+
+  may:
+    first_name: "Yada"
+    family_name: "Watcharamusik"
+    native_name: "เมษ์ ญดา วัชระมูสิก"
+    nationality: "泰国"
+    gender: "女"
+    born: "1997年10月31日"
+    blood_type: "A"
+    mbti: "ESFJ-T"
+    favorite_things: "猫、泰国南部和东北部美食、大海"
+    hobbies: "看电影、听音乐、和朋友出去玩"
+    favorite_snacks: "果冻"
+    favorite_colors: "粉嫩粉色"
+    favorite_flowers: "白玫瑰、桃色玫瑰"
+    t_shirt_size: "S"
+    wrist_size: "14厘米"
+    ring_size: "50毫米。食指。"
+
+# Voting page content
+voting:
+  title: "正在进行的投票"
+  description: "所有正在进行的投票活动都会在这个页面上分享。如果你有时间，请尽可能多地参与投票。这是表达我们对 FayMay 爱的好方式。"
+  instructions:
+    - "请尽量保持她们两人的票数相同。"
+    - "请不要使用自动化工具。我们不希望她们被取消资格。"
+  
+  starlight_award:
+    title: "2024年泰国最闪耀的明星"
+    description: "投票期从8月23日到9月11日20:00（曼谷时间）。你可以获得最多7次免费投票，4次每日免费投票和3次首次社交分享的免费投票。请"
+    vote_link: "为她们投票。"
+  
+  thai_update_award:
+    title: "2024年最受欢迎的荧幕情侣"
+    description: "投票期从8月24日到9月4日15:00（曼谷时间）。你可以无限次投票。请"
+    vote_link: "为她们投票。"
+
+# Fan Pages content
+fan_pages:
+  title: "活跃的粉丝页面"
+  description: "这里是活跃的粉丝页面，包括官方和非官方的，让你与社区保持联系！"
+  by_country: "按国家分类的粉丝页面"
+  country_description: "这些粉丝页面按国家组织，方便浏览。"
+  table:
+    country: "国家"
+    twitter: "Twitter"
+    facebook: "Facebook"
+    tiktok: "抖音"
+    official: "官方"
+  countries:
+    thailand: "泰国"
+    brazil: "巴西"
+    vietnam: "越南"
+    myanmar: "缅甸"
+
+# Fan Creations content
+fan_creations:
+  title: "粉丝创作"
+  description: "本页旨在突出展示粉丝站或创作粉丝艺术、粉丝剪辑、粉丝翻唱和粉丝翻译的粉丝档案。"
+  fan_sites:
+    title: "粉丝站"
+    description: "这里列出了经常通过精彩的摄影作品分享 FayMay 活动的粉丝站！"
+  fan_art:
+    title: "粉丝艺术创作者"
+    description: "看看这些展示精彩作品的粉丝艺术创作者列表！"
+  fan_edits:
+    title: "粉丝剪辑视频创作者"
+    description: "一定要看看这些酷炫的粉丝视频制作者和他们精彩的剪辑！"
+  fan_covers:
+    title: "粉丝翻唱"
+  fan_translations:
+    title: "粉丝翻译"
+    description: "这里列出了粉丝翻译账号及其各自的语言。"
+  table:
+    faymay_focused: "专注于 FayMay"
+    language: "语言"
+    twitter: "Twitter"
+    youtube: "YouTube"
+    tiktok: "抖音"
+  languages:
+    english: "英语"
+    thai_english: "泰语/英语"
+    portuguese: "葡萄牙语"
+
+# Dream Series content
+dream_series:
+  title: "你是我的奇妙梦境 (ฝันรักห้วงนิทรา)"
+  description: "我是「道韩」。从我记事起，我就一直做着奇怪的梦，梦见一个安静但经常在梦中和我玩耍的年轻女孩。有一天，一个新邻居搬来了，这导致我的家庭分崩离析。我的父亲和隔壁的男人私奔了，而那个男人原来是「金韩」的父亲，金韩就是隔壁那个安静又娇小的女孩。起初，我们一点都不亲近，但各种情况使我们越来越亲近，让我们互相理解。然而，金韩并不知道，虽然在现实世界中我们只是朋友，但在我的梦中，那个小女孩和我做的事情远远超出了这个范围。所以，我把自己的感情隐藏起来，因为我不能让她知道。我从未意识到，在那些梦中，我并不是唯一一个在做梦的人。"
+  genres: "类型：爱情、奇幻"
+  other_names: "其他名称：DreamGL、Dream The Series"
+  main_roles:
+    title: "主要角色："
+    description: "请关注和支持所有的 Dream Girls！她们都是才华横溢的演员，她们的抖音视频非常有趣。"
+  table:
+    name: "姓名"
+    full_name: "全名"
+    instagram: "Instagram"
+    twitter: "Twitter"
+    tiktok: "抖音"
+    hashtag: "话题标签"
+  teasers:
+    title: "预告片"
+    description: "请观看 Idol Factory 制作的这个播放列表中的官方预告片和宣传片。"
+  episodes:
+    title: "未剪辑版集数"
+    description: "请观看这部系列剧。它是一部慢热的作品，有时可能会让你感到沮丧，但 FayMay 的化学反应是令人难以置信的，整个演员阵容的表演都很出色。看一遍是不够的，所以请多看几遍整个系列。"
+    table:
+      episode: "集数"
+      teaser: "预告 [剧透]"
+      premiered: "首播"
+    spoilers:
+      ep1: "在与道韩发生争执后，金韩决定加入道韩的对手杰西。马莉对这种情况感到不安，她主动进行调查，最终发现了金韩决定背后的真正原因。"
+      ep2: "道韩终于理解了金韩同意为杰西工作的真正原因，使两人达成了共识。道韩拒绝让杰西把金韩当工具使用，并挑战杰西公开用来勒索她的证据。"
+      ep3: "道韩将金韩带回公寓直到头晕，之后遇到了社交媒体的狂热。通决定利用热门情侣「帕特-道韩」来转移注意力，发布了一段泄露的视频片段。"
+      ep4: "金韩偶然遇到了画廊老板马文。这次意外的会面让金韩决定与马文的画廊合作，这个选择给她带来了真诚的喜悦。尽管道韩努力阻止她，但金韩还是加入了画廊，引发了两人之间激烈的争执。"
+      ep5: "道韩尽一切可能打断马文，导致与金韩发生冲突，使道韩选择回家。当道韩睡着时，她梦见金韩画了一幅她们俩在一起的画，但画面变成了马文的画像。"
+      ep6: "帕特向道韩表白。得知这件事后，金韩生病住院。金韩选择离开她与道韩共享的房间。然而，她遇到道韩拥抱帕特，导致两人争吵。在激动的时刻，金韩无意中透露了她对马文的感情。"
+      ep7: "金韩同意成为马文的女朋友以确保道韩的未来。道韩错过了代表泰国作为演员的机会，并接受了抑郁症治疗。"
+      ep8: "道韩和金韩通过一个甜蜜的吻重新和好。蒂姆和蓬蓬，让道韩和金韩两个家庭陷入痛苦的人，再次回来与他们四个人见面。"
+      ep9: "艾，金韩的母亲，突然生病，表达了想看到金韩和马文结婚的愿望。尽管金韩想要满足母亲的愿望，但在她心里，她只爱道韩。"
+      ep10: "道韩起初不愿参加金韩和马文的婚礼。然而，在读到金韩表白感情的真挚信件后，道韩立即放下一切，赶到婚礼现场见金韩。"
+      ep11: "金韩决定和道韩一起逃离婚礼。这个决定让她们再次走到一起。至于艾妈妈，在她的担忧结束后，她安详地离世了。"
+      ep12: "当我在梦中时，我最幸福，因为在梦里...你就在那里"
+  osts:
+    title: "原声带"
+    description: "这个系列的原声带简直完美。请给予它们一些喜爱！"
+    table:
+      language: "语言"
+      title: "标题"
+      vocal: "歌手"
+      producer: "制作人"
+  fun_facts:
+    title: "有趣的事实："
+    facts:
+      - "你可以在这里找到选角通知的英文翻译。"
+      - "May 那天甚至没有计划试镜；她只是陪朋友来的。她的朋友在已经到达活动现场后说服她去试镜。我们都应该感谢 May 的朋友！"
+      - "Fay 和 May 在试镜活动中第一次见面，她们都穿着类似的黑色夹克。"
+      - "和 Fay 一起来的朋友也是 May 的朋友，所以她们有一个共同的朋友，但在试镜开始前没有机会交谈。"
+      - "那天她们之间的化学反应好得惊人。许多观看试镜直播的观众都在为她们成为最后两个主角而欢呼。"
+      - "那天晚上，试镜结束后，她们与共同的朋友一起进行了第一次抖音直播。"
+      - "在那次抖音直播之后，她们两个人又进行了一次 Instagram 直播。"
+      - "你可以在这个播放列表中观看一些关于选角日的字幕视频。"
+  spoiler:
+    reveal: "点击显示剧透"
+    hide: "点击隐藏剧透"
+
+# Translation credit content
+translationcredit:
+  title: "翻译鸣谢"
+  intro: "大家好！我们想要特别感谢那些帮助我们的粉丝网站真正走向全球的了不起的人们。这些wonderful的人们为了将我们对FayMay的爱带给全世界的粉丝们付出了时间和努力。"
+  team: "我们出色的翻译/校对团队："
+  thank_you: "你们太棒了！感谢你们帮助我们传播对FayMay的爱 🫶"

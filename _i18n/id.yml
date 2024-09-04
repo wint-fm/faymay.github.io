@@ -1,0 +1,260 @@
+lang: id
+
+# Global section
+global:
+  language_name: "Bahasa Indonesia"
+  site_title: "FayMay Fansite"
+  couple_name: "FayMay (เฟเมษ์)"
+  fay_name: "Fay (เฟ กัญญาพัชร)"
+  may_name: "May (เมษ์ ญดา)"
+  series_name: "My Marvellous Dream is You (ฝันรักห้วงนิทรา)"
+  dreamgl: "DreamGL"
+  dream_the_series: "Dream The Series"
+  idol_factory: "Idol Factory"
+
+# Navigation
+nav:
+  home: "Beranda"
+  profiles: "Profil"
+  fan_pages: "Halaman Penggemar"
+  fan_creations: "Kreasi Penggemar"
+  dream_series: "Serial Dream"
+  ongoing_votings: "Pemungutan Suara Berlangsung"
+  active_fan_pages: "Halaman Penggemar Aktif"
+
+# Footer
+footer:
+  copyright: "© 2024 FayMay Fansite. Hak cipta dilindungi undang-undang."
+  privacy_policy: "Kebijakan Privasi"
+  terms_of_service: "Ketentuan Layanan"
+
+# Common elements
+common:
+  read_more: "Baca Selengkapnya"
+  watch_now: "Tonton Sekarang"
+  get_to_know_more: "Kenali mereka lebih jauh"
+  follow_us: "Ikuti Kami"
+  latest_news: "Berita Terbaru"
+  featured_content: "Konten Unggulan"
+  vote_for_them: "berikan suara untuk mereka."
+  thai: "Thailand"
+  english: "Inggris"
+  common_yes: "Ya"
+  common_no: "Tidak"
+
+# Social media
+social_media:
+  instagram: "Instagram"
+  twitter: "Twitter"
+  tiktok: "TikTok"
+  youtube: "YouTube"
+  facebook: "Facebook"
+
+# Error messages
+error_messages:
+  404: "Halaman tidak ditemukan"
+  500: "Kesalahan server internal"
+
+# Languages
+languages:
+  en: "English"
+  th: "ไทย"
+  zh-Hans: "简体中文"
+  fil: "Filipino"
+  id: "Bahasa Indonesia"
+  it: "Italiano"
+  ja: "日本語"
+  ko: "한국어"
+  my: "မြန်မာဘာသာ"
+  pt: "Português"
+  es: "Español"
+  vi: "Tiếng Việt"
+
+# Home page content
+home:
+  actress_description: '{fay_name} dan {may_name} adalah aktris GL Thailand di bawah naungan {idol_factory}. Nama pasangan mereka di layar adalah {couple_name}.'
+  series_description: 'Proyek akting pertama mereka sebagai pemeran utama adalah {series_name}, juga dikenal sebagai {dreamgl} atau {dream_the_series}.'
+  watch_teasers: "Silakan tonton teaser dan trailer resmi {playlist_name} oleh {idol_factory}."
+
+# Profile page content
+profile:
+  title: "Profil FayMay"
+  header: "Profil FayMay"
+  welcome_message: "Selamat datang di Fansite FayMay. Halaman ini dikelola oleh penggemar internasional. Kami senang bahwa Anda penasaran tentang FayMay dan ingin mengenal mereka lebih jauh. Kami ingin meminta lima hal dari Anda."
+
+  fan_requests:
+    - "FayMay adalah satu kesatuan. Mohon belajar untuk mencintai keduanya."
+    - "Mohon cintai dan terima Fay dan May apa adanya, bukan seperti yang Anda pikir seharusnya mereka."
+    - "Mohon hormati dan dukung keputusan mereka, baik untuk pekerjaan maupun kehidupan pribadi."
+    - "Mohon hormati privasi mereka dan ketahui batasan kita sebagai penggemar dan artis. Mereka senang berbagi kehidupan mereka dengan kita, tapi itu tidak berarti kita bisa melampaui batas. Termasuk hubungan mereka dengan orang lain, baik tokoh publik atau warga biasa. Hormati hubungan mereka dengan orang lain dan berikan mereka privasi."
+    - "Mohon jangan memperkuat suara para pembenci, tenggelamkan mereka dengan cinta sebagai gantinya. Fandom kita dibangun atas dasar cinta, tapi jika ada yang berniat menyakiti, kita akan melindungi FayMay."
+
+  fay:
+    first_name: "Kunyaphat"
+    family_name: "Na Nakorn"
+    native_name: "เฟ กัญญาพัชร ณ นคร"
+    nationality: "Thailand"
+    gender: "Perempuan"
+    born: "2 Desember 2001"
+    blood_type: "AB"
+    mbti: "INFJ-T"
+    favorite_things: "Chihuahua, Musik, Film"
+    hobbies: "Menari, Bernyanyi, Bermain Gitar, Menonton Film, Membaca Novel"
+    favorite_snacks: "Macaron, Milo Nuggets, Choux Cream"
+    favorite_colors: "Hitam, Biru"
+    favorite_flowers: "Hydrangea"
+    t_shirt_size: "S/M"
+    wrist_size: "Kiri:14cm Kanan:14.5cm"
+    ring_size: "46, 48, 55, 52, 52, 50, 51, 52, 43, 40 mm (urutan dari jari kelingking kiri ke jari kelingking kanan). Lebih suka dipakai di jari tengah."
+
+  may:
+    first_name: "Yada"
+    family_name: "Watcharamusik"
+    native_name: "เมษ์ ญดา วัชระมูสิก"
+    nationality: "Thailand"
+    gender: "Perempuan"
+    born: "31 Oktober 1997"
+    blood_type: "A"
+    mbti: "ESFJ-T"
+    favorite_things: "Kucing, Makanan Thailand Selatan & Timur Laut, Laut"
+    hobbies: "Menonton Film, Mendengarkan Musik, Nongkrong dengan teman"
+    favorite_snacks: "Jelly"
+    favorite_colors: "Pink Pastel"
+    favorite_flowers: "Mawar Putih, Mawar Persik"
+    t_shirt_size: "S"
+    wrist_size: "14cm"
+    ring_size: "50mm. Jari telunjuk."
+
+# Voting page content
+voting:
+  title: "Pemungutan Suara Berlangsung"
+  description: "Semua kegiatan pemungutan suara yang sedang berlangsung akan dibagikan di halaman ini. Jika Anda punya waktu, mohon bantu memberikan suara sebanyak mungkin. Ini adalah cara yang baik untuk menunjukkan cinta kita pada FayMay."
+  instructions:
+    - "Mohon usahakan agar keduanya memiliki jumlah suara yang sama."
+    - "Mohon jangan menggunakan alat otomatis. Kita tidak ingin mereka didiskualifikasi."
+  
+  starlight_award:
+    title: "2024 Bintang Paling Bersinar di Thailand"
+    description: "Periode pemungutan suara adalah dari 23 Agustus hingga 11 September 20:00 Waktu BKK. Anda bisa mendapatkan hingga 7 suara gratis, 4 suara gratis harian dan 3 suara gratis harian untuk berbagi sosial pertama. Mohon"
+    vote_link: "berikan suara untuk mereka."
+  
+  thai_update_award:
+    title: "Pasangan Layar Favorit 2024"
+    description: "Periode pemungutan suara adalah dari 24 Agustus hingga 04 September 15:00 Waktu BKK. Anda bisa memberikan suara tanpa batas. Mohon"
+    vote_link: "berikan suara untuk mereka."
+
+# Fan Pages content
+fan_pages:
+  title: "Halaman Penggemar Aktif"
+  description: "Berikut adalah halaman penggemar aktif, baik resmi maupun tidak resmi, untuk tetap terhubung dengan komunitas!"
+  by_country: "Halaman Penggemar berdasarkan Negara"
+  country_description: "Halaman penggemar ini diorganisir berdasarkan negara untuk memudahkan penelusuran."
+  table:
+    country: "Negara"
+    twitter: "Twitter"
+    facebook: "Facebook"
+    tiktok: "TikTok"
+    official: "Resmi"
+  countries:
+    thailand: "Thailand"
+    brazil: "Brasil"
+    vietnam: "Vietnam"
+    myanmar: "Myanmar"
+
+# Fan Creations content
+fan_creations:
+  title: "Kreasi Penggemar"
+  description: "Halaman ini bertujuan untuk menyoroti profil penggemar yang merupakan fansite atau penggemar yang membuat karya seni penggemar, edit penggemar, cover penggemar, dan terjemahan penggemar."
+  fan_sites:
+    title: "Situs Penggemar"
+    description: "Berikut adalah daftar fansite yang sering membagikan aktivitas FayMay melalui hasil kamera yang menakjubkan!"
+  fan_art:
+    title: "Pembuat Karya Seni Penggemar"
+    description: "Lihat daftar pembuat karya seni penggemar yang menampilkan karya luar biasa mereka!"
+  fan_edits:
+    title: "Pembuat Video Edit Penggemar"
+    description: "Pastikan untuk melihat pembuat video penggemar yang keren ini dan edit mereka yang luar biasa!"
+  fan_covers:
+    title: "Cover Penggemar"
+  fan_translations:
+    title: "Terjemahan Penggemar"
+    description: "Berikut adalah daftar akun terjemahan penggemar beserta bahasa masing-masing."
+  table:
+    faymay_focused: "Fokus FayMay"
+    language: "Bahasa"
+    twitter: "Twitter"
+    youtube: "YouTube"
+    tiktok: "TikTok"
+  languages:
+    english: "Inggris"
+    thai_english: "Thailand/Inggris"
+    portuguese: "Portugis"
+
+# Dream Series content
+dream_series:
+  title: "My Marvellous Dream is You (ฝันรักห้วงนิทรา)"
+  description: "Aku \"Dawhan\". Sejak yang bisa kuingat, aku selalu memiliki mimpi aneh tentang seorang gadis muda yang pendiam tapi sering bermain denganku dalam mimpiku. Suatu hari, tetangga baru pindah, dan itu menyebabkan keluargaku berantakan. Ayahku kabur dengan pria sebelah, yang ternyata adalah ayah dari \"Kimhan\" gadis pendiam & kecil dari sebelah. Awalnya, kami tidak dekat sama sekali, tapi berbagai keadaan membawa kami lebih dekat dan membuat kami saling memahami. Namun, Kimhan tidak menyadari bahwa sementara di dunia nyata kami hanya teman, dalam mimpiku, gadis kecil itu dan aku melakukan hal-hal yang jauh melampaui itu. Jadi, aku menyembunyikan perasaanku karena aku tidak bisa membiarkan dia tahu. Aku tidak pernah menyadari bahwa dalam mimpi-mimpi itu, aku bukan satu-satunya yang bermimpi."
+  genres: "Genre: Romansa, Fantasi"
+  other_names: "Nama Lain: DreamGL, Dream The Series"
+  main_roles:
+    title: "Peran utama:"
+    description: "Mohon ikuti dan dukung semua Dream Girls! Mereka adalah aktris berbakat, dan video TikTok mereka sangat menyenangkan."
+  table:
+    name: "Nama"
+    full_name: "Nama Lengkap"
+    instagram: "Instagram"
+    twitter: "Twitter"
+    tiktok: "TikTok"
+    hashtag: "Hashtag"
+  teasers:
+    title: "Teaser"
+    description: "Silakan tonton teaser dan trailer resmi dalam playlist ini oleh Idol Factory."
+  episodes:
+    title: "Episode UNCUT"
+    description: "Silakan tonton serinya. Ini adalah slow burn dan mungkin membuatmu merasa frustasi kadang-kadang, tapi kimia FayMay luar biasa, dan akting dari seluruh pemain brilian. Menonton sekali saja tidak cukup, jadi silakan tonton seluruh seri beberapa kali."
+    table:
+      episode: "Episode"
+      teaser: "Teaser [Spoiler]"
+      premiered: "Tayang Perdana"
+    spoilers:
+      ep1: "Setelah bertengkar dengan Dawhan, Kimhan memutuskan untuk bergabung dengan Jessie, rival Dawhan. Mali, merasa tidak nyaman dengan situasi tersebut, mengambil inisiatif untuk melakukan penyelidikan, akhirnya mengungkap alasan sebenarnya di balik keputusan Kimhan."
+      ep2: "Dawhan akhirnya memahami alasan sebenarnya mengapa Kimhun setuju bekerja untuk Jessie, memungkinkan keduanya untuk saling memahami. Dawhan menolak membiarkan Jessie menggunakan Kimhun sebagai alat dan menantang Jessie untuk merilis bukti yang digunakan untuk memeras dia."
+      ep3: "Dawhan menghadapi kegilaan media sosial setelah dia membawa Kimhan kembali ke kondominium sampai pusing. Toon memutuskan untuk menggunakan pasangan trending \"Pat-Dawhan\" untuk mengalihkan perhatian dengan merilis klip video bocoran."
+      ep4: "Kimhun secara tidak sengaja bertemu dengan Mawin, pemilik galeri. Pertemuan tak terduga ini membuat Kimhun memutuskan untuk bekerja dengan galeri Mawin, pilihan yang memberinya kebahagiaan tulus. Meskipun upaya Dawan untuk menghalanginya, Kimhun bergabung dengan galeri, memicu perselisihan panas di antara mereka."
+      ep5: "Dawan mencoba segala cara untuk mengganggu Mawin, yang menyebabkan konflik dengan Kimhan dan membuat Dawan memilih untuk pulang. Saat Dawan tertidur, dia bermimpi Kimhan menggambar gambar Kim Han bersama dirinya sendiri, tapi gambar itu berubah menjadi gambar Mawin."
+      ep6: "Pat mengungkapkan cintanya pada Dawan. Setelah mengetahui hal ini, Kimhan jatuh sakit dan dirawat di rumah sakit. Kimhan memilih untuk meninggalkan kamar yang dia bagi dengan Dawan. Namun, dia melihat Dawan memeluk Pat, yang menyebabkan keduanya bertengkar. Dalam suasana panas, Kimhan tanpa sengaja mengungkapkan perasaannya untuk Mawin."
+      ep7: "Kimhan setuju menjadi pacar Mawin untuk mengamankan masa depan Dawan. Dawan kehilangan kesempatan untuk mewakili Thailand sebagai aktris dan menjalani perawatan untuk depresi."
+      ep8: "Dawan dan Kimhan berdamai kembali dengan ciuman manis. Tim dan Pongphon, orang-orang yang meninggalkan keluarga Dawan dan Kimhan dalam kesengsaraan, kembali untuk bertemu dengan mereka berempat lagi."
+      ep9: "Ae, ibu Kimhan, tiba-tiba jatuh sakit dan mengungkapkan keinginannya untuk melihat Kimhan dan Marwin menikah. Meskipun Kimhan ingin memenuhi keinginan ibunya, tapi dalam hatinya, dia hanya mencintai Dawan."
+      ep10: "Awalnya Dawan enggan menghadiri pernikahan Kimhan dan Marwin. Namun, setelah membaca surat tulus Kimhan yang mengungkapkan perasaannya, Dawan segera meninggalkan segalanya dan bergegas ke pernikahan untuk menemui Kimhan."
+      ep11: "Kimhan memutuskan untuk kabur dari pernikahan bersama Dawan. Keputusan ini membawa mereka kembali bersama lagi. Sementara itu, Ibu Ae, setelah kekhawatirannya berakhir, dia meninggal dengan damai."
+      ep12: "Aku paling bahagia ketika aku berada dalam mimpi, karena di dalamnya... kamu ada di sana"
+  osts:
+    title: "OST"
+    description: "OST dalam seri ini luar biasa. Mohon berikan mereka sedikit cinta!"
+    table:
+      language: "Bahasa"
+      title: "Judul"
+      vocal: "Vokal"
+      producer: "Produser"
+  fun_facts:
+    title: "Fakta Menarik:"
+    facts:
+      - "Anda dapat menemukan terjemahan bahasa Inggris dari panggilan casting di sini."
+      - "May bahkan tidak berencana untuk audisi hari itu; dia hanya menemani temannya. Temannya meyakinkan dia untuk audisi setelah mereka sudah berada di acara tersebut. Kita semua harus berterima kasih pada teman May!"
+      - "Fay dan May bertemu untuk pertama kalinya di acara audisi, dan mereka berdua mengenakan jaket hitam yang mirip."
+      - "Teman yang datang bersama Fay juga teman May, jadi mereka memiliki teman bersama tetapi tidak sempat berbicara sebelum audisi dimulai."
+      - "Kimia mereka luar biasa bagus hari itu. Banyak orang di penonton yang menonton siaran langsung audisi bersorak agar mereka menjadi dua pemeran utama akhir."
+      - "Malam itu, setelah audisi berakhir, mereka melakukan TikTok LIVE pertama mereka bersama dengan teman bersama mereka."
+      - "Setelah TikTok LIVE itu, mereka melakukan Instagram LIVE hanya berdua."
+      - "Anda dapat menonton beberapa video bersubtitel tentang hari casting dalam playlist ini."
+  spoiler:
+    reveal: "Klik untuk membuka spoiler"
+    hide: "Klik untuk menyembunyikan spoiler"
+
+# Translation credit content
+translationcredit:
+  title: "Kredit Penerjemahan"
+  intro: "Hai semuanya! Kami ingin memberikan penghargaan besar kepada orang-orang luar biasa yang telah membantu membuat fansite kami benar-benar mendunia. Orang-orang hebat ini telah mencurahkan waktu dan usaha mereka untuk menyebarkan cinta kami terhadap FayMay kepada penggemar di seluruh dunia."
+  team: "Tim penerjemahan/proofreading kami yang luar biasa:"
+  thank_you: "Kalian semua keren! Terima kasih telah membantu kami menyebarkan cinta untuk FayMay 🫶"
