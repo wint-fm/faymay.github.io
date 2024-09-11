@@ -23,12 +23,10 @@ nav-menu: true
             </ol>
         </div>
     </section>
-    <section id="two" class="spotlights">
-        <section>
-            <div class="image">
-                <img src="{{ 'assets/images/fmprofileimg.jpeg' | relative_url }}" alt="Fan Edit" data-position="top center"  >
-            </div>
-        </section>
+    <section id="two">
+        <div class="image">
+            <img src="{{ 'assets/images/fmprofileimg.jpeg' | relative_url }}" alt="Fan Edit" data-position="top center"  >
+        </div>
 	</section>
     <section id="three" class="spotlights">
         <section>
