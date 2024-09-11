@@ -4,7 +4,7 @@
     {% assign tiles = site.html_pages | where_exp: "item", "item.show_tile != false" %}
 {% endif %}
 <!-- Use this if the tiles are even numbers -->
-<!-- <section id="one" class="tiles">
+<section id="one" class="tiles">
   {% for tile in tiles limit:site.tiles-count %}
     {% unless tile.title == "FayMay Profiles" %}
       <article>
@@ -18,10 +18,10 @@
       </article>
     {% endunless %}
   {% endfor %}
-</section> -->
+</section>
 
 <!-- Use this if the tiles are odd numbers -->
-<section id="one" class="tiles">
+<!-- <section id="one" class="tiles">
   {% for tile in tiles limit:site.tiles-count %}
     {% unless tile.title == "FayMay Profiles" %}
       <article class="{% if forloop.last %} full-width {% endif %}">
@@ -35,4 +35,4 @@
       </article>
     {% endunless %}
   {% endfor %}
-</section>
+</section> -->

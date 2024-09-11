@@ -145,11 +145,11 @@
 
 			// Full width styling for the last tile
 			// comment out if the tiles are even numbers
-			&.full-width {
-				width: 100% !important;
-				height: auto;
-				max-height: none;
-			}
+			// &.full-width {
+			// 	width: 100% !important;
+			// 	height: auto;
+			// 	max-height: none;
+			// }
 		}
 
 		@include breakpoint(large) {

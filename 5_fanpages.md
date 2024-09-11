@@ -71,6 +71,13 @@ nav-menu: true
 							<td><span class="translate">No</span></td>
 						</tr>
 						<tr>
+							<td><span class="translate">Vietnam</span></td>
+							<td><a href="https://x.com/faymayvietnam">FayMay Vietnam</a></td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td><span class="translate">No</span></td>
+						</tr>
+						<tr>
 							<td><span class="translate">Myanmar</span></td>
 							<td>&nbsp;</td>
 							<td><a href="https://web.facebook.com/profile.php?id=61559683192636">FayMay 1st Myanmar FC</a></td>
