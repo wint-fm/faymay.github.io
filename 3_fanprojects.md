@@ -53,7 +53,7 @@ nav-menu: true
                     <header class="major">
                         <h3><span class="translate">FayMay B-Day support project</span></h3>
                     </header>
-                    <p><span class="translate">This is the fan support project organized by FayMay Taiwan. The donation period ends <strong>on Nov 24, 2024, at 23:59</strong>.</p>
+                    <p><span class="translate">This is the fan support project organized by FayMay Taiwan. The donation period ends <strong>on Nov 24, 2024, at 23:59</strong>.</span></p>
                     <p><span class="translate">Please</span><span class="vote-link"> <a href="https://x.com/FayMay_TW_/status/1833825668448104544"><span class="translate">check the full post here.</span></a></span></p>
                 </div>
             </div>
