@@ -37,14 +37,14 @@ nav-menu: true
         </section>
         <section>
             <div class="image">
-                <img src="{{ 'assets/images/votethaiupdate.png' | relative_url }}" alt="thaiupdate" data-position="center center">
+                <img src="{{ 'assets/images/votejamplanet.png' | relative_url }}" alt="jamplanet" data-position="center center">
             </div>
             <div class="content">
                 <div class="inner">
                     <header class="major">
-                        <h3><span class="translate">The Most Favorite On-Screen Couple of 2024</span></h3>
+                        <h3><span class="translate">2024 The Most Promising Thai Actors</span></h3>
                     </header>
-                    <p><span class="translate">The voting period is from <strong>Aug 24 to Sep 04 15:00 BKK Time</strong>. You can vote unlimitedly. Please</span> <span class="vote-link"><a href="https://www.thaiupdate.info/favorite-couple-2024-group-3/"><span class="translate">vote for them.</span></a></span>
+                    <p><span class="translate">The voting period is until <strong>Sept 30 12:00 PM BKK Time</strong>. You can get up to 8 free votes, 3 daily free votes and 5 daily free votes for first social share. Please</span> <span class="vote-link"><a href="https://www.jamplanet.net/"><span class="translate">vote for them.</span></a></span>
                     </p>
                 </div>
             </div>

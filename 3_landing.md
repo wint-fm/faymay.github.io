@@ -179,7 +179,27 @@ nav-menu: true
 					<header class="major">
 						<h3><span class="translate">Fan Covers</span></h3>
 					</header>
-					<p>TBA.</p>
+					<p></p>
+					<div class="table-wrapper">
+						<table>
+							<thead>
+								<tr>
+									<th scope="col"><span class="translate">Language</span></th>
+									<th scope="col"><span class="translate">Twitter</span></th>
+									<th scope="col"><span class="translate">Youtube</span></th>
+									<th scope="col"><span class="translate">TikTok</span></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td><span class="translate">English</span></td>
+									<td><a href="https://x.com/DoneeyyOfficial/status/1831308549387120660">Awake - Boy Sompob | Cover (DAM & GRET)</a></td>
+									<td><a href="https://youtu.be/auMQXbUQhXU?si=1DJTFXflTkILH2VK">Awake - Boy Sompob | Cover (DAM & GRET)</a></td>
+									<td>&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 				</div>
 			</div>
 		</section>

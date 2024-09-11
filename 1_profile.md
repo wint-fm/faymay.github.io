@@ -28,12 +28,19 @@ nav-menu: true
             <div class="image">
                 <img src="{{ 'assets/images/fmprofileimg.jpeg' | relative_url }}" alt="Fan Edit" data-position="top center"  >
             </div>
+        </section>
+	</section>
+    <section id="three" class="spotlights">
+        <section>
+            <div class="image">
+                <img src="{{ 'assets/images/fayofficial.jpeg' | relative_url }}" alt="Fay" data-position="top center">
+            </div>
             <div class="content">
                 <div class="inner">
                     <header class="major">
                         <h2 style="color: #87CEFA;"><span class="translate">Fay</span></h2>
                     </header>
-                   <p>
+                    <p>
                         <strong>First Name:</strong> <span class="translate">Kunyaphat</span><br>
                         <strong>Family Name:</strong> <span class="translate">Na Nakorn</span><br>
                         <strong>Native name:</strong> <span class="translate">เฟ กัญญาพัชร ณ นคร</span><br>
@@ -51,6 +58,15 @@ nav-menu: true
                         <strong>Wrist Size:</strong> <span class="translate">L:14cm R14.5cm</span><br>
                         <strong>Ring Size:</strong> <span class="translate">46, 48, 55, 52, 52, 50, 51, 52, 43, 40 mm (ordered from left pinkey finger to right pinky finger). Preferred to wear on middle finger.</span>
                     </p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="image">
+                <img src="{{ 'assets/images/mayofficial.jpeg' | relative_url }}" alt="May" data-position="top center">
+            </div>
+            <div class="content">
+                <div class="inner">
                     <header class="major">
                         <h2 style="color: #FF1493;"><span class="translate">May</span></h2>
                     </header>
@@ -75,5 +91,5 @@ nav-menu: true
                 </div>
             </div>
         </section>
-	</section>
+    </section>
 </div>
