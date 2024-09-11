@@ -77,6 +77,13 @@ nav-menu: true
 							<td>&nbsp;</td>
 							<td><span class="translate">No</span></td>
 						</tr>
+						<tr>
+							<td><span class="translate">Taiwan</span></td>
+							<td><a href="https://x.com/FayMay_TW_">FayMay_Taiwan_official</a></td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td><span class="translate">No</span></td>
+						</tr>
 					</tbody>
 				</table>
 			</div>
