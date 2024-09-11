@@ -3,10 +3,28 @@
 {% elsif 'pages' == site.tiles-source %}
     {% assign tiles = site.html_pages | where_exp: "item", "item.show_tile != false" %}
 {% endif %}
-<section id="one" class="tiles">
+<!-- Use this if the tiles are even numbers -->
+<!-- <section id="one" class="tiles">
   {% for tile in tiles limit:site.tiles-count %}
     {% unless tile.title == "FayMay Profiles" %}
       <article>
+        <span class="image">
+          <img src="{{ tile.image }}" alt="{{ tile.title }}" />
+        </span>
+        <header class="major">
+          <h3><a href="{{ tile.url | relative_url }}" class="link">{{ tile.title }}</a></h3>
+          <p>{{ tile.description }}</p>
+        </header>
+      </article>
+    {% endunless %}
+  {% endfor %}
+</section> -->
+
+<!-- Use this if the tiles are odd numbers -->
+<section id="one" class="tiles">
+  {% for tile in tiles limit:site.tiles-count %}
+    {% unless tile.title == "FayMay Profiles" %}
+      <article class="{% if forloop.last %} full-width {% endif %}">
         <span class="image">
           <img src="{{ tile.image }}" alt="{{ tile.title }}" />
         </span>

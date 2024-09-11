@@ -2,7 +2,7 @@
 title: Fan Projects
 layout: landing
 description: ""
-image: assets/images/banner13.jpeg
+image: assets/images/banner16.jpeg
 nav-menu: true
 ---
 
@@ -18,6 +18,12 @@ nav-menu: true
     </section>
     <section id="two" class="spotlights">
         <section>
+            <div class="inner">
+                <header class="major">
+                    <h2><span class="translate">Ongoing Fan Projects</span></h2>
+                </header>
+                <p></p>
+            </div>
             <div class="image">
                 <img src="{{ 'assets/images/maybday.jpeg' | relative_url }}" alt="maybday" data-position="center center">
             </div>
@@ -37,6 +43,12 @@ nav-menu: true
             </div>
         </section>
         <section>
+            <div class="inner">
+                <header class="major">
+                    <h2><span class="translate">Past Fan Projects</span></h2>
+                </header>
+                <p></p>
+            </div>
             <div class="twitter-embed">
                 <blockquote class="twitter-tweet" data-media-max-width="560">
                     <p lang="en" dir="ltr">Faymay in Times Square. <br><br>Goodbye Dream. <br>Latin America and interfans will always be here for you, Faymay. <br><br>Thanks to <a href="https://twitter.com/princenicolax?ref_src=twsrc%5Etfw">@princenicolax</a> and <a href="https://twitter.com/taengeyez?ref_src=twsrc%5Etfw">@taengeyez</a> for working with me and making this possible 🥹💗✨<br><br>END OF DREAM<a href="https://twitter.com/hashtag/DreamGLending?src=hash&amp;ref_src=twsrc%5Etfw">#DreamGLending</a> <a href="https://t.co/NHUQIJZmaO">pic.twitter.com/NHUQIJZmaO</a></p>&mdash; ೀ Lissa is dreaming ೀ (@lovergl__) 
