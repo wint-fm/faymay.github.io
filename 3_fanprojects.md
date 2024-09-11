@@ -67,7 +67,7 @@ nav-menu: true
                     <header class="major">
                         <h3><span class="translate">FayMay in New York Time Square</span></h3>
                     </header>
-                    <p><span class="translate">This fan support project was organized by Latin America/Interfans. The fan support video promoting FayMay was displayed <strong>on Jul 7, 2024</strong>.</span></p>
+                    <p><span class="translate">This fan support project was organized by Latin America/Interfans. The fan support video promoting FayMay was displayed <strong>on August 2024</strong>.</span></p>
                     <p><span class="translate">Please</span><span class="vote-link"> <a href="https://x.com/lovergl__/status/1821262058018779611"><span class="translate">check the full post here.</span></a></span></p>
                 </div>
             </div>
