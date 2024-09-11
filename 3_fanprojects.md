@@ -16,14 +16,16 @@ nav-menu: true
             <p><span class="translate">All the ongoing and past fan projects and activities will be shared on this page. If you can, please donate to the ongoing projects. Any amount of donation helps.</span></p>
         </div>
     </section>
+    <section>
+        <div class="inner">
+            <header class="major">
+                <h2><span class="translate">Ongoing Fan Projects</span></h2>
+            </header>
+            <p></p>
+        </div>
+    </section>
     <section id="two" class="spotlights">
         <section>
-            <div class="inner">
-                <header class="major">
-                    <h2><span class="translate">Ongoing Fan Projects</span></h2>
-                </header>
-                <p></p>
-            </div>
             <div class="image">
                 <img src="{{ 'assets/images/maybday.jpeg' | relative_url }}" alt="maybday" data-position="center center">
             </div>
@@ -49,6 +51,8 @@ nav-menu: true
                 </header>
                 <p></p>
             </div>
+        </section>
+        <section>
             <div class="twitter-embed">
                 <blockquote class="twitter-tweet" data-media-max-width="560">
                     <p lang="en" dir="ltr">Faymay in Times Square. <br><br>Goodbye Dream. <br>Latin America and interfans will always be here for you, Faymay. <br><br>Thanks to <a href="https://twitter.com/princenicolax?ref_src=twsrc%5Etfw">@princenicolax</a> and <a href="https://twitter.com/taengeyez?ref_src=twsrc%5Etfw">@taengeyez</a> for working with me and making this possible 🥹💗✨<br><br>END OF DREAM<a href="https://twitter.com/hashtag/DreamGLending?src=hash&amp;ref_src=twsrc%5Etfw">#DreamGLending</a> <a href="https://t.co/NHUQIJZmaO">pic.twitter.com/NHUQIJZmaO</a></p>&mdash; ೀ Lissa is dreaming ೀ (@lovergl__) 
