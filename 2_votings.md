@@ -23,14 +23,14 @@ nav-menu: true
     <section id="two" class="spotlights">
         <section>
             <div class="image">
-                <img src="{{ 'assets/images/votestarlight.png' | relative_url }}" alt="starlight" data-position="center center">
+                <img src="{{ 'assets/images/votethaiupdate2.png' | relative_url }}" alt="shiningstar" data-position="center center">
             </div>
             <div class="content">
                 <div class="inner">
                     <header class="major">
-                        <h3><span class="translate">2024 The Most Shining Star in Thailand</span></h3>
+                        <h3><span class="translate">The Shining Star of 2024</span></h3>
                     </header>
-                    <p><span class="translate">The voting period is from <strong>Aug 23 to Sep 11 20:00 BKK Time</strong>. You can get up to 7 free votes, 4 daily free votes and 3 daily free votes for first social share. Please</span><span class="vote-link"> <a href="https://www.starlightawards.asia/vote"><span class="translate">vote for them.</span></a></span>
+                    <p><span class="translate">The voting period is from <strong>Sept 16 to Sept 27 15:00 BKK Time</strong>. You can vote unlimitedly. Please</span><span class="vote-link"> <a href="https://www.thaiupdate.info/the-shining-star-of-2024-group-3/"><span class="translate">vote for them.</span></a></span>
                     </p>
                 </div>
             </div>
