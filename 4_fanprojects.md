@@ -26,6 +26,21 @@ nav-menu: true
     </section>
     <section id="three" class="spotlights">
         <section>
+            <div class="twitter-embed">
+                <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="zh" dir="ltr">返图💖✨<br>【FayMay见面会屏幕应援】<br>日期:9/20-9/22<br>时间:10:00-22:00<br>地点:杭州湖滨银泰in77<br>（两块屏幕支持&amp;各投放3天）<br>屏幕1: C1区 负一层通道墙<br>屏幕2: C2区 二层中庭大屏<br>频次:15秒/次，约100次/天<br>💖欢迎来中国，我爱你们💖<br>非常感谢<a href="https://twitter.com/Gackyccc_?ref_src=twsrc%5Etfw">@Gackyccc_</a>提供帮助<a href="https://twitter.com/hashtag/Faymay?src=hash&amp;ref_src=twsrc%5Etfw">#Faymay</a> <a href="https://twitter.com/hashtag/%E0%B9%80%E0%B8%9F%E0%B9%80%E0%B8%A1%E0%B8%A9%E0%B9%8C?src=hash&amp;ref_src=twsrc%5Etfw">#เฟเมษ์</a><a href="https://twitter.com/hashtag/fay_riezz?src=hash&amp;ref_src=twsrc%5Etfw">#fay_riezz</a> <a href="https://twitter.com/hashtag/maywyda?src=hash&amp;ref_src=twsrc%5Etfw">#maywyda</a> <a href="https://t.co/VlFTjpfTaz">pic.twitter.com/VlFTjpfTaz</a></p>&mdash; Gaoxing0610 (@GAOXING0610_) <a href="https://twitter.com/GAOXING0610_/status/1837037239890759760?ref_src=twsrc%5Etfw">September 20, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            <div class="content">
+                <div class="inner">
+                    <header class="major">
+                        <h3><span class="translate">Screen support for FayMay🩷</span></h3>
+                    </header>
+                    <p><span class="translate">This fan support project is organized by Chinese fans for FayMay's very first fan-meeting in Hangzhou, China. The screen location is at Hangzhou Lakeside Yintai in77 Zone C. There are two screens showing the fan support video at the ground floor and the second floor. The fan support video can be seen <strong>between 10am to 10pm from 20 September to 22 September 2024.</strong>. The video running frequency is 15 seconds/time, about 100 times/day. If you are in China, please make sure to visit the location.</span></p> 
+                    <p><span class="translate">Please</span><span class="vote-link"> <a href="https://x.com/Gackyccc_/status/1836948529648128004"><span class="translate">check the English verion of the post here.</span></a></span></p>
+                    <p><span class="translate">Please</span><span class="vote-link"> <a href="https://x.com/GAOXING0610_/status/1837037239890759760"><span class="translate">check the Chinese verion of the post here.</span></a></span></p>
+                </div>
+            </div>
+        </section>
+        <section>
             <div class="image">
                 <img src="{{ 'assets/images/maybday.jpeg' | relative_url }}" alt="maybday" data-position="center center">
             </div>
