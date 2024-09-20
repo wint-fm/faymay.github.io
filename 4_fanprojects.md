@@ -1,5 +1,5 @@
 ---
-title: Fan Projects
+title: Fan Support Projects
 layout: landing
 description: ""
 image: assets/images/banner16.jpeg
@@ -11,17 +11,17 @@ nav-menu: true
     <section id="one">
         <div class="inner">
             <header class="major">
-                <h2><span class="translate">Fan Projects</span></h2>
+                <h2><span class="translate">Fan Support Projects</span></h2>
             </header>
-            <p><span class="translate">All the ongoing and the past fan projects will be shared on this page.</span></p>
+            <p><span class="translate">All the ongoing and the past fan support projects will be shared on this page.</span></p>
         </div>
     </section>
     <section id="two">
         <div class="inner">
             <header class="major">
-                <h2><span class="translate">Ongoing Fan Projects</span></h2>
+                <h2><span class="translate">Ongoing Fan Support Projects</span></h2>
             </header>
-            <p>These are the ongoing fan projects. If you can, please donate to them. Any amount of donation helps.</p>
+            <p>These are the ongoing fan support projects. If you can, please donate to them. Any amount of donation helps.</p>
         </div>
     </section>
     <section id="three" class="spotlights">
@@ -34,7 +34,7 @@ nav-menu: true
                     <header class="major">
                         <h3><span class="translate">Screen support for FayMay🩷</span></h3>
                     </header>
-                    <p><span class="translate">This fan support project is organized by Chinese fans for FayMay's very first fan-meeting in Hangzhou, China. The screen location is at Hangzhou Lakeside Yintai in77 Zone C. There are two screens showing the fan support video at the ground floor and the second floor. The fan support video can be seen <strong>between 10am to 10pm from 20 September to 22 September 2024.</strong>. The video running frequency is 15 seconds/time, about 100 times/day. If you are in China, please make sure to visit the location.</span></p> 
+                    <p><span class="translate">This fan support project is organized by Chinese fans for FayMay's very first fan-meeting in Hangzhou, China. The screen location is at Hangzhou Lakeside Yintai in77 Zone C. There are two screens showing the fan support video at the ground floor and the second floor. The fan support video can be seen <strong>between 10am to 10pm from 20 Sept to 22 Sept 2024.</strong>. The video running frequency is 15 seconds/time, about 100 times/day. If you are in Hangzhou, please make sure to visit the location.</span></p> 
                     <p><span class="translate">Please</span><span class="vote-link"> <a href="https://x.com/Gackyccc_/status/1836948529648128004"><span class="translate">check the English verion of the post here.</span></a></span></p>
                     <p><span class="translate">Please</span><span class="vote-link"> <a href="https://x.com/GAOXING0610_/status/1837037239890759760"><span class="translate">check the Chinese verion of the post here.</span></a></span></p>
                 </div>
@@ -77,9 +77,9 @@ nav-menu: true
     <section id="four">
         <div class="inner">
             <header class="major">
-                <h2><span class="translate">Past Fan Projects</span></h2>
+                <h2><span class="translate">Past Fan Support Projects</span></h2>
             </header>
-            <p>These are some of the past fan projects. Kudos to all the organizers and donors for the successful execution of these projects. We will try to keep this list updated. </p>
+            <p>These are some of the past fan support projects. Kudos to all the organizers and donors for the successful execution of these projects. We will try to keep this list updated. </p>
         </div>
     </section>
     <section id="five" class="spotlights">
