@@ -39,8 +39,8 @@ nav-menu: true
                         <li><span class="translate">Weekly results will reflect the cumulative total of all votes.</span></li>
                         <li><span class="translate">The website link is different for locals and for foreigners. The link below is for foreigners.</span></li>
                     </ul>
-                    <p><span class="translate">This will cost 5 baht per vote but you can vote unlimitedly. Please</span><span class="vote-link"> <a href="https://worldwide.kazzmarket.com/product/vote-saowaisai-2024/"><span class="translate">vote for them through the website for foreigners.</span></a></span>
-                    <p><span class="translate">This is free vote, but only one vote per day per Line account.</span><span class="vote-link"> <a href="https://today.line.me/th/v2/poll/JPmrlmM"><span class="translate">vote for them using Line account.</span></a></span>
+                    <p><span class="translate">This will cost 5 baht per vote but you can vote unlimitedly. Please</span><span class="vote-link"> <a href="https://worldwide.kazzmarket.com/product/vote-saowaisai-2024/"><span class="translate">vote for them through the website for foreigners.</span></a></span></p> 
+                    <p><span class="translate">This is free vote, but only one vote per day per Line account.</span><span class="vote-link"> <a href="https://today.line.me/th/v2/poll/JPmrlmM"><span class="translate">vote for them using Line account.</span></a></span></p> 
                     <p><span class="translate">Please </span><span class="vote-link"> <a href="https://x.com/4ever_Marvelous/status/1838082471415755176"><span class="translate">check the full translated post here.</span></a></span></p>
                 </div>
             </div>
