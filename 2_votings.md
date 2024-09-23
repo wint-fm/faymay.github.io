@@ -30,7 +30,7 @@ nav-menu: true
                     <header class="major">
                         <h3><span class="translate">Young Sweetheart of 2024</span></h3>
                     </header>
-                    <p><span class="translate">The voting period is from <strong>Sept 23 to Nov 03 24:00 BKK Time</strong>. This award is important for FayMay. The top 5 artists with the highest votes will receive the Young Sweetheart of the Year award at the KAZZ AWARDS 2025 and will also appear solo on the cover of KAZZ MAGAZINE. We need both of them to be in top 5. This will be difficult for us, but I believe we can do it. We have to try. Voting Rules: 
+                    <p><span class="translate">The voting period is from <strong>Sept 23 to Nov 03 2024 24:00 BKK Time</strong>. This award is important for FayMay. The top 5 artists with the highest votes will receive the Young Sweetheart of the Year award at the KAZZ AWARDS 2025 and will also appear solo on the cover of KAZZ MAGAZINE. We need both of them to be in top 5. This will be difficult for us, but I believe we can do it. We have to try. Voting Rules: 
                     </span></p>
                     <ul>
                         <li><span class="translate">Voting through the website cost 5 baht per vote, but you can vote unlimitedly.</span></li>
@@ -40,7 +40,7 @@ nav-menu: true
                         <li><span class="translate">The website link is different for locals and for foreigners. The link below is for foreigners.</span></li>
                     </ul>
                     <p><span class="translate">This will cost 5 baht per vote but you can vote unlimitedly. Please</span><span class="vote-link"> <a href="https://worldwide.kazzmarket.com/product/vote-saowaisai-2024/"><span class="translate">vote for them through the website for foreigners.</span></a></span></p> 
-                    <p><span class="translate">This is free vote, but only one vote per day per Line account.</span><span class="vote-link"> <a href="https://today.line.me/th/v2/poll/JPmrlmM"><span class="translate">vote for them using Line account.</span></a></span></p> 
+                    <p><span class="translate">This is free vote, but only one vote per day, per Line account.</span><span class="vote-link"> <a href="https://today.line.me/th/v2/poll/JPmrlmM"><span class="translate">vote for them using Line account.</span></a></span></p> 
                     <p><span class="translate">Please </span><span class="vote-link"> <a href="https://x.com/4ever_Marvelous/status/1838082471415755176"><span class="translate">check the full translated post here.</span></a></span></p>
                 </div>
             </div>
