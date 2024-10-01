@@ -59,19 +59,5 @@ nav-menu: true
                 </div>
             </div>
         </section>
-        <section>
-            <div class="image">
-                <img src="{{ 'assets/images/votejamplanet.png' | relative_url }}" alt="jamplanet" data-position="center center">
-            </div>
-            <div class="content">
-                <div class="inner">
-                    <header class="major">
-                        <h3><span class="translate">2024 The Most Promising Thai Actors</span></h3>
-                    </header>
-                    <p><span class="translate">The voting period is until <strong>Sept 30 12:00 PM BKK Time</strong>. You can get up to 8 free votes, 3 daily free votes and 5 daily free votes for first social share. Please</span> <span class="vote-link"><a href="https://www.jamplanet.net/"><span class="translate">vote for them.</span></a></span>
-                    </p>
-                </div>
-            </div>
-        </section>
     </section>
 </div>
