@@ -28,7 +28,7 @@ nav-menu: true
             <div class="content">
                 <div class="inner">
                     <header class="major">
-                        <h3><span class="translate">Young Sweetheart of 2024</span></h3>
+                        <h3><span class="translate">Youth Idol of the Year 2024 by KAZZ AWARDS</span></h3>
                     </header>
                     <p><span class="translate">The voting period is from <strong>Sept 23 to Nov 03 2024 24:00 BKK Time</strong>. This award is important for FayMay. The top 5 artists with the highest votes will receive the Young Sweetheart of the Year award at the KAZZ AWARDS 2025 and will also appear solo on the cover of KAZZ MAGAZINE. We need both of them to be in top 5. This will be difficult for us, but I believe we can do it. We have to try. Voting Rules: 
                     </span></p>
