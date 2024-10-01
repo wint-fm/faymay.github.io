@@ -47,14 +47,14 @@ nav-menu: true
         </section>
         <section>
             <div class="image">
-                <img src="{{ 'assets/images/votethaiupdate2.png' | relative_url }}" alt="shiningstar" data-position="center center">
+                <img src="{{ 'assets/images/votethaiupdate3.jpeg' | relative_url }}" alt="shiningstar" data-position="center center">
             </div>
             <div class="content">
                 <div class="inner">
                     <header class="major">
                         <h3><span class="translate">The Shining Star of 2024</span></h3>
                     </header>
-                    <p><span class="translate">The voting period is from <strong>Sept 16 to Sept 27 15:00 BKK Time</strong>. You can vote unlimitedly. Please</span><span class="vote-link"> <a href="https://www.thaiupdate.info/the-shining-star-of-2024-group-3/"><span class="translate">vote for them.</span></a></span>
+                    <p><span class="translate">The voting period is from <strong>Sept 25 to Oct 6 15:00 BKK Time</strong>. You can vote unlimitedly. Please</span><span class="vote-link"> <a href="https://www.thaiupdate.info/the-shining-star-of-2024-group-5/"><span class="translate">vote for them.</span></a></span>
                     </p>
                 </div>
             </div>
